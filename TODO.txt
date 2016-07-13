@@ -1,0 +1,3 @@
+1- 10 social economic classes -> how many people in each state (in every big city in ISR)
+2- right left distribution depending on their social class.
+3- choose social class and get percentage for each party
