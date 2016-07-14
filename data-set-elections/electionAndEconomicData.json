@@ -1,22 +1,23 @@
 [
   {
-    "city": "ςιψ",
-    "eligible": "αζα",
-    "votes": "δφαςδ",
-    "avoda": "δξηπδ δφιεπι",
-    "yahadut": "ιδγεϊ δϊεψδ",
-    "reshima": "δψωιξδ δξωεϊτϊ",
-    "benet": "δαιϊ διδεγι",
-    "kulanu": "λεμπε",
-    "beytenu": "ιωψΰμ αιϊπε",
-    "likud": "δμιλεγ",
-    "merets": "ξψυ",
-    "atid": "ιω ςϊιγ",
-    "yarok": "ςμδ ιψεχ",
-    "yahad": "ιηγ",
-    "shas": "ω\"ρ",
-    "cluster": "χμΰρθψ",
-    "population": "ΰελμεριδ"
+    "city": "ΧΆΧ™Χ¨",
+    "eligible": "Χ‘Χ–Χ‘",
+    "votes": "Χ”Χ¦Χ‘ΧΆΧ”",
+    "avoda": "Χ”ΧΧ—Χ Χ” Χ”Χ¦Χ™Χ•Χ Χ™",
+    "yahadut": "Χ™Χ”Χ“Χ•Χª Χ”ΧªΧ•Χ¨Χ”",
+    "reshima": "Χ”Χ¨Χ©Χ™ΧΧ” Χ”ΧΧ©Χ•ΧªΧ¤Χª",
+    "benet": "Χ”Χ‘Χ™Χª Χ”Χ™Χ”Χ•Χ“Χ™",
+    "kulanu": "Χ›Χ•ΧΧ Χ•",
+    "beytenu": "Χ™Χ©Χ¨ΧΧ Χ‘Χ™ΧªΧ Χ•",
+    "likud": "Χ”ΧΧ™Χ›Χ•Χ“",
+    "merets": "ΧΧ¨Χ¥",
+    "atid": "Χ™Χ© ΧΆΧªΧ™Χ“",
+    "yarok": "ΧΆΧΧ” Χ™Χ¨Χ•Χ§",
+    "yahad": "Χ™Χ—Χ“",
+    "shas": "Χ©\"Χ΅",
+    "cluster": "Χ§ΧΧΧ΅ΧΧ¨",
+    "population": "ΧΧ•Χ›ΧΧ•Χ΅Χ™Χ”",
+    "": ""
   },
   {
     "city": "total",
@@ -35,7 +36,8 @@
     "yahad": 89011,
     "shas": 196380,
     "cluster": "",
-    "population": 5632343
+    "population": 5632343,
+    "": ""
   },
   {
     "city": "distribution",
@@ -54,10 +56,11 @@
     "yahad": 4,
     "shas": 4,
     "cluster": "",
-    "population": ""
+    "population": "",
+    "": ""
   },
   {
-    "city": "ΰαε βεω",
+    "city": "ΧΧ‘Χ• Χ’Χ•Χ©",
     "eligible": 4178,
     "votes": 2452,
     "avoda": 143,
@@ -73,10 +76,11 @@
     "yahad": 5,
     "shas": 35,
     "cluster": 2,
-    "population": 5822
+    "population": 5822,
+    "": ""
   },
   {
-    "city": "ΰαε ρπΰο",
+    "city": "ΧΧ‘Χ• Χ΅Χ ΧΧ",
     "eligible": 8363,
     "votes": 5678,
     "avoda": 299,
@@ -92,10 +96,11 @@
     "yahad": 21,
     "shas": 213,
     "cluster": 3,
-    "population": 12238
+    "population": 12238,
+    "": ""
   },
   {
-    "city": "ΰαο ιδεγδ",
+    "city": "ΧΧ‘Χ Χ™Χ”Χ•Χ“Χ”",
     "eligible": 9206,
     "votes": 7227,
     "avoda": 2739,
@@ -111,10 +116,11 @@
     "yahad": 53,
     "shas": 112,
     "cluster": 8,
-    "population": 9645
+    "population": 9645,
+    "": ""
   },
   {
-    "city": "ΰεν ΰμ-την",
+    "city": "ΧΧ•Χ ΧΧ-Χ¤Χ—Χ",
     "eligible": 30363,
     "votes": 20246,
     "avoda": 69,
@@ -130,10 +136,11 @@
     "yahad": 2,
     "shas": 4,
     "cluster": 2,
-    "population": 45013
+    "population": 45013,
+    "": ""
   },
   {
-    "city": "ΰετχιν",
+    "city": "ΧΧ•Χ¤Χ§Χ™Χ",
     "eligible": 18915,
     "votes": 12411,
     "avoda": 650,
@@ -149,10 +156,11 @@
     "yahad": 569,
     "shas": 2450,
     "cluster": 3,
-    "population": 23163
+    "population": 23163,
+    "": ""
   },
   {
-    "city": "ΰεψ ιδεγδ",
+    "city": "ΧΧ•Χ¨ Χ™Χ”Χ•Χ“Χ”",
     "eligible": 26366,
     "votes": 18472,
     "avoda": 2250,
@@ -168,10 +176,11 @@
     "yahad": 401,
     "shas": 2682,
     "cluster": 5,
-    "population": 33475
+    "population": 33475,
+    "": ""
   },
   {
-    "city": "ΰεψ ςχιαΰ",
+    "city": "ΧΧ•Χ¨ ΧΆΧ§Χ™Χ‘Χ",
     "eligible": 14611,
     "votes": 9257,
     "avoda": 577,
@@ -187,10 +196,11 @@
     "yahad": 130,
     "shas": 913,
     "cluster": 4,
-    "population": 15852
+    "population": 15852,
+    "": ""
   },
   {
-    "city": "ΰεψπιϊ",
+    "city": "ΧΧ•Χ¨Χ Χ™Χª",
     "eligible": 5690,
     "votes": 4638,
     "avoda": 1003,
@@ -206,10 +216,11 @@
     "yahad": 57,
     "shas": 43,
     "cluster": 8,
-    "population": 5656
+    "population": 5656,
+    "": ""
   },
   {
-    "city": "ΰζεψ",
+    "city": "ΧΧ–Χ•Χ¨",
     "eligible": 9238,
     "votes": 6447,
     "avoda": 1407,
@@ -225,10 +236,11 @@
     "yahad": 114,
     "shas": 517,
     "cluster": 6,
-    "population": 10452
+    "population": 10452,
+    "": ""
   },
   {
-    "city": "ΰιμϊ",
+    "city": "ΧΧ™ΧΧª",
     "eligible": 47042,
     "votes": 22736,
     "avoda": 3881,
@@ -244,10 +256,11 @@
     "yahad": 498,
     "shas": 1025,
     "cluster": 5,
-    "population": 47267
+    "population": 47267,
+    "": ""
   },
   {
-    "city": "ΰλρΰμ",
+    "city": "ΧΧ›Χ΅ΧΧ",
     "eligible": 8279,
     "votes": 5412,
     "avoda": 34,
@@ -263,10 +276,11 @@
     "yahad": 0,
     "shas": 60,
     "cluster": 2,
-    "population": 11847
+    "population": 11847,
+    "": ""
   },
   {
-    "city": "ΰμιλιο",
+    "city": "ΧΧΧ™Χ›Χ™Χ",
     "eligible": 2459,
     "votes": 1934,
     "avoda": 286,
@@ -282,10 +296,11 @@
     "yahad": 62,
     "shas": 210,
     "cluster": 5,
-    "population": 2906
+    "population": 2906,
+    "": ""
   },
   {
-    "city": "ΰμςγ",
+    "city": "ΧΧΧΆΧ“",
     "eligible": 17047,
     "votes": 14856,
     "avoda": 30,
@@ -301,10 +316,11 @@
     "yahad": 2094,
     "shas": 6193,
     "cluster": 2,
-    "population": 33594
+    "population": 33594,
+    "": ""
   },
   {
-    "city": "ΰμτι ξπωδ",
+    "city": "ΧΧΧ¤Χ™ ΧΧ Χ©Χ”",
     "eligible": 5366,
     "votes": 4230,
     "avoda": 879,
@@ -320,10 +336,11 @@
     "yahad": 53,
     "shas": 50,
     "cluster": 8,
-    "population": 6339
+    "population": 6339,
+    "": ""
   },
   {
-    "city": "ΰμχπδ",
+    "city": "ΧΧΧ§Χ Χ”",
     "eligible": 2455,
     "votes": 2092,
     "avoda": 22,
@@ -339,10 +356,11 @@
     "yahad": 151,
     "shas": 17,
     "cluster": 8,
-    "population": 3216
+    "population": 3216,
+    "": ""
   },
   {
-    "city": "ΰςαμιο",
+    "city": "ΧΧΆΧ‘ΧΧ™Χ",
     "eligible": 8040,
     "votes": 4812,
     "avoda": 436,
@@ -358,10 +376,11 @@
     "yahad": 1,
     "shas": 63,
     "cluster": 3,
-    "population": 11215
+    "population": 11215,
+    "": ""
   },
   {
-    "city": "ΰψιΰμ",
+    "city": "ΧΧ¨Χ™ΧΧ",
     "eligible": 14190,
     "votes": 9685,
     "avoda": 432,
@@ -377,10 +396,11 @@
     "yahad": 350,
     "shas": 85,
     "cluster": 5,
-    "population": 16008
+    "population": 16008,
+    "": ""
   },
   {
-    "city": "ΰωγεγ",
+    "city": "ΧΧ©Χ“Χ•Χ“",
     "eligible": 170193,
     "votes": 112861,
     "avoda": 9694,
@@ -396,10 +416,11 @@
     "yahad": 4180,
     "shas": 11923,
     "cluster": 5,
-    "population": 199649
+    "population": 199649,
+    "": ""
   },
   {
-    "city": "ΰωχμεο",
+    "city": "ΧΧ©Χ§ΧΧ•Χ",
     "eligible": 102360,
     "votes": 64079,
     "avoda": 6263,
@@ -415,10 +436,11 @@
     "yahad": 2907,
     "shas": 4217,
     "cluster": 5,
-    "population": 107636
+    "population": 107636,
+    "": ""
   },
   {
-    "city": "αΰχδ ΰμ-βψαιδ",
+    "city": "Χ‘ΧΧ§Χ” ΧΧ-Χ’Χ¨Χ‘Χ™Χ”",
     "eligible": 16410,
     "votes": 9975,
     "avoda": 259,
@@ -434,10 +456,11 @@
     "yahad": 5,
     "shas": 9,
     "cluster": 3,
-    "population": 24688
+    "population": 24688,
+    "": ""
   },
   {
-    "city": "αΰψ θεαιδ",
+    "city": "Χ‘ΧΧ¨ ΧΧ•Χ‘Χ™Χ”",
     "eligible": 661,
     "votes": 541,
     "avoda": 326,
@@ -453,10 +476,11 @@
     "yahad": 1,
     "shas": 0,
     "cluster": 6,
-    "population": 18558
+    "population": 18558,
+    "": ""
   },
   {
-    "city": "αΰψ ιςχα",
+    "city": "Χ‘ΧΧ¨ Χ™ΧΆΧ§Χ‘",
     "eligible": 10833,
     "votes": 8423,
     "avoda": 1754,
@@ -472,10 +496,11 @@
     "yahad": 142,
     "shas": 600,
     "cluster": 6,
-    "population": 8025
+    "population": 8025,
+    "": ""
   },
   {
-    "city": "αΰψ ωας",
+    "city": "Χ‘ΧΧ¨ Χ©Χ‘ΧΆ",
     "eligible": 156696,
     "votes": 96735,
     "avoda": 11887,
@@ -491,10 +516,11 @@
     "yahad": 3898,
     "shas": 6178,
     "cluster": 5,
-    "population": 187117
+    "population": 187117,
+    "": ""
   },
   {
-    "city": "αεςιιπδ-πεβ'ιγΰϊ",
+    "city": "Χ‘Χ•ΧΆΧ™Χ™Χ Χ”-Χ Χ•Χ’'Χ™Χ“ΧΧª",
     "eligible": 5550,
     "votes": 3356,
     "avoda": 112,
@@ -510,10 +536,11 @@
     "yahad": 5,
     "shas": 47,
     "cluster": 2,
-    "population": 7835
+    "population": 7835,
+    "": ""
   },
   {
-    "city": "αεχςΰϊΰ",
+    "city": "Χ‘Χ•Χ§ΧΆΧΧªΧ",
     "eligible": 363,
     "votes": 17,
     "avoda": 4,
@@ -529,10 +556,11 @@
     "yahad": 0,
     "shas": 1,
     "cluster": 2,
-    "population": 5715
+    "population": 5715,
+    "": ""
   },
   {
-    "city": "αιψ ΰμ-ξλρεψ",
+    "city": "Χ‘Χ™Χ¨ ΧΧ-ΧΧ›Χ΅Χ•Χ¨",
     "eligible": 5562,
     "votes": 2616,
     "avoda": 226,
@@ -548,10 +576,11 @@
     "yahad": 3,
     "shas": 167,
     "cluster": 2,
-    "population": 7437
+    "population": 7437,
+    "": ""
   },
   {
-    "city": "αιϊ ΰμ",
+    "city": "Χ‘Χ™Χª ΧΧ",
     "eligible": 3210,
     "votes": 2718,
     "avoda": 5,
@@ -567,10 +596,11 @@
     "yahad": 724,
     "shas": 20,
     "cluster": 5,
-    "population": 4214
+    "population": 4214,
+    "": ""
   },
   {
-    "city": "αιϊ ΰψιδ",
+    "city": "Χ‘Χ™Χª ΧΧ¨Χ™Χ”",
     "eligible": 3082,
     "votes": 2398,
     "avoda": 261,
@@ -586,10 +616,11 @@
     "yahad": 52,
     "shas": 47,
     "cluster": 7,
-    "population": 3577
+    "population": 3577,
+    "": ""
   },
   {
-    "city": "αιϊ β'ο",
+    "city": "Χ‘Χ™Χª Χ’'Χ",
     "eligible": 7819,
     "votes": 4123,
     "avoda": 1902,
@@ -605,10 +636,11 @@
     "yahad": 85,
     "shas": 99,
     "cluster": 2,
-    "population": 10355
+    "population": 10355,
+    "": ""
   },
   {
-    "city": "αιϊ γβο",
+    "city": "Χ‘Χ™Χª Χ“Χ’Χ",
     "eligible": 4833,
     "votes": 3747,
     "avoda": 591,
@@ -624,10 +656,11 @@
     "yahad": 113,
     "shas": 204,
     "cluster": 7,
-    "population": 6593
+    "population": 6593,
+    "": ""
   },
   {
-    "city": "αιϊ ωΰο",
+    "city": "Χ‘Χ™Χª Χ©ΧΧ",
     "eligible": 13392,
     "votes": 9275,
     "avoda": 467,
@@ -643,10 +676,11 @@
     "yahad": 322,
     "shas": 1745,
     "cluster": 4,
-    "population": 16794
+    "population": 16794,
+    "": ""
   },
   {
-    "city": "αιϊ ωξω",
+    "city": "Χ‘Χ™Χª Χ©ΧΧ©",
     "eligible": 50926,
     "votes": 33813,
     "avoda": 1111,
@@ -662,10 +696,11 @@
     "yahad": 2421,
     "shas": 4860,
     "cluster": 3,
-    "population": 72252
+    "population": 72252,
+    "": ""
   },
   {
-    "city": "αιϊψ ςιμιϊ",
+    "city": "Χ‘Χ™ΧªΧ¨ ΧΆΧ™ΧΧ™Χª",
     "eligible": 19103,
     "votes": 15954,
     "avoda": 22,
@@ -681,10 +716,11 @@
     "yahad": 2249,
     "shas": 3904,
     "cluster": 1,
-    "population": 32800
+    "population": 32800,
+    "": ""
   },
   {
-    "city": "απι αψχ",
+    "city": "Χ‘Χ Χ™ Χ‘Χ¨Χ§",
     "eligible": 101291,
     "votes": 78513,
     "avoda": 1004,
@@ -700,10 +736,11 @@
     "yahad": 4323,
     "shas": 18843,
     "cluster": 3,
-    "population": 141523
+    "population": 141523,
+    "": ""
   },
   {
-    "city": "απι ςι\"ω",
+    "city": "Χ‘Χ Χ™ ΧΆΧ™\"Χ©",
     "eligible": 5747,
     "votes": 3960,
     "avoda": 268,
@@ -719,10 +756,11 @@
     "yahad": 169,
     "shas": 214,
     "cluster": 5,
-    "population": 6582
+    "population": 6582,
+    "": ""
   },
   {
-    "city": "απιξιπδ-βαςϊ ςγδ",
+    "city": "Χ‘Χ Χ™ΧΧ™Χ Χ”-Χ’Χ‘ΧΆΧª ΧΆΧ“Χ”",
     "eligible": 9165,
     "votes": 6952,
     "avoda": 2671,
@@ -738,10 +776,11 @@
     "yahad": 42,
     "shas": 150,
     "cluster": 8,
-    "population": 11877
+    "population": 11877,
+    "": ""
   },
   {
-    "city": "αρξ\"δ",
+    "city": "Χ‘Χ΅Χ\"Χ”",
     "eligible": 5446,
     "votes": 3531,
     "avoda": 35,
@@ -757,10 +796,11 @@
     "yahad": 1,
     "shas": 6,
     "cluster": 2,
-    "population": 7562
+    "population": 7562,
+    "": ""
   },
   {
-    "city": "αρξϊ θαςεο",
+    "city": "Χ‘Χ΅ΧΧª ΧΧ‘ΧΆΧ•Χ",
     "eligible": 4656,
     "votes": 2259,
     "avoda": 170,
@@ -776,10 +816,11 @@
     "yahad": 1,
     "shas": 11,
     "cluster": 2,
-    "population": 6666
+    "population": 6666,
+    "": ""
   },
   {
-    "city": "αςπδ",
+    "city": "Χ‘ΧΆΧ Χ”",
     "eligible": 4832,
     "votes": 3808,
     "avoda": 12,
@@ -795,10 +836,11 @@
     "yahad": 0,
     "shas": 38,
     "cluster": 2,
-    "population": 9481
+    "population": 9481,
+    "": ""
   },
   {
-    "city": "αϊ ιν",
+    "city": "Χ‘Χª Χ™Χ",
     "eligible": 124035,
     "votes": 67961,
     "avoda": 9942,
@@ -814,10 +856,11 @@
     "yahad": 1651,
     "shas": 4692,
     "cluster": 5,
-    "population": 128596
+    "population": 128596,
+    "": ""
   },
   {
-    "city": "β'γιιγδ-ξλψ",
+    "city": "Χ’'Χ“Χ™Χ™Χ“Χ”-ΧΧ›Χ¨",
     "eligible": 12533,
     "votes": 8533,
     "avoda": 195,
@@ -833,10 +876,11 @@
     "yahad": 20,
     "shas": 26,
     "cluster": 2,
-    "population": 17999
+    "population": 17999,
+    "": ""
   },
   {
-    "city": "β'εμρ",
+    "city": "Χ’'Χ•ΧΧ΅",
     "eligible": 4233,
     "votes": 2485,
     "avoda": 1036,
@@ -852,10 +896,11 @@
     "yahad": 62,
     "shas": 131,
     "cluster": 3,
-    "population": 5580
+    "population": 5580,
+    "": ""
   },
   {
-    "city": "β'μβ'εμιδ",
+    "city": "Χ’'ΧΧ’'Χ•ΧΧ™Χ”",
     "eligible": 5410,
     "votes": 4411,
     "avoda": 239,
@@ -871,10 +916,11 @@
     "yahad": 1,
     "shas": 1,
     "cluster": 2,
-    "population": 8405
+    "population": 8405,
+    "": ""
   },
   {
-    "city": "β'ρψ ΰ-ζψχΰ",
+    "city": "Χ’'Χ΅Χ¨ Χ-Χ–Χ¨Χ§Χ",
     "eligible": 7792,
     "votes": 4470,
     "avoda": 124,
@@ -890,10 +936,11 @@
     "yahad": 3,
     "shas": 391,
     "cluster": 1,
-    "population": 12056
+    "population": 12056,
+    "": ""
   },
   {
-    "city": "β'ω (βεω ημα)",
+    "city": "Χ’'Χ© (Χ’Χ•Χ© Χ—ΧΧ‘)",
     "eligible": 2309,
     "votes": 1348,
     "avoda": 117,
@@ -909,10 +956,11 @@
     "yahad": 5,
     "shas": 14,
     "cluster": 5,
-    "population": 2872
+    "population": 2872,
+    "": ""
   },
   {
-    "city": "β'ϊ",
+    "city": "Χ’'Χª",
     "eligible": 7038,
     "votes": 3656,
     "avoda": 17,
@@ -928,10 +976,11 @@
     "yahad": 1,
     "shas": 23,
     "cluster": 3,
-    "population": 8959
+    "population": 8959,
+    "": ""
   },
   {
-    "city": "βαςϊ ζΰα",
+    "city": "Χ’Χ‘ΧΆΧª Χ–ΧΧ‘",
     "eligible": 10109,
     "votes": 7788,
     "avoda": 567,
@@ -947,10 +996,11 @@
     "yahad": 599,
     "shas": 875,
     "cluster": 5,
-    "population": 10413
+    "population": 10413,
+    "": ""
   },
   {
-    "city": "βαςϊ ωξεΰμ",
+    "city": "Χ’Χ‘ΧΆΧª Χ©ΧΧ•ΧΧ",
     "eligible": 16616,
     "votes": 13203,
     "avoda": 2156,
@@ -966,10 +1016,11 @@
     "yahad": 503,
     "shas": 500,
     "cluster": 8,
-    "population": 20798
+    "population": 20798,
+    "": ""
   },
   {
-    "city": "βαςϊιιν",
+    "city": "Χ’Χ‘ΧΆΧªΧ™Χ™Χ",
     "eligible": 45863,
     "votes": 33420,
     "avoda": 13526,
@@ -985,10 +1036,11 @@
     "yahad": 268,
     "shas": 417,
     "cluster": 8,
-    "population": 51575
+    "population": 51575,
+    "": ""
   },
   {
-    "city": "βγψδ",
+    "city": "Χ’Χ“Χ¨Χ”",
     "eligible": 15469,
     "votes": 11740,
     "avoda": 2793,
@@ -1004,10 +1056,11 @@
     "yahad": 430,
     "shas": 345,
     "cluster": 6,
-    "population": 18972
+    "population": 18972,
+    "": ""
   },
   {
-    "city": "βζψ",
+    "city": "Χ’Χ–Χ¨",
     "eligible": 356,
     "votes": 190,
     "avoda": 97,
@@ -1023,10 +1076,11 @@
     "yahad": 0,
     "shas": 1,
     "cluster": 7,
-    "population": 20160
+    "population": 20160,
+    "": ""
   },
   {
-    "city": "βο ιαπδ",
+    "city": "Χ’Χ Χ™Χ‘Χ Χ”",
     "eligible": 14381,
     "votes": 10999,
     "avoda": 2248,
@@ -1042,10 +1096,11 @@
     "yahad": 309,
     "shas": 423,
     "cluster": 6,
-    "population": 17088
+    "population": 17088,
+    "": ""
   },
   {
-    "city": "βπι ϊχεεδ",
+    "city": "Χ’Χ Χ™ ΧªΧ§Χ•Χ•Χ”",
     "eligible": 11599,
     "votes": 9100,
     "avoda": 2811,
@@ -1061,10 +1116,11 @@
     "yahad": 220,
     "shas": 629,
     "cluster": 8,
-    "population": 12430
+    "population": 12430,
+    "": ""
   },
   {
-    "city": "γΰμιϊ ΰμ-λψξμ",
+    "city": "Χ“ΧΧΧ™Χª ΧΧ-Χ›Χ¨ΧΧ",
     "eligible": 11579,
     "votes": 6627,
     "avoda": 1556,
@@ -1080,10 +1136,11 @@
     "yahad": 1,
     "shas": 379,
     "cluster": 3,
-    "population": 16032
+    "population": 16032,
+    "": ""
   },
   {
-    "city": "γιιψ ΰμ-ΰργ",
+    "city": "Χ“Χ™Χ™Χ¨ ΧΧ-ΧΧ΅Χ“",
     "eligible": 7130,
     "votes": 5627,
     "avoda": 134,
@@ -1099,10 +1156,11 @@
     "yahad": 5,
     "shas": 349,
     "cluster": 2,
-    "population": 10370
+    "population": 10370,
+    "": ""
   },
   {
-    "city": "γιιψ ηπΰ",
+    "city": "Χ“Χ™Χ™Χ¨ Χ—Χ Χ",
     "eligible": 6437,
     "votes": 5286,
     "avoda": 92,
@@ -1118,10 +1176,11 @@
     "yahad": 3,
     "shas": 35,
     "cluster": 3,
-    "population": 8717
+    "population": 8717,
+    "": ""
   },
   {
-    "city": "γιξεπδ",
+    "city": "Χ“Χ™ΧΧ•Χ Χ”",
     "eligible": 26988,
     "votes": 16050,
     "avoda": 1258,
@@ -1137,10 +1196,11 @@
     "yahad": 474,
     "shas": 1992,
     "cluster": 4,
-    "population": 31892
+    "population": 31892,
+    "": ""
   },
   {
-    "city": "δεγ δωψεο",
+    "city": "Χ”Χ•Χ“ Χ”Χ©Χ¨Χ•Χ",
     "eligible": 39575,
     "votes": 30541,
     "avoda": 11920,
@@ -1156,10 +1216,11 @@
     "yahad": 262,
     "shas": 730,
     "cluster": 8,
-    "population": 45091
+    "population": 45091,
+    "": ""
   },
   {
-    "city": "δψ ΰγψ",
+    "city": "Χ”Χ¨ ΧΧ“Χ¨",
     "eligible": 2668,
     "votes": 2122,
     "avoda": 824,
@@ -1175,10 +1236,11 @@
     "yahad": 9,
     "shas": 15,
     "cluster": 9,
-    "population": 2904
+    "population": 2904,
+    "": ""
   },
   {
-    "city": "ζλψεο ιςχα",
+    "city": "Χ–Χ›Χ¨Χ•Χ Χ™ΧΆΧ§Χ‘",
     "eligible": 15214,
     "votes": 11645,
     "avoda": 3899,
@@ -1194,10 +1256,11 @@
     "yahad": 130,
     "shas": 499,
     "cluster": 8,
-    "population": 17793
+    "population": 17793,
+    "": ""
   },
   {
-    "city": "ζξψ",
+    "city": "Χ–ΧΧ¨",
     "eligible": 4088,
     "votes": 2538,
     "avoda": 58,
@@ -1213,10 +1276,11 @@
     "yahad": 2,
     "shas": 3,
     "cluster": 3,
-    "population": 5605
+    "population": 5605,
+    "": ""
   },
   {
-    "city": "ζψζιψ",
+    "city": "Χ–Χ¨Χ–Χ™Χ¨",
     "eligible": 4632,
     "votes": 2152,
     "avoda": 427,
@@ -1232,10 +1296,11 @@
     "yahad": 0,
     "shas": 29,
     "cluster": 2,
-    "population": 6248
+    "population": 6248,
+    "": ""
   },
   {
-    "city": "ηγψδ",
+    "city": "Χ—Χ“Χ¨Χ”",
     "eligible": 69790,
     "votes": 44596,
     "avoda": 7093,
@@ -1251,10 +1316,11 @@
     "yahad": 623,
     "shas": 2765,
     "cluster": 5,
-    "population": 77340
+    "population": 77340,
+    "": ""
   },
   {
-    "city": "ηεμεο",
+    "city": "Χ—Χ•ΧΧ•Χ",
     "eligible": 154550,
     "votes": 101813,
     "avoda": 20535,
@@ -1270,10 +1336,11 @@
     "yahad": 1842,
     "shas": 8046,
     "cluster": 5,
-    "population": 175227
+    "population": 175227,
+    "": ""
   },
   {
-    "city": "ηεψδ",
+    "city": "Χ—Χ•Χ¨Χ”",
     "eligible": 6037,
     "votes": 3013,
     "avoda": 118,
@@ -1289,10 +1356,11 @@
     "yahad": 3,
     "shas": 18,
     "cluster": 2,
-    "population": 15969
+    "population": 15969,
+    "": ""
   },
   {
-    "city": "ηεψτιω",
+    "city": "Χ—Χ•Χ¨Χ¤Χ™Χ©",
     "eligible": 4086,
     "votes": 2138,
     "avoda": 345,
@@ -1308,10 +1376,11 @@
     "yahad": 81,
     "shas": 133,
     "cluster": 3,
-    "population": 5370
+    "population": 5370,
+    "": ""
   },
   {
-    "city": "ηιτδ",
+    "city": "Χ—Χ™Χ¤Χ”",
     "eligible": 243274,
     "votes": 149021,
     "avoda": 37805,
@@ -1327,10 +1396,11 @@
     "yahad": 1648,
     "shas": 3342,
     "cluster": 7,
-    "population": 253679
+    "population": 253679,
+    "": ""
   },
   {
-    "city": "ηφεψ δβμιμιϊ",
+    "city": "Χ—Χ¦Χ•Χ¨ Χ”Χ’ΧΧ™ΧΧ™Χª",
     "eligible": 6885,
     "votes": 4860,
     "avoda": 295,
@@ -1346,10 +1416,11 @@
     "yahad": 167,
     "shas": 481,
     "cluster": 3,
-    "population": 8344
+    "population": 8344,
+    "": ""
   },
   {
-    "city": "θαψιδ",
+    "city": "ΧΧ‘Χ¨Χ™Χ”",
     "eligible": 33447,
     "votes": 20184,
     "avoda": 1520,
@@ -1365,10 +1436,11 @@
     "yahad": 682,
     "shas": 3037,
     "cluster": 4,
-    "population": 40215
+    "population": 40215,
+    "": ""
   },
   {
-    "city": "θεψςΰο",
+    "city": "ΧΧ•Χ¨ΧΆΧΧ",
     "eligible": 8160,
     "votes": 5250,
     "avoda": 109,
@@ -1384,10 +1456,11 @@
     "yahad": 4,
     "shas": 24,
     "cluster": 3,
-    "population": 11720
+    "population": 11720,
+    "": ""
   },
   {
-    "city": "θιιαδ",
+    "city": "ΧΧ™Χ™Χ‘Χ”",
     "eligible": 24480,
     "votes": 17820,
     "avoda": 165,
@@ -1403,10 +1476,11 @@
     "yahad": 6,
     "shas": 52,
     "cluster": 3,
-    "population": 35716
+    "population": 35716,
+    "": ""
   },
   {
-    "city": "θιψδ",
+    "city": "ΧΧ™Χ¨Χ”",
     "eligible": 16091,
     "votes": 11553,
     "avoda": 121,
@@ -1422,10 +1496,11 @@
     "yahad": 1,
     "shas": 4,
     "cluster": 3,
-    "population": 22161
+    "population": 22161,
+    "": ""
   },
   {
-    "city": "θιψϊ λψξμ",
+    "city": "ΧΧ™Χ¨Χª Χ›Χ¨ΧΧ",
     "eligible": 16155,
     "votes": 10546,
     "avoda": 948,
@@ -1441,10 +1516,11 @@
     "yahad": 184,
     "shas": 1151,
     "cluster": 4,
-    "population": 18482
+    "population": 18482,
+    "": ""
   },
   {
-    "city": "θξψδ",
+    "city": "ΧΧΧ¨Χ”",
     "eligible": 19804,
     "votes": 15580,
     "avoda": 161,
@@ -1460,10 +1536,11 @@
     "yahad": 6,
     "shas": 81,
     "cluster": 3,
-    "population": 27919
+    "population": 27919,
+    "": ""
   },
   {
-    "city": "ιΰπεη-β'ϊ",
+    "city": "Χ™ΧΧ Χ•Χ—-Χ’'Χª",
     "eligible": 4016,
     "votes": 2136,
     "avoda": 254,
@@ -1479,10 +1556,11 @@
     "yahad": 58,
     "shas": 248,
     "cluster": 3,
-    "population": 5558
+    "population": 5558,
+    "": ""
   },
   {
-    "city": "ιαπΰμ",
+    "city": "Χ™Χ‘Χ ΧΧ",
     "eligible": 2350,
     "votes": 1766,
     "avoda": 197,
@@ -1498,10 +1576,11 @@
     "yahad": 98,
     "shas": 671,
     "cluster": 4,
-    "population": 3212
+    "population": 3212,
+    "": ""
   },
   {
-    "city": "ιαπδ",
+    "city": "Χ™Χ‘Χ Χ”",
     "eligible": 29669,
     "votes": 21841,
     "avoda": 3897,
@@ -1517,10 +1596,11 @@
     "yahad": 1150,
     "shas": 1473,
     "cluster": 5,
-    "population": 32640
+    "population": 32640,
+    "": ""
   },
   {
-    "city": "ιρεγ δξςμδ",
+    "city": "Χ™Χ΅Χ•Χ“ Χ”ΧΧΆΧΧ”",
     "eligible": 1121,
     "votes": 852,
     "avoda": 356,
@@ -1536,10 +1616,11 @@
     "yahad": 17,
     "shas": 3,
     "cluster": 8,
-    "population": 1408
+    "population": 1408,
+    "": ""
   },
   {
-    "city": "ιτις",
+    "city": "Χ™Χ¤Χ™ΧΆ",
     "eligible": 11578,
     "votes": 7327,
     "avoda": 277,
@@ -1555,10 +1636,11 @@
     "yahad": 8,
     "shas": 21,
     "cluster": 3,
-    "population": 16176
+    "population": 16176,
+    "": ""
   },
   {
-    "city": "ιχπςν ςιμιϊ",
+    "city": "Χ™Χ§Χ ΧΆΧ ΧΆΧ™ΧΧ™Χª",
     "eligible": 15429,
     "votes": 10993,
     "avoda": 1921,
@@ -1574,10 +1656,11 @@
     "yahad": 130,
     "shas": 400,
     "cluster": 6,
-    "population": 18900
+    "population": 18900,
+    "": ""
   },
   {
-    "city": "ιψεην",
+    "city": "Χ™Χ¨Χ•Χ—Χ",
     "eligible": 6545,
     "votes": 4101,
     "avoda": 333,
@@ -1593,10 +1676,11 @@
     "yahad": 101,
     "shas": 620,
     "cluster": 4,
-    "population": 7845
+    "population": 7845,
+    "": ""
   },
   {
-    "city": "ιψεωμιν",
+    "city": "Χ™Χ¨Χ•Χ©ΧΧ™Χ",
     "eligible": 385888,
     "votes": 254359,
     "avoda": 24696,
@@ -1612,10 +1696,11 @@
     "yahad": 18330,
     "shas": 30579,
     "cluster": 4,
-    "population": 730633
+    "population": 730633,
+    "": ""
   },
   {
-    "city": "ιψλΰ",
+    "city": "Χ™Χ¨Χ›Χ",
     "eligible": 9360,
     "votes": 5990,
     "avoda": 685,
@@ -1631,10 +1716,11 @@
     "yahad": 797,
     "shas": 805,
     "cluster": 2,
-    "population": 14196
+    "population": 14196,
+    "": ""
   },
   {
-    "city": "λΰαεμ",
+    "city": "Χ›ΧΧ‘Χ•Χ",
     "eligible": 6993,
     "votes": 5721,
     "avoda": 20,
@@ -1650,10 +1736,11 @@
     "yahad": 9,
     "shas": 13,
     "cluster": 2,
-    "population": 11929
+    "population": 11929,
+    "": ""
   },
   {
-    "city": "λελα ιΰιψ",
+    "city": "Χ›Χ•Χ›Χ‘ Χ™ΧΧ™Χ¨",
     "eligible": 7776,
     "votes": 6069,
     "avoda": 2405,
@@ -1669,10 +1756,11 @@
     "yahad": 30,
     "shas": 25,
     "cluster": 9,
-    "population": 9489
+    "population": 9489,
+    "": ""
   },
   {
-    "city": "λριτδ",
+    "city": "Χ›Χ΅Χ™Χ¤Χ”",
     "eligible": 6660,
     "votes": 3097,
     "avoda": 146,
@@ -1688,10 +1776,11 @@
     "yahad": 12,
     "shas": 34,
     "cluster": 2,
-    "population": 16160
+    "population": 16160,
+    "": ""
   },
   {
-    "city": "λρψΰ-ρξις",
+    "city": "Χ›Χ΅Χ¨Χ-Χ΅ΧΧ™ΧΆ",
     "eligible": 4967,
     "votes": 3196,
     "avoda": 632,
@@ -1707,10 +1796,11 @@
     "yahad": 172,
     "shas": 77,
     "cluster": 2,
-    "population": 7201
+    "population": 7201,
+    "": ""
   },
   {
-    "city": "λτψ αψΰ",
+    "city": "Χ›Χ¤Χ¨ Χ‘Χ¨Χ",
     "eligible": 1903,
     "votes": 1433,
     "avoda": 9,
@@ -1726,10 +1816,11 @@
     "yahad": 0,
     "shas": 1,
     "cluster": 3,
-    "population": 2782
+    "population": 2782,
+    "": ""
   },
   {
-    "city": "λτψ εψγιν",
+    "city": "Χ›Χ¤Χ¨ Χ•Χ¨Χ“Χ™Χ",
     "eligible": 4400,
     "votes": 3269,
     "avoda": 1572,
@@ -1745,10 +1836,11 @@
     "yahad": 16,
     "shas": 12,
     "cluster": 9,
-    "population": 5463
+    "population": 5463,
+    "": ""
   },
   {
-    "city": "λτψ ιΰρισ",
+    "city": "Χ›Χ¤Χ¨ Χ™ΧΧ΅Χ™Χ£",
     "eligible": 7148,
     "votes": 5073,
     "avoda": 147,
@@ -1764,10 +1856,11 @@
     "yahad": 1,
     "shas": 15,
     "cluster": 4,
-    "population": 8504
+    "population": 8504,
+    "": ""
   },
   {
-    "city": "λτψ ιεπδ",
+    "city": "Χ›Χ¤Χ¨ Χ™Χ•Χ Χ”",
     "eligible": 13798,
     "votes": 10466,
     "avoda": 2568,
@@ -1783,10 +1876,11 @@
     "yahad": 246,
     "shas": 388,
     "cluster": 7,
-    "population": 16411
+    "population": 16411,
+    "": ""
   },
   {
-    "city": "λτψ λξΰ",
+    "city": "Χ›Χ¤Χ¨ Χ›ΧΧ",
     "eligible": 2361,
     "votes": 1063,
     "avoda": 578,
@@ -1802,10 +1896,11 @@
     "yahad": 0,
     "shas": 5,
     "cluster": 4,
-    "population": 2898
+    "population": 2898,
+    "": ""
   },
   {
-    "city": "λτψ λπΰ",
+    "city": "Χ›Χ¤Χ¨ Χ›Χ Χ",
     "eligible": 12582,
     "votes": 8710,
     "avoda": 332,
@@ -1821,10 +1916,11 @@
     "yahad": 4,
     "shas": 75,
     "cluster": 2,
-    "population": 18332
+    "population": 18332,
+    "": ""
   },
   {
-    "city": "λτψ ξπγΰ",
+    "city": "Χ›Χ¤Χ¨ ΧΧ Χ“Χ",
     "eligible": 10484,
     "votes": 7898,
     "avoda": 572,
@@ -1840,10 +1936,11 @@
     "yahad": 10,
     "shas": 610,
     "cluster": 2,
-    "population": 15746
+    "population": 15746,
+    "": ""
   },
   {
-    "city": "λτψ ραΰ",
+    "city": "Χ›Χ¤Χ¨ Χ΅Χ‘Χ",
     "eligible": 75994,
     "votes": 56332,
     "avoda": 19732,
@@ -1859,10 +1956,11 @@
     "yahad": 771,
     "shas": 1374,
     "cluster": 8,
-    "population": 79840
+    "population": 79840,
+    "": ""
   },
   {
-    "city": "λτψ χΰρν",
+    "city": "Χ›Χ¤Χ¨ Χ§ΧΧ΅Χ",
     "eligible": 12781,
     "votes": 7952,
     "avoda": 101,
@@ -1878,10 +1976,11 @@
     "yahad": 4,
     "shas": 8,
     "cluster": 3,
-    "population": 18352
+    "population": 18352,
+    "": ""
   },
   {
-    "city": "λτψ χψς",
+    "city": "Χ›Χ¤Χ¨ Χ§Χ¨ΧΆ",
     "eligible": 11227,
     "votes": 8237,
     "avoda": 93,
@@ -1897,10 +1996,11 @@
     "yahad": 0,
     "shas": 7,
     "cluster": 4,
-    "population": 14990
+    "population": 14990,
+    "": ""
   },
   {
-    "city": "λτψ ωξψιδε",
+    "city": "Χ›Χ¤Χ¨ Χ©ΧΧ¨Χ™Χ”Χ•",
     "eligible": 1762,
     "votes": 1198,
     "avoda": 636,
@@ -1916,10 +2016,11 @@
     "yahad": 8,
     "shas": 2,
     "cluster": 10,
-    "population": 1603
+    "population": 1603,
+    "": ""
   },
   {
-    "city": "λτψ ϊαεψ",
+    "city": "Χ›Χ¤Χ¨ ΧªΧ‘Χ•Χ¨",
     "eligible": 2785,
     "votes": 2089,
     "avoda": 852,
@@ -1935,10 +2036,11 @@
     "yahad": 20,
     "shas": 16,
     "cluster": 8,
-    "population": 2539
+    "population": 2539,
+    "": ""
   },
   {
-    "city": "λψξιΰμ",
+    "city": "Χ›Χ¨ΧΧ™ΧΧ",
     "eligible": 39888,
     "votes": 24633,
     "avoda": 4328,
@@ -1954,10 +2056,11 @@
     "yahad": 188,
     "shas": 630,
     "cluster": 5,
-    "population": 42568
+    "population": 42568,
+    "": ""
   },
   {
-    "city": "μδαιν",
+    "city": "ΧΧ”Χ‘Χ™Χ",
     "eligible": 4740,
     "votes": 3699,
     "avoda": 1406,
@@ -1973,10 +2076,11 @@
     "yahad": 28,
     "shas": 17,
     "cluster": 9,
-    "population": 5717
+    "population": 5717,
+    "": ""
   },
   {
-    "city": "μεγ",
+    "city": "ΧΧ•Χ“",
     "eligible": 52711,
     "votes": 31704,
     "avoda": 2216,
@@ -1992,10 +2096,11 @@
     "yahad": 1444,
     "shas": 1998,
     "cluster": 4,
-    "population": 68232
+    "population": 68232,
+    "": ""
   },
   {
-    "city": "μλιω",
+    "city": "ΧΧ›Χ™Χ©",
     "eligible": 491,
     "votes": 405,
     "avoda": 238,
@@ -2011,10 +2116,11 @@
     "yahad": 0,
     "shas": 1,
     "cluster": 5,
-    "population": 8250
+    "population": 8250,
+    "": ""
   },
   {
-    "city": "μχιδ",
+    "city": "ΧΧ§Χ™Χ”",
     "eligible": 6012,
     "votes": 2583,
     "avoda": 13,
@@ -2030,10 +2136,11 @@
     "yahad": 5,
     "shas": 29,
     "cluster": 1,
-    "population": 9233
+    "population": 9233,
+    "": ""
   },
   {
-    "city": "ξαωψϊ φιεο",
+    "city": "ΧΧ‘Χ©Χ¨Χª Χ¦Χ™Χ•Χ",
     "eligible": 18713,
     "votes": 13921,
     "avoda": 3724,
@@ -2049,10 +2156,11 @@
     "yahad": 301,
     "shas": 536,
     "cluster": 8,
-    "population": 22227
+    "population": 22227,
+    "": ""
   },
   {
-    "city": "ξβ'γ ΰμ-λψεν",
+    "city": "ΧΧ’'Χ“ ΧΧ-Χ›Χ¨Χ•Χ",
     "eligible": 8940,
     "votes": 6602,
     "avoda": 522,
@@ -2068,10 +2176,11 @@
     "yahad": 3,
     "shas": 26,
     "cluster": 2,
-    "population": 10265
+    "population": 10265,
+    "": ""
   },
   {
-    "city": "ξβ'γμ ωξρ",
+    "city": "ΧΧ’'Χ“Χ Χ©ΧΧ΅",
     "eligible": 580,
     "votes": 107,
     "avoda": 40,
@@ -2087,10 +2196,11 @@
     "yahad": 0,
     "shas": 3,
     "cluster": 2,
-    "population": 9474
+    "population": 9474,
+    "": ""
   },
   {
-    "city": "ξβΰψ",
+    "city": "ΧΧ’ΧΧ¨",
     "eligible": 14173,
     "votes": 6497,
     "avoda": 1058,
@@ -2106,10 +2216,11 @@
     "yahad": 20,
     "shas": 779,
     "cluster": 2,
-    "population": 19600
+    "population": 19600,
+    "": ""
   },
   {
-    "city": "ξβγμ",
+    "city": "ΧΧ’Χ“Χ",
     "eligible": 20631,
     "votes": 855,
     "avoda": 82,
@@ -2125,10 +2236,11 @@
     "yahad": 53,
     "shas": 139,
     "cluster": 5,
-    "population": 1359
+    "population": 1359,
+    "": ""
   },
   {
-    "city": "ξβγμ δςξχ",
+    "city": "ΧΧ’Χ“Χ Χ”ΧΆΧΧ§",
     "eligible": 1269,
     "votes": 13244,
     "avoda": 1183,
@@ -2144,10 +2256,11 @@
     "yahad": 675,
     "shas": 1809,
     "cluster": 5,
-    "population": 23199
+    "population": 23199,
+    "": ""
   },
   {
-    "city": "ξβιγε",
+    "city": "ΧΧ’Χ™Χ“Χ•",
     "eligible": 585,
     "votes": 448,
     "avoda": 235,
@@ -2163,10 +2276,11 @@
     "yahad": 1,
     "shas": 0,
     "cluster": 6,
-    "population": 9232
+    "population": 9232,
+    "": ""
   },
   {
-    "city": "ξεγιςιο ςιμιϊ",
+    "city": "ΧΧ•Χ“Χ™ΧΆΧ™Χ ΧΆΧ™ΧΧ™Χª",
     "eligible": 23529,
     "votes": 19820,
     "avoda": 6,
@@ -2182,10 +2296,11 @@
     "yahad": 818,
     "shas": 3342,
     "cluster": 1,
-    "population": 39519
+    "population": 39519,
+    "": ""
   },
   {
-    "city": "ξζλψϊ αϊιδ",
+    "city": "ΧΧ–Χ›Χ¨Χª Χ‘ΧªΧ™Χ”",
     "eligible": 8656,
     "votes": 6844,
     "avoda": 2197,
@@ -2201,10 +2316,11 @@
     "yahad": 84,
     "shas": 143,
     "cluster": 8,
-    "population": 8760
+    "population": 8760,
+    "": ""
   },
   {
-    "city": "ξζψςδ",
+    "city": "ΧΧ–Χ¨ΧΆΧ”",
     "eligible": 2665,
     "votes": 2087,
     "avoda": 33,
@@ -2220,10 +2336,11 @@
     "yahad": 7,
     "shas": 13,
     "cluster": 2,
-    "population": 3397
+    "population": 3397,
+    "": ""
   },
   {
-    "city": "ξθεμδ",
+    "city": "ΧΧΧ•ΧΧ”",
     "eligible": 1400,
     "votes": 912,
     "avoda": 358,
@@ -2239,10 +2356,11 @@
     "yahad": 4,
     "shas": 6,
     "cluster": 7,
-    "population": 1509
+    "population": 1509,
+    "": ""
   },
   {
-    "city": "ξιϊψ",
+    "city": "ΧΧ™ΧªΧ¨",
     "eligible": 5734,
     "votes": 4383,
     "avoda": 1416,
@@ -2258,10 +2376,11 @@
     "yahad": 69,
     "shas": 38,
     "cluster": 9,
-    "population": 6060
+    "population": 6060,
+    "": ""
   },
   {
-    "city": "ξρςγδ",
+    "city": "ΧΧ΅ΧΆΧ“Χ”",
     "eligible": 217,
     "votes": 25,
     "avoda": 12,
@@ -2277,10 +2396,11 @@
     "yahad": 0,
     "shas": 0,
     "cluster": 2,
-    "population": 3021
+    "population": 3021,
+    "": ""
   },
   {
-    "city": "ξςιμιΰ",
+    "city": "ΧΧΆΧ™ΧΧ™Χ",
     "eligible": 2364,
     "votes": 1732,
     "avoda": 141,
@@ -2296,10 +2416,11 @@
     "yahad": 1,
     "shas": 22,
     "cluster": 5,
-    "population": 2829
+    "population": 2829,
+    "": ""
   },
   {
-    "city": "ξςμδ ΰγεξιν",
+    "city": "ΧΧΆΧΧ” ΧΧ“Χ•ΧΧ™Χ",
     "eligible": 26709,
     "votes": 19815,
     "avoda": 999,
@@ -2315,10 +2436,11 @@
     "yahad": 844,
     "shas": 1000,
     "cluster": 5,
-    "population": 33048
+    "population": 33048,
+    "": ""
   },
   {
-    "city": "ξςμδ ΰτψιν",
+    "city": "ΧΧΆΧΧ” ΧΧ¤Χ¨Χ™Χ",
     "eligible": 1165,
     "votes": 638,
     "avoda": 70,
@@ -2334,10 +2456,11 @@
     "yahad": 54,
     "shas": 7,
     "cluster": 5,
-    "population": 1170
+    "population": 1170,
+    "": ""
   },
   {
-    "city": "ξςμδ ςιψεο",
+    "city": "ΧΧΆΧΧ” ΧΆΧ™Χ¨Χ•Χ",
     "eligible": 8400,
     "votes": 5524,
     "avoda": 31,
@@ -2353,10 +2476,11 @@
     "yahad": 1,
     "shas": 44,
     "cluster": 2,
-    "population": 12598
+    "population": 12598,
+    "": ""
   },
   {
-    "city": "ξςμεϊ-ϊψωιηΰ",
+    "city": "ΧΧΆΧΧ•Χª-ΧªΧ¨Χ©Χ™Χ—Χ",
     "eligible": 17628,
     "votes": 11493,
     "avoda": 977,
@@ -2372,10 +2496,11 @@
     "yahad": 206,
     "shas": 683,
     "cluster": 5,
-    "population": 19997
+    "population": 19997,
+    "": ""
   },
   {
-    "city": "ξφτδ ψξεο",
+    "city": "ΧΧ¦Χ¤Χ” Χ¨ΧΧ•Χ",
     "eligible": 3556,
     "votes": 2122,
     "avoda": 326,
@@ -2391,10 +2516,11 @@
     "yahad": 346,
     "shas": 31,
     "cluster": 4,
-    "population": 4359
+    "population": 4359,
+    "": ""
   },
   {
-    "city": "ξωδγ",
+    "city": "ΧΧ©Χ”Χ“",
     "eligible": 4907,
     "votes": 3346,
     "avoda": 41,
@@ -2410,10 +2536,11 @@
     "yahad": 1,
     "shas": 7,
     "cluster": 2,
-    "population": 6911
+    "population": 6911,
+    "": ""
   },
   {
-    "city": "πησ",
+    "city": "Χ Χ—Χ£",
     "eligible": 7214,
     "votes": 5031,
     "avoda": 28,
@@ -2429,10 +2556,11 @@
     "yahad": 3,
     "shas": 6,
     "cluster": 2,
-    "population": 10491
+    "population": 10491,
+    "": ""
   },
   {
-    "city": "πρ φιεπδ",
+    "city": "Χ Χ΅ Χ¦Χ™Χ•Χ Χ”",
     "eligible": 30675,
     "votes": 23889,
     "avoda": 7656,
@@ -2448,10 +2576,11 @@
     "yahad": 312,
     "shas": 560,
     "cluster": 7,
-    "population": 35599
+    "population": 35599,
+    "": ""
   },
   {
-    "city": "πφψϊ",
+    "city": "Χ Χ¦Χ¨Χª",
     "eligible": 39087,
     "votes": 32235,
     "avoda": 869,
@@ -2467,10 +2596,11 @@
     "yahad": 12,
     "shas": 63,
     "cluster": 3,
-    "population": 71592
+    "population": 71592,
+    "": ""
   },
   {
-    "city": "πφψϊ ςιμιϊ",
+    "city": "Χ Χ¦Χ¨Χª ΧΆΧ™ΧΧ™Χª",
     "eligible": 53232,
     "votes": 21971,
     "avoda": 2269,
@@ -2486,10 +2616,11 @@
     "yahad": 439,
     "shas": 287,
     "cluster": 5,
-    "population": 40624
+    "population": 40624,
+    "": ""
   },
   {
-    "city": "πωψ",
+    "city": "Χ Χ©Χ¨",
     "eligible": 19318,
     "votes": 12787,
     "avoda": 2475,
@@ -2505,10 +2636,11 @@
     "yahad": 76,
     "shas": 466,
     "cluster": 7,
-    "population": 21945
+    "population": 21945,
+    "": ""
   },
   {
-    "city": "πϊιαεϊ",
+    "city": "Χ ΧªΧ™Χ‘Χ•Χª",
     "eligible": 19308,
     "votes": 14571,
     "avoda": 295,
@@ -2524,10 +2656,11 @@
     "yahad": 2836,
     "shas": 3403,
     "cluster": 3,
-    "population": 25572
+    "population": 25572,
+    "": ""
   },
   {
-    "city": "πϊπιδ",
+    "city": "Χ ΧªΧ Χ™Χ”",
     "eligible": 168914,
     "votes": 105164,
     "avoda": 14575,
@@ -2543,10 +2676,11 @@
     "yahad": 3177,
     "shas": 8319,
     "cluster": 5,
-    "population": 175460
+    "population": 175460,
+    "": ""
   },
   {
-    "city": "ρΰβ'εψ",
+    "city": "Χ΅ΧΧ’'Χ•Χ¨",
     "eligible": 2657,
     "votes": 1423,
     "avoda": 338,
@@ -2562,10 +2696,11 @@
     "yahad": 35,
     "shas": 189,
     "cluster": 3,
-    "population": 3679
+    "population": 3679,
+    "": ""
   },
   {
-    "city": "ραιεο",
+    "city": "Χ΅Χ‘Χ™Χ•Χ",
     "eligible": 3458,
     "votes": 2393,
     "avoda": 1055,
@@ -2581,10 +2716,11 @@
     "yahad": 17,
     "shas": 7,
     "cluster": 10,
-    "population": 2969
+    "population": 2969,
+    "": ""
   },
   {
-    "city": "ρη'πιο",
+    "city": "Χ΅Χ—'Χ Χ™Χ",
     "eligible": 18647,
     "votes": 15141,
     "avoda": 204,
@@ -2600,10 +2736,11 @@
     "yahad": 9,
     "shas": 39,
     "cluster": 2,
-    "population": 25085
+    "population": 25085,
+    "": ""
   },
   {
-    "city": "ςεξψ",
+    "city": "ΧΆΧ•ΧΧ¨",
     "eligible": 6184,
     "votes": 4690,
     "avoda": 1782,
@@ -2619,10 +2756,11 @@
     "yahad": 37,
     "shas": 17,
     "cluster": 10,
-    "population": 6190
+    "population": 6190,
+    "": ""
   },
   {
-    "city": "ςιιμαεο",
+    "city": "ΧΆΧ™Χ™ΧΧ‘Χ•Χ",
     "eligible": 3765,
     "votes": 2630,
     "avoda": 359,
@@ -2638,10 +2776,11 @@
     "yahad": 1,
     "shas": 125,
     "cluster": 4,
-    "population": 4765
+    "population": 4765,
+    "": ""
   },
   {
-    "city": "ςιμεθ",
+    "city": "ΧΆΧ™ΧΧ•Χ",
     "eligible": 4475,
     "votes": 1878,
     "avoda": 115,
@@ -2657,10 +2796,11 @@
     "yahad": 3,
     "shas": 86,
     "cluster": 2,
-    "population": 6748
+    "population": 6748,
+    "": ""
   },
   {
-    "city": "ςιο ξΰδμ",
+    "city": "ΧΆΧ™Χ ΧΧΧ”Χ",
     "eligible": 7717,
     "votes": 5656,
     "avoda": 35,
@@ -2676,10 +2816,11 @@
     "yahad": 0,
     "shas": 59,
     "cluster": 2,
-    "population": 10946
+    "population": 10946,
+    "": ""
   },
   {
-    "city": "ςλε",
+    "city": "ΧΆΧ›Χ•",
     "eligible": 40470,
     "votes": 25543,
     "avoda": 1916,
@@ -2695,10 +2836,11 @@
     "yahad": 388,
     "shas": 1946,
     "cluster": 4,
-    "population": 44675
+    "population": 44675,
+    "": ""
   },
   {
-    "city": "ςξπεΰμ",
+    "city": "ΧΆΧΧ Χ•ΧΧ",
     "eligible": 1911,
     "votes": 1373,
     "avoda": 2,
@@ -2714,10 +2856,11 @@
     "yahad": 360,
     "shas": 459,
     "cluster": 2,
-    "population": 2810
+    "population": 2810,
+    "": ""
   },
   {
-    "city": "ςρτιΰ",
+    "city": "ΧΆΧ΅Χ¤Χ™Χ",
     "eligible": 8227,
     "votes": 4284,
     "avoda": 968,
@@ -2733,10 +2876,11 @@
     "yahad": 21,
     "shas": 34,
     "cluster": 4,
-    "population": 9526
+    "population": 9526,
+    "": ""
   },
   {
-    "city": "ςτεμδ",
+    "city": "ΧΆΧ¤Χ•ΧΧ”",
     "eligible": 35667,
     "votes": 22821,
     "avoda": 2531,
@@ -2752,10 +2896,11 @@
     "yahad": 456,
     "shas": 1365,
     "cluster": 5,
-    "population": 38930
+    "population": 38930,
+    "": ""
   },
   {
-    "city": "ςψΰαδ",
+    "city": "ΧΆΧ¨ΧΧ‘Χ”",
     "eligible": 14211,
     "votes": 10254,
     "avoda": 35,
@@ -2771,10 +2916,11 @@
     "yahad": 25,
     "shas": 31,
     "cluster": 2,
-    "population": 20618
+    "population": 20618,
+    "": ""
   },
   {
-    "city": "ςψγ",
+    "city": "ΧΆΧ¨Χ“",
     "eligible": 20805,
     "votes": 12238,
     "avoda": 1871,
@@ -2790,10 +2936,11 @@
     "yahad": 292,
     "shas": 129,
     "cluster": 5,
-    "population": 22203
+    "population": 22203,
+    "": ""
   },
   {
-    "city": "ςψςψδ",
+    "city": "ΧΆΧ¨ΧΆΧ¨Χ”",
     "eligible": 11475,
     "votes": 7898,
     "avoda": 102,
@@ -2809,10 +2956,11 @@
     "yahad": 5,
     "shas": 4,
     "cluster": 2,
-    "population": 21660
+    "population": 21660,
+    "": ""
   },
   {
-    "city": "ςψςψδ-απβα",
+    "city": "ΧΆΧ¨ΧΆΧ¨Χ”-Χ‘Χ Χ’Χ‘",
     "eligible": 6558,
     "votes": 3638,
     "avoda": 47,
@@ -2828,10 +2976,11 @@
     "yahad": 8,
     "shas": 15,
     "cluster": 2,
-    "population": 11522
+    "population": 11522,
+    "": ""
   },
   {
-    "city": "τεψιιγιρ",
+    "city": "Χ¤Χ•Χ¨Χ™Χ™Χ“Χ™Χ΅",
     "eligible": 7621,
     "votes": 5049,
     "avoda": 147,
@@ -2847,10 +2996,11 @@
     "yahad": 1,
     "shas": 4,
     "cluster": 2,
-    "population": 10800
+    "population": 10800,
+    "": ""
   },
   {
-    "city": "τρεθδ",
+    "city": "Χ¤Χ΅Χ•ΧΧ”",
     "eligible": 2425,
     "votes": 1333,
     "avoda": 117,
@@ -2866,10 +3016,11 @@
     "yahad": 1,
     "shas": 7,
     "cluster": 4,
-    "population": 2866
+    "population": 2866,
+    "": ""
   },
   {
-    "city": "τχιςιο (αεχιιςδ)",
+    "city": "Χ¤Χ§Χ™ΧΆΧ™Χ (Χ‘Χ•Χ§Χ™Χ™ΧΆΧ”)",
     "eligible": 4011,
     "votes": 2595,
     "avoda": 316,
@@ -2885,10 +3036,11 @@
     "yahad": 1,
     "shas": 221,
     "cluster": 4,
-    "population": 5287
+    "population": 5287,
+    "": ""
   },
   {
-    "city": "τψγρ ηπδ-λψλεψ",
+    "city": "Χ¤Χ¨Χ“Χ΅ Χ—Χ Χ”-Χ›Χ¨Χ›Χ•Χ¨",
     "eligible": 26651,
     "votes": 18833,
     "avoda": 5199,
@@ -2904,10 +3056,11 @@
     "yahad": 212,
     "shas": 832,
     "cluster": 6,
-    "population": 29637
+    "population": 29637,
+    "": ""
   },
   {
-    "city": "τϊη ϊχεεδ",
+    "city": "Χ¤ΧªΧ— ΧªΧ§Χ•Χ•Χ”",
     "eligible": 177367,
     "votes": 124087,
     "avoda": 22103,
@@ -2923,10 +3076,11 @@
     "yahad": 3227,
     "shas": 6946,
     "cluster": 6,
-    "population": 195634
+    "population": 195634,
+    "": ""
   },
   {
-    "city": "φτϊ",
+    "city": "Χ¦Χ¤Χª",
     "eligible": 21978,
     "votes": 14027,
     "avoda": 672,
@@ -2942,10 +3096,11 @@
     "yahad": 2273,
     "shas": 2075,
     "cluster": 4,
-    "population": 27629
+    "population": 27629,
+    "": ""
   },
   {
-    "city": "χγεξιν",
+    "city": "Χ§Χ“Χ•ΧΧ™Χ",
     "eligible": 2382,
     "votes": 2043,
     "avoda": 5,
@@ -2961,10 +3116,11 @@
     "yahad": 228,
     "shas": 18,
     "cluster": 5,
-    "population": 3524
+    "population": 3524,
+    "": ""
   },
   {
-    "city": "χγιξδ-φεψο",
+    "city": "Χ§Χ“Χ™ΧΧ”-Χ¦Χ•Χ¨Χ",
     "eligible": 13273,
     "votes": 10243,
     "avoda": 3293,
@@ -2980,10 +3136,11 @@
     "yahad": 101,
     "shas": 478,
     "cluster": 7,
-    "population": 16472
+    "population": 16472,
+    "": ""
   },
   {
-    "city": "χμπρεεδ",
+    "city": "Χ§ΧΧ Χ΅Χ•Χ•Χ”",
     "eligible": 12163,
     "votes": 8508,
     "avoda": 71,
@@ -2999,10 +3156,11 @@
     "yahad": 1,
     "shas": 4,
     "cluster": 2,
-    "population": 18162
+    "population": 18162,
+    "": ""
   },
   {
-    "city": "χφψιο",
+    "city": "Χ§Χ¦Χ¨Χ™Χ",
     "eligible": 5769,
     "votes": 3491,
     "avoda": 463,
@@ -3018,10 +3176,11 @@
     "yahad": 138,
     "shas": 83,
     "cluster": 5,
-    "population": 6342
+    "population": 6342,
+    "": ""
   },
   {
-    "city": "χψπι ωεξψεο",
+    "city": "Χ§Χ¨Χ Χ™ Χ©Χ•ΧΧ¨Χ•Χ",
     "eligible": 4757,
     "votes": 3650,
     "avoda": 87,
@@ -3037,10 +3196,11 @@
     "yahad": 277,
     "shas": 82,
     "cluster": 6,
-    "population": 5703
+    "population": 5703,
+    "": ""
   },
   {
-    "city": "ψΰξδ",
+    "city": "Χ¨ΧΧΧ”",
     "eligible": 5935,
     "votes": 3495,
     "avoda": 505,
@@ -3056,10 +3216,11 @@
     "yahad": 3,
     "shas": 183,
     "cluster": 4,
-    "population": 7150
+    "population": 7150,
+    "": ""
   },
   {
-    "city": "ψΰω δςιο",
+    "city": "Χ¨ΧΧ© Χ”ΧΆΧ™Χ",
     "eligible": 30473,
     "votes": 23629,
     "avoda": 4526,
@@ -3075,10 +3236,11 @@
     "yahad": 976,
     "shas": 1520,
     "cluster": 6,
-    "population": 37670
+    "population": 37670,
+    "": ""
   },
   {
-    "city": "ψΰω τιπδ",
+    "city": "Χ¨ΧΧ© Χ¤Χ™Χ Χ”",
     "eligible": 2170,
     "votes": 1609,
     "avoda": 615,
@@ -3094,10 +3256,11 @@
     "yahad": 45,
     "shas": 16,
     "cluster": 7,
-    "population": 2624
+    "population": 2624,
+    "": ""
   },
   {
-    "city": "ψΰωεο μφιεο",
+    "city": "Χ¨ΧΧ©Χ•Χ ΧΧ¦Χ™Χ•Χ",
     "eligible": 195958,
     "votes": 137462,
     "avoda": 31492,
@@ -3113,10 +3276,11 @@
     "yahad": 2258,
     "shas": 4095,
     "cluster": 6,
-    "population": 224253
+    "population": 224253,
+    "": ""
   },
   {
-    "city": "ψδθ",
+    "city": "Χ¨Χ”Χ",
     "eligible": 26511,
     "votes": 14851,
     "avoda": 311,
@@ -3132,10 +3296,11 @@
     "yahad": 21,
     "shas": 68,
     "cluster": 2,
-    "population": 49910
+    "population": 49910,
+    "": ""
   },
   {
-    "city": "ψηεαεϊ",
+    "city": "Χ¨Χ—Χ•Χ‘Χ•Χª",
     "eligible": 98300,
     "votes": 69179,
     "avoda": 14317,
@@ -3151,10 +3316,11 @@
     "yahad": 3050,
     "shas": 3332,
     "cluster": 6,
-    "population": 108763
+    "population": 108763,
+    "": ""
   },
   {
-    "city": "ψιιπδ",
+    "city": "Χ¨Χ™Χ™Χ Χ”",
     "eligible": 10217,
     "votes": 6431,
     "avoda": 168,
@@ -3170,10 +3336,11 @@
     "yahad": 2,
     "shas": 9,
     "cluster": 3,
-    "population": 17067
+    "population": 17067,
+    "": ""
   },
   {
-    "city": "ψλριν",
+    "city": "Χ¨Χ›Χ΅Χ™Χ",
     "eligible": 5461,
     "votes": 4635,
     "avoda": 66,
@@ -3189,10 +3356,11 @@
     "yahad": 166,
     "shas": 1754,
     "cluster": 2,
-    "population": 8150
+    "population": 8150,
+    "": ""
   },
   {
-    "city": "ψξμδ",
+    "city": "Χ¨ΧΧΧ”",
     "eligible": 52690,
     "votes": 33263,
     "avoda": 2692,
@@ -3208,10 +3376,11 @@
     "yahad": 607,
     "shas": 2989,
     "cluster": 4,
-    "population": 61160
+    "population": 61160,
+    "": ""
   },
   {
-    "city": "ψξϊ βο",
+    "city": "Χ¨ΧΧª Χ’Χ",
     "eligible": 123618,
     "votes": 84910,
     "avoda": 26515,
@@ -3227,10 +3396,11 @@
     "yahad": 1205,
     "shas": 2661,
     "cluster": 7,
-    "population": 140200
+    "population": 140200,
+    "": ""
   },
   {
-    "city": "ψξϊ δωψεο",
+    "city": "Χ¨ΧΧª Χ”Χ©Χ¨Χ•Χ",
     "eligible": 35514,
     "votes": 26587,
     "avoda": 11767,
@@ -3246,10 +3416,11 @@
     "yahad": 249,
     "shas": 498,
     "cluster": 9,
-    "population": 38062
+    "population": 38062,
+    "": ""
   },
   {
-    "city": "ψξϊ ιωι",
+    "city": "Χ¨ΧΧª Χ™Χ©Χ™",
     "eligible": 5433,
     "votes": 4192,
     "avoda": 1562,
@@ -3265,10 +3436,11 @@
     "yahad": 53,
     "shas": 41,
     "cluster": 8,
-    "population": 6155
+    "population": 6155,
+    "": ""
   },
   {
-    "city": "ψςππδ",
+    "city": "Χ¨ΧΆΧ Χ Χ”",
     "eligible": 60923,
     "votes": 42753,
     "avoda": 14117,
@@ -3284,10 +3456,11 @@
     "yahad": 974,
     "shas": 882,
     "cluster": 8,
-    "population": 66558
+    "population": 66558,
+    "": ""
   },
   {
-    "city": "ωαμι - ΰεν ΰμ-βπν",
+    "city": "Χ©Χ‘ΧΧ™ - ΧΧ•Χ ΧΧ-Χ’Χ Χ",
     "eligible": 3586,
     "votes": 2073,
     "avoda": 199,
@@ -3303,10 +3476,11 @@
     "yahad": 3,
     "shas": 3,
     "cluster": 2,
-    "population": 4858
+    "population": 4858,
+    "": ""
   },
   {
-    "city": "ωβα-ωμεν",
+    "city": "Χ©Χ’Χ‘-Χ©ΧΧ•Χ",
     "eligible": 3761,
     "votes": 1878,
     "avoda": 30,
@@ -3322,10 +3496,11 @@
     "yahad": 2,
     "shas": 30,
     "cluster": 2,
-    "population": 7023
+    "population": 7023,
+    "": ""
   },
   {
-    "city": "ωγψεϊ",
+    "city": "Χ©Χ“Χ¨Χ•Χª",
     "eligible": 17460,
     "votes": 10732,
     "avoda": 806,
@@ -3341,10 +3516,11 @@
     "yahad": 560,
     "shas": 840,
     "cluster": 4,
-    "population": 20346
+    "population": 20346,
+    "": ""
   },
   {
-    "city": "ωεδν",
+    "city": "Χ©Χ•Χ”Χ",
     "eligible": 13852,
     "votes": 11110,
     "avoda": 3491,
@@ -3360,10 +3536,11 @@
     "yahad": 117,
     "shas": 115,
     "cluster": 8,
-    "population": 17888
+    "population": 17888,
+    "": ""
   },
   {
-    "city": "ωμεξι",
+    "city": "Χ©ΧΧ•ΧΧ™",
     "eligible": 4828,
     "votes": 3286,
     "avoda": 381,
@@ -3379,10 +3556,11 @@
     "yahad": 56,
     "shas": 326,
     "cluster": 5,
-    "population": 5840
+    "population": 5840,
+    "": ""
   },
   {
-    "city": "ωςα",
+    "city": "Χ©ΧΆΧ‘",
     "eligible": 4249,
     "votes": 3193,
     "avoda": 142,
@@ -3398,10 +3576,11 @@
     "yahad": 1,
     "shas": 50,
     "cluster": 2,
-    "population": 5820
+    "population": 5820,
+    "": ""
   },
   {
-    "city": "ωτιψ",
+    "city": "Χ©Χ¤Χ™Χ¨",
     "eligible": 469,
     "votes": 397,
     "avoda": 58,
@@ -3417,10 +3596,11 @@
     "yahad": 28,
     "shas": 14,
     "cluster": 5,
-    "population": 8248
+    "population": 8248,
+    "": ""
   },
   {
-    "city": "ωτψςν",
+    "city": "Χ©Χ¤Χ¨ΧΆΧ",
     "eligible": 25674,
     "votes": 14930,
     "avoda": 724,
@@ -3436,10 +3616,11 @@
     "yahad": 7,
     "shas": 54,
     "cluster": 3,
-    "population": 35606
+    "population": 35606,
+    "": ""
   },
   {
-    "city": "ϊμ ξεπγ",
+    "city": "ΧªΧ ΧΧ•Χ Χ“",
     "eligible": 8052,
     "votes": 6224,
     "avoda": 2147,
@@ -3455,10 +3636,11 @@
     "yahad": 96,
     "shas": 114,
     "cluster": 9,
-    "population": 9997
+    "population": 9997,
+    "": ""
   },
   {
-    "city": "ϊμ ωας",
+    "city": "ΧªΧ Χ©Χ‘ΧΆ",
     "eligible": 7714,
     "votes": 3534,
     "avoda": 22,
@@ -3474,6 +3656,7 @@
     "yahad": 6,
     "shas": 54,
     "cluster": 1,
-    "population": 14643
+    "population": 14643,
+    "": ""
   }
 ]
