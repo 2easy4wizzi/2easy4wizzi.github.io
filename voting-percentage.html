@@ -33,18 +33,18 @@
             width = 960 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
 
-    var x = d3.scale.ordinal()
+    var xScale = d3.scale.ordinal()
             .rangeRoundBands([0, width], .1);
 
-    var y = d3.scale.linear()
+    var yScale = d3.scale.linear()
             .range([height, 0]);
 
     var xAxis = d3.svg.axis()
-            .scale(x)
+            .scale(xScale)
             .orient("bottom");
 
     var yAxis = d3.svg.axis()
-            .scale(y)
+            .scale(yScale)
             .orient("left")
             .ticks(10, "%");
 
@@ -61,9 +61,17 @@
         console.log(data);
         console.log(header_data);
 
-        x.domain(data.map(function(d) { return d.cluster; }));  // social classes
-        y.domain([0, d3.max(data, function(d) { return d.votes/d.eligible; })]);
-//        y.domain([0, 1]);
+        var votingDataByCluster = d3.nest()
+                .key(function (d) {return d.cluster;})
+                .rollup(function (cities) {
+                    return d3.sum(cities, function(g) {return g.votes}) / d3.sum(cities, function(g) {return g.eligible})
+                })
+                .entries(data);
+        console.log(votingDataByCluster);
+//        xScale.domain(data.map(function(d) { return d.key; }));
+        xScale.domain(d3.range(1, 11, 1));   // social classes [1,...,10]
+//            y.domain([0, d3.max(data, function(d) { return d.votes/d.eligible; })]);
+        yScale.domain([0, 1]);
 
         svg.append("g")
                 .attr("class", "x axis")
@@ -81,12 +89,13 @@
                 .text("Voting Percentage");
 
         svg.selectAll(".bar")
-                .data(data)
-                .enter().append("rect")
+                .data(votingDataByCluster)
+                .enter()
+                .append("rect")
                 .attr("class", "bar")
-                .attr("x", function(d) { return x(d.cluster); })
-                .attr("width", x.rangeBand())
-                .attr("y", function(d) { return y(d.votes/d.eligible); })
-                .attr("height", function(d) { return height - y(d.votes/d.eligible); });
+                .attr("x", function(d) { return xScale(d.key); })
+                .attr("width", xScale.rangeBand())
+                .attr("y", function(d) { return yScale(d.values); })
+                .attr("height", function(d) { return height - yScale(d.values); });
     });
 </script>
