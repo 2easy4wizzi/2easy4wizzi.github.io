@@ -27,7 +27,7 @@
 
 </style>
 <body>
-<script src="dependencies/d3.min.js"></script>
+<script src="../dependencies/d3.min.js"></script>
 <script>
     var margin = {top: 20, right: 20, bottom: 30, left: 40},
             width = 960 - margin.left - margin.right,
@@ -36,7 +36,9 @@
     var x = d3.scale.ordinal() //empty scale
             .rangeRoundBands([0, width], .1);
 
-    var y = d3.scale.linear() //linear scale
+    var y = d3.scale.linear()
+            //linear scale
+            .domain([0,1])
             .range([height, 0]);
 
     var xAxis = d3.svg.axis() //set x to  be bottom
@@ -54,32 +56,39 @@
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    d3.json("data-set-elections/electionAndEconomicData.json", function(error, data) {
+    d3.json("../data-set-elections/electionAndEconomicData.json", function(error, data) {
         if (error) throw error;
         header_data = data.splice(0,3);
 
-        console.log(data);
-        console.log(header_data);
-        //alert(JSON.stringify(header_data[0].city));
-        data.map(function(d)
+//        console.log(data);
+//        console.log("header data[0]:" + JSON.stringify(header_data[0]));
+//        console.log("header data[1]:" + JSON.stringify(header_data[1]));
+//        console.log("header data[2]:" + JSON.stringify(header_data[2]));
+//        //alert(JSON.stringify(header_data[0].city));
+        var cluster = data.map(function(d)
         {
             //console.log(d.city=="רהט");
             if(d.city=="רהט")
             {
-                console.log("boom");
+                //console.log("boom");
                 return d.cluster;
             }
             else
             {
-                return 0;
+                return "";
             }
         });
+
+//        console.log("cluster: " + cluster);
         var temp = (data.filter(function(d){return d.city=="רהט" || d.city=="חיפה" }));
-        console.log("temp value is " + temp);
-        console.log("city: " + temp[0].city + ", votes: " + temp[0].votes);
-        x.domain(data.map(function(d) { return d.cluster; }));  // social classes
-        y.domain([0, d3.max(data, function(d) { return d.votes/d.eligible; })]);
-//        y.domain([0, 1]);
+//        console.log("temp[0] -- city: " + temp[0].city + ", votes: " + temp[0].votes);
+//        console.log("temp[1] -- city: " + temp[1].city + ", votes: " + temp[1].votes);
+        x.domain(d3.range(1,11,1));  // social classes
+var range = d3.range(1,11,1);
+        console.log("this is what x.domain got: " + range);
+//        y.domain([0, d3.max(data, function(d) { return d.votes/d.eligible; })]);
+        console.log("this is what y.domain got: " +[0, 1])
+       y.domain([0, 1]);
 
         svg.append("g")
                 .attr("class", "x axis")
@@ -95,6 +104,8 @@
                 .attr("dy", ".71em")
                 .style("text-anchor", "end")
                 .text("Voting Percentage");
+
+
 
         svg.selectAll(".bar")
                 .data(data)
