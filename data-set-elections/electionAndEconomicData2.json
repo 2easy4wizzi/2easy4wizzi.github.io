@@ -1,22 +1,22 @@
 [
   {
-    "city": "ςιψ",
-    "eligible": "αζα",
-    "votes": "δφαςδ",
-    "avoda": "δξηπδ δφιεπι",
-    "yahadut": "ιδγεϊ δϊεψδ",
-    "reshima": "δψωιξδ δξωεϊτϊ",
-    "benet": "δαιϊ διδεγι",
-    "kulanu": "λεμπε",
-    "beytenu": "ιωψΰμ αιϊπε",
-    "likud": "δμιλεγ",
-    "merets": "ξψυ",
-    "atid": "ιω ςϊιγ",
-    "yarok": "ςμδ ιψεχ",
-    "yahad": "ιηγ",
-    "shas": "ω\"ρ",
-    "cluster": "χμΰρθψ",
-    "population": "ΰελμεριδ",
+    "city": "ΧΆΧ™Χ¨",
+    "eligible": "Χ‘Χ–Χ‘",
+    "votes": "Χ”Χ¦Χ‘ΧΆΧ”",
+    "avoda": "Χ”ΧΧ—Χ Χ” Χ”Χ¦Χ™Χ•Χ Χ™",
+    "yahadut": "Χ™Χ”Χ“Χ•Χª Χ”ΧªΧ•Χ¨Χ”",
+    "reshima": "Χ”Χ¨Χ©Χ™ΧΧ” Χ”ΧΧ©Χ•ΧªΧ¤Χª",
+    "benet": "Χ”Χ‘Χ™Χª Χ”Χ™Χ”Χ•Χ“Χ™",
+    "kulanu": "Χ›Χ•ΧΧ Χ•",
+    "beytenu": "Χ™Χ©Χ¨ΧΧ Χ‘Χ™ΧªΧ Χ•",
+    "likud": "Χ”ΧΧ™Χ›Χ•Χ“",
+    "merets": "ΧΧ¨Χ¥",
+    "atid": "Χ™Χ© ΧΆΧªΧ™Χ“",
+    "yarok": "ΧΆΧΧ” Χ™Χ¨Χ•Χ§",
+    "yahad": "Χ™Χ—Χ“",
+    "shas": "Χ©\"Χ΅",
+    "cluster": "Χ§ΧΧΧ΅ΧΧ¨",
+    "population": "ΧΧ•Χ›ΧΧ•Χ΅Χ™Χ”",
     "right_attitude": ""
   },
   {
@@ -60,7 +60,7 @@
     "right_attitude": ""
   },
   {
-    "city": "ΰαε βεω",
+    "city": "ΧΧ‘Χ• Χ’Χ•Χ©",
     "eligible": 4178,
     "votes": 2452,
     "avoda": 143,
@@ -80,7 +80,7 @@
     "right_attitude": 466.225
   },
   {
-    "city": "ΰαε ρπΰο",
+    "city": "ΧΧ‘Χ• Χ΅Χ ΧΧ",
     "eligible": 8363,
     "votes": 5678,
     "avoda": 299,
@@ -100,7 +100,7 @@
     "right_attitude": 1634.575
   },
   {
-    "city": "ΰαο ιδεγδ",
+    "city": "ΧΧ‘Χ Χ™Χ”Χ•Χ“Χ”",
     "eligible": 9206,
     "votes": 7227,
     "avoda": 2739,
@@ -120,7 +120,7 @@
     "right_attitude": 3675.825
   },
   {
-    "city": "ΰεν ΰμ-την",
+    "city": "ΧΧ•Χ ΧΧ-Χ¤Χ—Χ",
     "eligible": 30363,
     "votes": 20246,
     "avoda": 69,
@@ -140,7 +140,7 @@
     "right_attitude": 3032.575
   },
   {
-    "city": "ΰετχιν",
+    "city": "ΧΧ•Χ¤Χ§Χ™Χ",
     "eligible": 18915,
     "votes": 12411,
     "avoda": 650,
@@ -160,7 +160,7 @@
     "right_attitude": 7564.325
   },
   {
-    "city": "ΰεψ ιδεγδ",
+    "city": "ΧΧ•Χ¨ Χ™Χ”Χ•Χ“Χ”",
     "eligible": 26366,
     "votes": 18472,
     "avoda": 2250,
@@ -180,7 +180,7 @@
     "right_attitude": 12258.125
   },
   {
-    "city": "ΰεψ ςχιαΰ",
+    "city": "ΧΧ•Χ¨ ΧΆΧ§Χ™Χ‘Χ",
     "eligible": 14611,
     "votes": 9257,
     "avoda": 577,
@@ -200,7 +200,7 @@
     "right_attitude": 6656.875
   },
   {
-    "city": "ΰεψπιϊ",
+    "city": "ΧΧ•Χ¨Χ Χ™Χª",
     "eligible": 5690,
     "votes": 4638,
     "avoda": 1003,
@@ -220,7 +220,7 @@
     "right_attitude": 2840.4
   },
   {
-    "city": "ΰζεψ",
+    "city": "ΧΧ–Χ•Χ¨",
     "eligible": 9238,
     "votes": 6447,
     "avoda": 1407,
@@ -240,7 +240,7 @@
     "right_attitude": 3973.85
   },
   {
-    "city": "ΰιμϊ",
+    "city": "ΧΧ™ΧΧª",
     "eligible": 47042,
     "votes": 22736,
     "avoda": 3881,
@@ -260,7 +260,7 @@
     "right_attitude": 14989.175
   },
   {
-    "city": "ΰλρΰμ",
+    "city": "ΧΧ›Χ΅ΧΧ",
     "eligible": 8279,
     "votes": 5412,
     "avoda": 34,
@@ -280,7 +280,7 @@
     "right_attitude": 873.1
   },
   {
-    "city": "ΰμιλιο",
+    "city": "ΧΧΧ™Χ›Χ™Χ",
     "eligible": 2459,
     "votes": 1934,
     "avoda": 286,
@@ -300,7 +300,7 @@
     "right_attitude": 1298.075
   },
   {
-    "city": "ΰμςγ",
+    "city": "ΧΧΧΆΧ“",
     "eligible": 17047,
     "votes": 14856,
     "avoda": 30,
@@ -320,7 +320,7 @@
     "right_attitude": 6568.75
   },
   {
-    "city": "ΰμτι ξπωδ",
+    "city": "ΧΧΧ¤Χ™ ΧΧ Χ©Χ”",
     "eligible": 5366,
     "votes": 4230,
     "avoda": 879,
@@ -340,7 +340,7 @@
     "right_attitude": 2663.925
   },
   {
-    "city": "ΰμχπδ",
+    "city": "ΧΧΧ§Χ Χ”",
     "eligible": 2455,
     "votes": 2092,
     "avoda": 22,
@@ -360,7 +360,7 @@
     "right_attitude": 1538.175
   },
   {
-    "city": "ΰςαμιο",
+    "city": "ΧΧΆΧ‘ΧΧ™Χ",
     "eligible": 8040,
     "votes": 4812,
     "avoda": 436,
@@ -380,7 +380,7 @@
     "right_attitude": 919.475
   },
   {
-    "city": "ΰψιΰμ",
+    "city": "ΧΧ¨Χ™ΧΧ",
     "eligible": 14190,
     "votes": 9685,
     "avoda": 432,
@@ -400,7 +400,7 @@
     "right_attitude": 7179.775
   },
   {
-    "city": "ΰωγεγ",
+    "city": "ΧΧ©Χ“Χ•Χ“",
     "eligible": 170193,
     "votes": 112861,
     "avoda": 9694,
@@ -420,7 +420,7 @@
     "right_attitude": 71475.725
   },
   {
-    "city": "ΰωχμεο",
+    "city": "ΧΧ©Χ§ΧΧ•Χ",
     "eligible": 102360,
     "votes": 64079,
     "avoda": 6263,
@@ -440,7 +440,7 @@
     "right_attitude": 43624.425
   },
   {
-    "city": "αΰχδ ΰμ-βψαιδ",
+    "city": "Χ‘ΧΧ§Χ” ΧΧ-Χ’Χ¨Χ‘Χ™Χ”",
     "eligible": 16410,
     "votes": 9975,
     "avoda": 259,
@@ -460,7 +460,7 @@
     "right_attitude": 1515.175
   },
   {
-    "city": "αΰψ θεαιδ",
+    "city": "Χ‘ΧΧ¨ ΧΧ•Χ‘Χ™Χ”",
     "eligible": 661,
     "votes": 541,
     "avoda": 326,
@@ -480,7 +480,7 @@
     "right_attitude": 211.4
   },
   {
-    "city": "αΰψ ιςχα",
+    "city": "Χ‘ΧΧ¨ Χ™ΧΆΧ§Χ‘",
     "eligible": 10833,
     "votes": 8423,
     "avoda": 1754,
@@ -500,7 +500,7 @@
     "right_attitude": 5273.85
   },
   {
-    "city": "αΰψ ωας",
+    "city": "Χ‘ΧΧ¨ Χ©Χ‘ΧΆ",
     "eligible": 156696,
     "votes": 96735,
     "avoda": 11887,
@@ -520,7 +520,7 @@
     "right_attitude": 64443.4
   },
   {
-    "city": "αεςιιπδ-πεβ'ιγΰϊ",
+    "city": "Χ‘Χ•ΧΆΧ™Χ™Χ Χ”-Χ Χ•Χ’'Χ™Χ“ΧΧª",
     "eligible": 5550,
     "votes": 3356,
     "avoda": 112,
@@ -540,7 +540,7 @@
     "right_attitude": 570.575
   },
   {
-    "city": "αεχςΰϊΰ",
+    "city": "Χ‘Χ•Χ§ΧΆΧΧªΧ",
     "eligible": 363,
     "votes": 17,
     "avoda": 4,
@@ -560,7 +560,7 @@
     "right_attitude": 10.25
   },
   {
-    "city": "αιψ ΰμ-ξλρεψ",
+    "city": "Χ‘Χ™Χ¨ ΧΧ-ΧΧ›Χ΅Χ•Χ¨",
     "eligible": 5562,
     "votes": 2616,
     "avoda": 226,
@@ -580,7 +580,7 @@
     "right_attitude": 638.5
   },
   {
-    "city": "αιϊ ΰμ",
+    "city": "Χ‘Χ™Χª ΧΧ",
     "eligible": 3210,
     "votes": 2718,
     "avoda": 5,
@@ -600,7 +600,7 @@
     "right_attitude": 1814.15
   },
   {
-    "city": "αιϊ ΰψιδ",
+    "city": "Χ‘Χ™Χª ΧΧ¨Χ™Χ”",
     "eligible": 3082,
     "votes": 2398,
     "avoda": 261,
@@ -620,7 +620,7 @@
     "right_attitude": 1706.875
   },
   {
-    "city": "αιϊ β'ο",
+    "city": "Χ‘Χ™Χª Χ’'Χ",
     "eligible": 7819,
     "votes": 4123,
     "avoda": 1902,
@@ -640,7 +640,7 @@
     "right_attitude": 1785.325
   },
   {
-    "city": "αιϊ γβο",
+    "city": "Χ‘Χ™Χª Χ“Χ’Χ",
     "eligible": 4833,
     "votes": 3747,
     "avoda": 591,
@@ -660,7 +660,7 @@
     "right_attitude": 2509
   },
   {
-    "city": "αιϊ ωΰο",
+    "city": "Χ‘Χ™Χª Χ©ΧΧ",
     "eligible": 13392,
     "votes": 9275,
     "avoda": 467,
@@ -680,7 +680,7 @@
     "right_attitude": 6539.1
   },
   {
-    "city": "αιϊ ωξω",
+    "city": "Χ‘Χ™Χª Χ©ΧΧ©",
     "eligible": 50926,
     "votes": 33813,
     "avoda": 1111,
@@ -700,7 +700,7 @@
     "right_attitude": 19732.6
   },
   {
-    "city": "αιϊψ ςιμιϊ",
+    "city": "Χ‘Χ™ΧªΧ¨ ΧΆΧ™ΧΧ™Χª",
     "eligible": 19103,
     "votes": 15954,
     "avoda": 22,
@@ -720,7 +720,7 @@
     "right_attitude": 6557.325
   },
   {
-    "city": "απι αψχ",
+    "city": "Χ‘Χ Χ™ Χ‘Χ¨Χ§",
     "eligible": 101291,
     "votes": 78513,
     "avoda": 1004,
@@ -740,7 +740,7 @@
     "right_attitude": 34254.125
   },
   {
-    "city": "απι ςι\"ω",
+    "city": "Χ‘Χ Χ™ ΧΆΧ™\"Χ©",
     "eligible": 5747,
     "votes": 3960,
     "avoda": 268,
@@ -760,7 +760,7 @@
     "right_attitude": 2671.85
   },
   {
-    "city": "απιξιπδ-βαςϊ ςγδ",
+    "city": "Χ‘Χ Χ™ΧΧ™Χ Χ”-Χ’Χ‘ΧΆΧª ΧΆΧ“Χ”",
     "eligible": 9165,
     "votes": 6952,
     "avoda": 2671,
@@ -780,7 +780,7 @@
     "right_attitude": 3409.95
   },
   {
-    "city": "αρξ\"δ",
+    "city": "Χ‘Χ΅Χ\"Χ”",
     "eligible": 5446,
     "votes": 3531,
     "avoda": 35,
@@ -800,7 +800,7 @@
     "right_attitude": 568.8
   },
   {
-    "city": "αρξϊ θαςεο",
+    "city": "Χ‘Χ΅ΧΧª ΧΧ‘ΧΆΧ•Χ",
     "eligible": 4656,
     "votes": 2259,
     "avoda": 170,
@@ -820,7 +820,7 @@
     "right_attitude": 501.725
   },
   {
-    "city": "αςπδ",
+    "city": "Χ‘ΧΆΧ Χ”",
     "eligible": 4832,
     "votes": 3808,
     "avoda": 12,
@@ -840,7 +840,7 @@
     "right_attitude": 597.275
   },
   {
-    "city": "αϊ ιν",
+    "city": "Χ‘Χª Χ™Χ",
     "eligible": 124035,
     "votes": 67961,
     "avoda": 9942,
@@ -860,7 +860,7 @@
     "right_attitude": 44336.35
   },
   {
-    "city": "β'γιιγδ-ξλψ",
+    "city": "Χ’'Χ“Χ™Χ™Χ“Χ”-ΧΧ›Χ¨",
     "eligible": 12533,
     "votes": 8533,
     "avoda": 195,
@@ -880,7 +880,7 @@
     "right_attitude": 1358.425
   },
   {
-    "city": "β'εμρ",
+    "city": "Χ’'Χ•ΧΧ΅",
     "eligible": 4233,
     "votes": 2485,
     "avoda": 1036,
@@ -900,7 +900,7 @@
     "right_attitude": 1246.15
   },
   {
-    "city": "β'μβ'εμιδ",
+    "city": "Χ’'ΧΧ’'Χ•ΧΧ™Χ”",
     "eligible": 5410,
     "votes": 4411,
     "avoda": 239,
@@ -920,7 +920,7 @@
     "right_attitude": 695.65
   },
   {
-    "city": "β'ρψ ΰ-ζψχΰ",
+    "city": "Χ’'Χ΅Χ¨ Χ-Χ–Χ¨Χ§Χ",
     "eligible": 7792,
     "votes": 4470,
     "avoda": 124,
@@ -940,7 +940,7 @@
     "right_attitude": 879.05
   },
   {
-    "city": "β'ω (βεω ημα)",
+    "city": "Χ’'Χ© (Χ’Χ•Χ© Χ—ΧΧ‘)",
     "eligible": 2309,
     "votes": 1348,
     "avoda": 117,
@@ -960,7 +960,7 @@
     "right_attitude": 305.3
   },
   {
-    "city": "β'ϊ",
+    "city": "Χ’'Χª",
     "eligible": 7038,
     "votes": 3656,
     "avoda": 17,
@@ -980,7 +980,7 @@
     "right_attitude": 549.1
   },
   {
-    "city": "βαςϊ ζΰα",
+    "city": "Χ’Χ‘ΧΆΧª Χ–ΧΧ‘",
     "eligible": 10109,
     "votes": 7788,
     "avoda": 567,
@@ -1000,7 +1000,7 @@
     "right_attitude": 4917.65
   },
   {
-    "city": "βαςϊ ωξεΰμ",
+    "city": "Χ’Χ‘ΧΆΧª Χ©ΧΧ•ΧΧ",
     "eligible": 16616,
     "votes": 13203,
     "avoda": 2156,
@@ -1020,7 +1020,7 @@
     "right_attitude": 8418.225
   },
   {
-    "city": "βαςϊιιν",
+    "city": "Χ’Χ‘ΧΆΧªΧ™Χ™Χ",
     "eligible": 45863,
     "votes": 33420,
     "avoda": 13526,
@@ -1040,7 +1040,7 @@
     "right_attitude": 15942.575
   },
   {
-    "city": "βγψδ",
+    "city": "Χ’Χ“Χ¨Χ”",
     "eligible": 15469,
     "votes": 11740,
     "avoda": 2793,
@@ -1060,7 +1060,7 @@
     "right_attitude": 7146.775
   },
   {
-    "city": "βζψ",
+    "city": "Χ’Χ–Χ¨",
     "eligible": 356,
     "votes": 190,
     "avoda": 97,
@@ -1080,7 +1080,7 @@
     "right_attitude": 60.775
   },
   {
-    "city": "βο ιαπδ",
+    "city": "Χ’Χ Χ™Χ‘Χ Χ”",
     "eligible": 14381,
     "votes": 10999,
     "avoda": 2248,
@@ -1100,7 +1100,7 @@
     "right_attitude": 6975.7
   },
   {
-    "city": "βπι ϊχεεδ",
+    "city": "Χ’Χ Χ™ ΧªΧ§Χ•Χ•Χ”",
     "eligible": 11599,
     "votes": 9100,
     "avoda": 2811,
@@ -1120,7 +1120,7 @@
     "right_attitude": 4832.675
   },
   {
-    "city": "γΰμιϊ ΰμ-λψξμ",
+    "city": "Χ“ΧΧΧ™Χª ΧΧ-Χ›Χ¨ΧΧ",
     "eligible": 11579,
     "votes": 6627,
     "avoda": 1556,
@@ -1140,7 +1140,7 @@
     "right_attitude": 3952.575
   },
   {
-    "city": "γιιψ ΰμ-ΰργ",
+    "city": "Χ“Χ™Χ™Χ¨ ΧΧ-ΧΧ΅Χ“",
     "eligible": 7130,
     "votes": 5627,
     "avoda": 134,
@@ -1160,7 +1160,7 @@
     "right_attitude": 979.975
   },
   {
-    "city": "γιιψ ηπΰ",
+    "city": "Χ“Χ™Χ™Χ¨ Χ—Χ Χ",
     "eligible": 6437,
     "votes": 5286,
     "avoda": 92,
@@ -1180,7 +1180,7 @@
     "right_attitude": 895.375
   },
   {
-    "city": "γιξεπδ",
+    "city": "Χ“Χ™ΧΧ•Χ Χ”",
     "eligible": 26988,
     "votes": 16050,
     "avoda": 1258,
@@ -1200,7 +1200,7 @@
     "right_attitude": 10913.775
   },
   {
-    "city": "δεγ δωψεο",
+    "city": "Χ”Χ•Χ“ Χ”Χ©Χ¨Χ•Χ",
     "eligible": 39575,
     "votes": 30541,
     "avoda": 11920,
@@ -1220,7 +1220,7 @@
     "right_attitude": 15404.65
   },
   {
-    "city": "δψ ΰγψ",
+    "city": "Χ”Χ¨ ΧΧ“Χ¨",
     "eligible": 2668,
     "votes": 2122,
     "avoda": 824,
@@ -1240,7 +1240,7 @@
     "right_attitude": 1038.1
   },
   {
-    "city": "ζλψεο ιςχα",
+    "city": "Χ–Χ›Χ¨Χ•Χ Χ™ΧΆΧ§Χ‘",
     "eligible": 15214,
     "votes": 11645,
     "avoda": 3899,
@@ -1260,7 +1260,7 @@
     "right_attitude": 5887.8
   },
   {
-    "city": "ζξψ",
+    "city": "Χ–ΧΧ¨",
     "eligible": 4088,
     "votes": 2538,
     "avoda": 58,
@@ -1280,7 +1280,7 @@
     "right_attitude": 397.65
   },
   {
-    "city": "ζψζιψ",
+    "city": "Χ–Χ¨Χ–Χ™Χ¨",
     "eligible": 4632,
     "votes": 2152,
     "avoda": 427,
@@ -1300,7 +1300,7 @@
     "right_attitude": 563.475
   },
   {
-    "city": "ηγψδ",
+    "city": "Χ—Χ“Χ¨Χ”",
     "eligible": 69790,
     "votes": 44596,
     "avoda": 7093,
@@ -1320,7 +1320,7 @@
     "right_attitude": 29222.4
   },
   {
-    "city": "ηεμεο",
+    "city": "Χ—Χ•ΧΧ•Χ",
     "eligible": 154550,
     "votes": 101813,
     "avoda": 20535,
@@ -1340,7 +1340,7 @@
     "right_attitude": 63508.725
   },
   {
-    "city": "ηεψδ",
+    "city": "Χ—Χ•Χ¨Χ”",
     "eligible": 6037,
     "votes": 3013,
     "avoda": 118,
@@ -1360,7 +1360,7 @@
     "right_attitude": 501.875
   },
   {
-    "city": "ηεψτιω",
+    "city": "Χ—Χ•Χ¨Χ¤Χ™Χ©",
     "eligible": 4086,
     "votes": 2138,
     "avoda": 345,
@@ -1380,7 +1380,7 @@
     "right_attitude": 1221.225
   },
   {
-    "city": "ηιτδ",
+    "city": "Χ—Χ™Χ¤Χ”",
     "eligible": 243274,
     "votes": 149021,
     "avoda": 37805,
@@ -1400,7 +1400,7 @@
     "right_attitude": 78645.3
   },
   {
-    "city": "ηφεψ δβμιμιϊ",
+    "city": "Χ—Χ¦Χ•Χ¨ Χ”Χ’ΧΧ™ΧΧ™Χª",
     "eligible": 6885,
     "votes": 4860,
     "avoda": 295,
@@ -1420,7 +1420,7 @@
     "right_attitude": 3287.675
   },
   {
-    "city": "θαψιδ",
+    "city": "ΧΧ‘Χ¨Χ™Χ”",
     "eligible": 33447,
     "votes": 20184,
     "avoda": 1520,
@@ -1440,7 +1440,7 @@
     "right_attitude": 13781.725
   },
   {
-    "city": "θεψςΰο",
+    "city": "ΧΧ•Χ¨ΧΆΧΧ",
     "eligible": 8160,
     "votes": 5250,
     "avoda": 109,
@@ -1460,7 +1460,7 @@
     "right_attitude": 849.275
   },
   {
-    "city": "θιιαδ",
+    "city": "ΧΧ™Χ™Χ‘Χ”",
     "eligible": 24480,
     "votes": 17820,
     "avoda": 165,
@@ -1480,7 +1480,7 @@
     "right_attitude": 2740.05
   },
   {
-    "city": "θιψδ",
+    "city": "ΧΧ™Χ¨Χ”",
     "eligible": 16091,
     "votes": 11553,
     "avoda": 121,
@@ -1500,7 +1500,7 @@
     "right_attitude": 1743.025
   },
   {
-    "city": "θιψϊ λψξμ",
+    "city": "ΧΧ™Χ¨Χª Χ›Χ¨ΧΧ",
     "eligible": 16155,
     "votes": 10546,
     "avoda": 948,
@@ -1520,7 +1520,7 @@
     "right_attitude": 7551.35
   },
   {
-    "city": "θξψδ",
+    "city": "ΧΧΧ¨Χ”",
     "eligible": 19804,
     "votes": 15580,
     "avoda": 161,
@@ -1540,7 +1540,7 @@
     "right_attitude": 2437.55
   },
   {
-    "city": "ιΰπεη-β'ϊ",
+    "city": "Χ™ΧΧ Χ•Χ—-Χ’'Χª",
     "eligible": 4016,
     "votes": 2136,
     "avoda": 254,
@@ -1560,7 +1560,7 @@
     "right_attitude": 1301.225
   },
   {
-    "city": "ιαπΰμ",
+    "city": "Χ™Χ‘Χ ΧΧ",
     "eligible": 2350,
     "votes": 1766,
     "avoda": 197,
@@ -1580,7 +1580,7 @@
     "right_attitude": 968.975
   },
   {
-    "city": "ιαπδ",
+    "city": "Χ™Χ‘Χ Χ”",
     "eligible": 29669,
     "votes": 21841,
     "avoda": 3897,
@@ -1600,7 +1600,7 @@
     "right_attitude": 13952.4
   },
   {
-    "city": "ιρεγ δξςμδ",
+    "city": "Χ™Χ΅Χ•Χ“ Χ”ΧΧΆΧΧ”",
     "eligible": 1121,
     "votes": 852,
     "avoda": 356,
@@ -1620,7 +1620,7 @@
     "right_attitude": 440.2
   },
   {
-    "city": "ιτις",
+    "city": "Χ™Χ¤Χ™ΧΆ",
     "eligible": 11578,
     "votes": 7327,
     "avoda": 277,
@@ -1640,7 +1640,7 @@
     "right_attitude": 1308.925
   },
   {
-    "city": "ιχπςν ςιμιϊ",
+    "city": "Χ™Χ§Χ ΧΆΧ ΧΆΧ™ΧΧ™Χª",
     "eligible": 15429,
     "votes": 10993,
     "avoda": 1921,
@@ -1660,7 +1660,7 @@
     "right_attitude": 7119.4
   },
   {
-    "city": "ιψεην",
+    "city": "Χ™Χ¨Χ•Χ—Χ",
     "eligible": 6545,
     "votes": 4101,
     "avoda": 333,
@@ -1680,7 +1680,7 @@
     "right_attitude": 2657.375
   },
   {
-    "city": "ιψεωμιν",
+    "city": "Χ™Χ¨Χ•Χ©ΧΧ™Χ",
     "eligible": 385888,
     "votes": 254359,
     "avoda": 24696,
@@ -1700,7 +1700,7 @@
     "right_attitude": 140182.625
   },
   {
-    "city": "ιψλΰ",
+    "city": "Χ™Χ¨Χ›Χ",
     "eligible": 9360,
     "votes": 5990,
     "avoda": 685,
@@ -1720,7 +1720,7 @@
     "right_attitude": 2201.875
   },
   {
-    "city": "λΰαεμ",
+    "city": "Χ›ΧΧ‘Χ•Χ",
     "eligible": 6993,
     "votes": 5721,
     "avoda": 20,
@@ -1740,7 +1740,7 @@
     "right_attitude": 876.675
   },
   {
-    "city": "λελα ιΰιψ",
+    "city": "Χ›Χ•Χ›Χ‘ Χ™ΧΧ™Χ¨",
     "eligible": 7776,
     "votes": 6069,
     "avoda": 2405,
@@ -1760,7 +1760,7 @@
     "right_attitude": 3050.025
   },
   {
-    "city": "λριτδ",
+    "city": "Χ›Χ΅Χ™Χ¤Χ”",
     "eligible": 6660,
     "votes": 3097,
     "avoda": 146,
@@ -1780,7 +1780,7 @@
     "right_attitude": 673.9
   },
   {
-    "city": "λρψΰ-ρξις",
+    "city": "Χ›Χ΅Χ¨Χ-Χ΅ΧΧ™ΧΆ",
     "eligible": 4967,
     "votes": 3196,
     "avoda": 632,
@@ -1800,7 +1800,7 @@
     "right_attitude": 1715.25
   },
   {
-    "city": "λτψ αψΰ",
+    "city": "Χ›Χ¤Χ¨ Χ‘Χ¨Χ",
     "eligible": 1903,
     "votes": 1433,
     "avoda": 9,
@@ -1820,7 +1820,7 @@
     "right_attitude": 208.275
   },
   {
-    "city": "λτψ εψγιν",
+    "city": "Χ›Χ¤Χ¨ Χ•Χ¨Χ“Χ™Χ",
     "eligible": 4400,
     "votes": 3269,
     "avoda": 1572,
@@ -1840,7 +1840,7 @@
     "right_attitude": 1384.65
   },
   {
-    "city": "λτψ ιΰρισ",
+    "city": "Χ›Χ¤Χ¨ Χ™ΧΧ΅Χ™Χ£",
     "eligible": 7148,
     "votes": 5073,
     "avoda": 147,
@@ -1860,7 +1860,7 @@
     "right_attitude": 898.825
   },
   {
-    "city": "λτψ ιεπδ",
+    "city": "Χ›Χ¤Χ¨ Χ™Χ•Χ Χ”",
     "eligible": 13798,
     "votes": 10466,
     "avoda": 2568,
@@ -1880,7 +1880,7 @@
     "right_attitude": 6382.5
   },
   {
-    "city": "λτψ λξΰ",
+    "city": "Χ›Χ¤Χ¨ Χ›ΧΧ",
     "eligible": 2361,
     "votes": 1063,
     "avoda": 578,
@@ -1900,7 +1900,7 @@
     "right_attitude": 386
   },
   {
-    "city": "λτψ λπΰ",
+    "city": "Χ›Χ¤Χ¨ Χ›Χ Χ",
     "eligible": 12582,
     "votes": 8710,
     "avoda": 332,
@@ -1920,7 +1920,7 @@
     "right_attitude": 1447.15
   },
   {
-    "city": "λτψ ξπγΰ",
+    "city": "Χ›Χ¤Χ¨ ΧΧ Χ“Χ",
     "eligible": 10484,
     "votes": 7898,
     "avoda": 572,
@@ -1940,7 +1940,7 @@
     "right_attitude": 1475.425
   },
   {
-    "city": "λτψ ραΰ",
+    "city": "Χ›Χ¤Χ¨ Χ΅Χ‘Χ",
     "eligible": 75994,
     "votes": 56332,
     "avoda": 19732,
@@ -1960,7 +1960,7 @@
     "right_attitude": 29849.3
   },
   {
-    "city": "λτψ χΰρν",
+    "city": "Χ›Χ¤Χ¨ Χ§ΧΧ΅Χ",
     "eligible": 12781,
     "votes": 7952,
     "avoda": 101,
@@ -1980,7 +1980,7 @@
     "right_attitude": 1051.95
   },
   {
-    "city": "λτψ χψς",
+    "city": "Χ›Χ¤Χ¨ Χ§Χ¨ΧΆ",
     "eligible": 11227,
     "votes": 8237,
     "avoda": 93,
@@ -2000,7 +2000,7 @@
     "right_attitude": 1344.875
   },
   {
-    "city": "λτψ ωξψιδε",
+    "city": "Χ›Χ¤Χ¨ Χ©ΧΧ¨Χ™Χ”Χ•",
     "eligible": 1762,
     "votes": 1198,
     "avoda": 636,
@@ -2020,7 +2020,7 @@
     "right_attitude": 505.325
   },
   {
-    "city": "λτψ ϊαεψ",
+    "city": "Χ›Χ¤Χ¨ ΧªΧ‘Χ•Χ¨",
     "eligible": 2785,
     "votes": 2089,
     "avoda": 852,
@@ -2040,7 +2040,7 @@
     "right_attitude": 1085.7
   },
   {
-    "city": "λψξιΰμ",
+    "city": "Χ›Χ¨ΧΧ™ΧΧ",
     "eligible": 39888,
     "votes": 24633,
     "avoda": 4328,
@@ -2060,7 +2060,7 @@
     "right_attitude": 15262.8
   },
   {
-    "city": "μδαιν",
+    "city": "ΧΧ”Χ‘Χ™Χ",
     "eligible": 4740,
     "votes": 3699,
     "avoda": 1406,
@@ -2080,7 +2080,7 @@
     "right_attitude": 1874.475
   },
   {
-    "city": "μεγ",
+    "city": "ΧΧ•Χ“",
     "eligible": 52711,
     "votes": 31704,
     "avoda": 2216,
@@ -2100,7 +2100,7 @@
     "right_attitude": 18930.4
   },
   {
-    "city": "μλιω",
+    "city": "ΧΧ›Χ™Χ©",
     "eligible": 491,
     "votes": 405,
     "avoda": 238,
@@ -2120,7 +2120,7 @@
     "right_attitude": 138.05
   },
   {
-    "city": "μχιδ",
+    "city": "ΧΧ§Χ™Χ”",
     "eligible": 6012,
     "votes": 2583,
     "avoda": 13,
@@ -2140,7 +2140,7 @@
     "right_attitude": 423.7
   },
   {
-    "city": "ξαωψϊ φιεο",
+    "city": "ΧΧ‘Χ©Χ¨Χª Χ¦Χ™Χ•Χ",
     "eligible": 18713,
     "votes": 13921,
     "avoda": 3724,
@@ -2160,7 +2160,7 @@
     "right_attitude": 7954.8
   },
   {
-    "city": "ξβ'γ ΰμ-λψεν",
+    "city": "ΧΧ’'Χ“ ΧΧ-Χ›Χ¨Χ•Χ",
     "eligible": 8940,
     "votes": 6602,
     "avoda": 522,
@@ -2180,7 +2180,7 @@
     "right_attitude": 1077.75
   },
   {
-    "city": "ξβ'γμ ωξρ",
+    "city": "ΧΧ’'Χ“Χ Χ©ΧΧ΅",
     "eligible": 580,
     "votes": 107,
     "avoda": 40,
@@ -2200,7 +2200,7 @@
     "right_attitude": 64.9
   },
   {
-    "city": "ξβΰψ",
+    "city": "ΧΧ’ΧΧ¨",
     "eligible": 14173,
     "votes": 6497,
     "avoda": 1058,
@@ -2220,7 +2220,7 @@
     "right_attitude": 2433.125
   },
   {
-    "city": "ξβγμ",
+    "city": "ΧΧ’Χ“Χ",
     "eligible": 20631,
     "votes": 855,
     "avoda": 82,
@@ -2240,7 +2240,7 @@
     "right_attitude": 577.475
   },
   {
-    "city": "ξβγμ δςξχ",
+    "city": "ΧΧ’Χ“Χ Χ”ΧΆΧΧ§",
     "eligible": 1269,
     "votes": 13244,
     "avoda": 1183,
@@ -2260,7 +2260,7 @@
     "right_attitude": 8615.65
   },
   {
-    "city": "ξβιγε",
+    "city": "ΧΧ’Χ™Χ“Χ•",
     "eligible": 585,
     "votes": 448,
     "avoda": 235,
@@ -2280,7 +2280,7 @@
     "right_attitude": 165.125
   },
   {
-    "city": "ξεγιςιο ςιμιϊ",
+    "city": "ΧΧ•Χ“Χ™ΧΆΧ™Χ ΧΆΧ™ΧΧ™Χª",
     "eligible": 23529,
     "votes": 19820,
     "avoda": 6,
@@ -2300,7 +2300,7 @@
     "right_attitude": 8172.325
   },
   {
-    "city": "ξζλψϊ αϊιδ",
+    "city": "ΧΧ–Χ›Χ¨Χª Χ‘ΧªΧ™Χ”",
     "eligible": 8656,
     "votes": 6844,
     "avoda": 2197,
@@ -2320,7 +2320,7 @@
     "right_attitude": 3888
   },
   {
-    "city": "ξζψςδ",
+    "city": "ΧΧ–Χ¨ΧΆΧ”",
     "eligible": 2665,
     "votes": 2087,
     "avoda": 33,
@@ -2340,7 +2340,7 @@
     "right_attitude": 314.575
   },
   {
-    "city": "ξθεμδ",
+    "city": "ΧΧΧ•ΧΧ”",
     "eligible": 1400,
     "votes": 912,
     "avoda": 358,
@@ -2360,7 +2360,7 @@
     "right_attitude": 463.4
   },
   {
-    "city": "ξιϊψ",
+    "city": "ΧΧ™ΧªΧ¨",
     "eligible": 5734,
     "votes": 4383,
     "avoda": 1416,
@@ -2380,7 +2380,7 @@
     "right_attitude": 2441.575
   },
   {
-    "city": "ξρςγδ",
+    "city": "ΧΧ΅ΧΆΧ“Χ”",
     "eligible": 217,
     "votes": 25,
     "avoda": 12,
@@ -2400,7 +2400,7 @@
     "right_attitude": 11.625
   },
   {
-    "city": "ξςιμιΰ",
+    "city": "ΧΧΆΧ™ΧΧ™Χ",
     "eligible": 2364,
     "votes": 1732,
     "avoda": 141,
@@ -2420,7 +2420,7 @@
     "right_attitude": 259.45
   },
   {
-    "city": "ξςμδ ΰγεξιν",
+    "city": "ΧΧΆΧΧ” ΧΧ“Χ•ΧΧ™Χ",
     "eligible": 26709,
     "votes": 19815,
     "avoda": 999,
@@ -2440,7 +2440,7 @@
     "right_attitude": 14510.35
   },
   {
-    "city": "ξςμδ ΰτψιν",
+    "city": "ΧΧΆΧΧ” ΧΧ¤Χ¨Χ™Χ",
     "eligible": 1165,
     "votes": 638,
     "avoda": 70,
@@ -2460,7 +2460,7 @@
     "right_attitude": 444.375
   },
   {
-    "city": "ξςμδ ςιψεο",
+    "city": "ΧΧΆΧΧ” ΧΆΧ™Χ¨Χ•Χ",
     "eligible": 8400,
     "votes": 5524,
     "avoda": 31,
@@ -2480,7 +2480,7 @@
     "right_attitude": 853.45
   },
   {
-    "city": "ξςμεϊ-ϊψωιηΰ",
+    "city": "ΧΧΆΧΧ•Χª-ΧªΧ¨Χ©Χ™Χ—Χ",
     "eligible": 17628,
     "votes": 11493,
     "avoda": 977,
@@ -2500,7 +2500,7 @@
     "right_attitude": 6363.1
   },
   {
-    "city": "ξφτδ ψξεο",
+    "city": "ΧΧ¦Χ¤Χ” Χ¨ΧΧ•Χ",
     "eligible": 3556,
     "votes": 2122,
     "avoda": 326,
@@ -2520,7 +2520,7 @@
     "right_attitude": 1238.875
   },
   {
-    "city": "ξωδγ",
+    "city": "ΧΧ©Χ”Χ“",
     "eligible": 4907,
     "votes": 3346,
     "avoda": 41,
@@ -2540,7 +2540,7 @@
     "right_attitude": 552.675
   },
   {
-    "city": "πησ",
+    "city": "Χ Χ—Χ£",
     "eligible": 7214,
     "votes": 5031,
     "avoda": 28,
@@ -2560,7 +2560,7 @@
     "right_attitude": 774.125
   },
   {
-    "city": "πρ φιεπδ",
+    "city": "Χ Χ΅ Χ¦Χ™Χ•Χ Χ”",
     "eligible": 30675,
     "votes": 23889,
     "avoda": 7656,
@@ -2580,7 +2580,7 @@
     "right_attitude": 13214.175
   },
   {
-    "city": "πφψϊ",
+    "city": "Χ Χ¦Χ¨Χª",
     "eligible": 39087,
     "votes": 32235,
     "avoda": 869,
@@ -2600,7 +2600,7 @@
     "right_attitude": 5353.675
   },
   {
-    "city": "πφψϊ ςιμιϊ",
+    "city": "Χ Χ¦Χ¨Χª ΧΆΧ™ΧΧ™Χª",
     "eligible": 53232,
     "votes": 21971,
     "avoda": 2269,
@@ -2620,7 +2620,7 @@
     "right_attitude": 12729.2
   },
   {
-    "city": "πωψ",
+    "city": "Χ Χ©Χ¨",
     "eligible": 19318,
     "votes": 12787,
     "avoda": 2475,
@@ -2640,7 +2640,7 @@
     "right_attitude": 8079.95
   },
   {
-    "city": "πϊιαεϊ",
+    "city": "Χ ΧªΧ™Χ‘Χ•Χª",
     "eligible": 19308,
     "votes": 14571,
     "avoda": 295,
@@ -2660,7 +2660,7 @@
     "right_attitude": 8649.175
   },
   {
-    "city": "πϊπιδ",
+    "city": "Χ ΧªΧ Χ™Χ”",
     "eligible": 168914,
     "votes": 105164,
     "avoda": 14575,
@@ -2680,7 +2680,7 @@
     "right_attitude": 68221.95
   },
   {
-    "city": "ρΰβ'εψ",
+    "city": "Χ΅ΧΧ’'Χ•Χ¨",
     "eligible": 2657,
     "votes": 1423,
     "avoda": 338,
@@ -2700,7 +2700,7 @@
     "right_attitude": 811.175
   },
   {
-    "city": "ραιεο",
+    "city": "Χ΅Χ‘Χ™Χ•Χ",
     "eligible": 3458,
     "votes": 2393,
     "avoda": 1055,
@@ -2720,7 +2720,7 @@
     "right_attitude": 1098.575
   },
   {
-    "city": "ρη'πιο",
+    "city": "Χ΅Χ—'Χ Χ™Χ",
     "eligible": 18647,
     "votes": 15141,
     "avoda": 204,
@@ -2740,7 +2740,7 @@
     "right_attitude": 2378.35
   },
   {
-    "city": "ςεξψ",
+    "city": "ΧΆΧ•ΧΧ¨",
     "eligible": 6184,
     "votes": 4690,
     "avoda": 1782,
@@ -2760,7 +2760,7 @@
     "right_attitude": 2403.025
   },
   {
-    "city": "ςιιμαεο",
+    "city": "ΧΆΧ™Χ™ΧΧ‘Χ•Χ",
     "eligible": 3765,
     "votes": 2630,
     "avoda": 359,
@@ -2780,7 +2780,7 @@
     "right_attitude": 620.35
   },
   {
-    "city": "ςιμεθ",
+    "city": "ΧΆΧ™ΧΧ•Χ",
     "eligible": 4475,
     "votes": 1878,
     "avoda": 115,
@@ -2800,7 +2800,7 @@
     "right_attitude": 378.5
   },
   {
-    "city": "ςιο ξΰδμ",
+    "city": "ΧΆΧ™Χ ΧΧΧ”Χ",
     "eligible": 7717,
     "votes": 5656,
     "avoda": 35,
@@ -2820,7 +2820,7 @@
     "right_attitude": 878.95
   },
   {
-    "city": "ςλε",
+    "city": "ΧΆΧ›Χ•",
     "eligible": 40470,
     "votes": 25543,
     "avoda": 1916,
@@ -2840,7 +2840,7 @@
     "right_attitude": 13881.475
   },
   {
-    "city": "ςξπεΰμ",
+    "city": "ΧΆΧΧ Χ•ΧΧ",
     "eligible": 1911,
     "votes": 1373,
     "avoda": 2,
@@ -2860,7 +2860,7 @@
     "right_attitude": 616.05
   },
   {
-    "city": "ςρτιΰ",
+    "city": "ΧΆΧ΅Χ¤Χ™Χ",
     "eligible": 8227,
     "votes": 4284,
     "avoda": 968,
@@ -2880,7 +2880,7 @@
     "right_attitude": 2191.425
   },
   {
-    "city": "ςτεμδ",
+    "city": "ΧΆΧ¤Χ•ΧΧ”",
     "eligible": 35667,
     "votes": 22821,
     "avoda": 2531,
@@ -2900,7 +2900,7 @@
     "right_attitude": 15827.05
   },
   {
-    "city": "ςψΰαδ",
+    "city": "ΧΆΧ¨ΧΧ‘Χ”",
     "eligible": 14211,
     "votes": 10254,
     "avoda": 35,
@@ -2920,7 +2920,7 @@
     "right_attitude": 1629.75
   },
   {
-    "city": "ςψγ",
+    "city": "ΧΆΧ¨Χ“",
     "eligible": 20805,
     "votes": 12238,
     "avoda": 1871,
@@ -2940,7 +2940,7 @@
     "right_attitude": 7127.55
   },
   {
-    "city": "ςψςψδ",
+    "city": "ΧΆΧ¨ΧΆΧ¨Χ”",
     "eligible": 11475,
     "votes": 7898,
     "avoda": 102,
@@ -2960,7 +2960,7 @@
     "right_attitude": 1233.275
   },
   {
-    "city": "ςψςψδ-απβα",
+    "city": "ΧΆΧ¨ΧΆΧ¨Χ”-Χ‘Χ Χ’Χ‘",
     "eligible": 6558,
     "votes": 3638,
     "avoda": 47,
@@ -2980,7 +2980,7 @@
     "right_attitude": 611.425
   },
   {
-    "city": "τεψιιγιρ",
+    "city": "Χ¤Χ•Χ¨Χ™Χ™Χ“Χ™Χ΅",
     "eligible": 7621,
     "votes": 5049,
     "avoda": 147,
@@ -3000,7 +3000,7 @@
     "right_attitude": 1086.925
   },
   {
-    "city": "τρεθδ",
+    "city": "Χ¤Χ΅Χ•ΧΧ”",
     "eligible": 2425,
     "votes": 1333,
     "avoda": 117,
@@ -3020,7 +3020,7 @@
     "right_attitude": 218.925
   },
   {
-    "city": "τχιςιο (αεχιιςδ)",
+    "city": "Χ¤Χ§Χ™ΧΆΧ™Χ (Χ‘Χ•Χ§Χ™Χ™ΧΆΧ”)",
     "eligible": 4011,
     "votes": 2595,
     "avoda": 316,
@@ -3040,7 +3040,7 @@
     "right_attitude": 1116.525
   },
   {
-    "city": "τψγρ ηπδ-λψλεψ",
+    "city": "Χ¤Χ¨Χ“Χ΅ Χ—Χ Χ”-Χ›Χ¨Χ›Χ•Χ¨",
     "eligible": 26651,
     "votes": 18833,
     "avoda": 5199,
@@ -3060,7 +3060,7 @@
     "right_attitude": 10765.15
   },
   {
-    "city": "τϊη ϊχεεδ",
+    "city": "Χ¤ΧªΧ— ΧªΧ§Χ•Χ•Χ”",
     "eligible": 177367,
     "votes": 124087,
     "avoda": 22103,
@@ -3080,7 +3080,7 @@
     "right_attitude": 77199.425
   },
   {
-    "city": "φτϊ",
+    "city": "Χ¦Χ¤Χª",
     "eligible": 21978,
     "votes": 14027,
     "avoda": 672,
@@ -3100,7 +3100,7 @@
     "right_attitude": 8413.25
   },
   {
-    "city": "χγεξιν",
+    "city": "Χ§Χ“Χ•ΧΧ™Χ",
     "eligible": 2382,
     "votes": 2043,
     "avoda": 5,
@@ -3120,7 +3120,7 @@
     "right_attitude": 1488.225
   },
   {
-    "city": "χγιξδ-φεψο",
+    "city": "Χ§Χ“Χ™ΧΧ”-Χ¦Χ•Χ¨Χ",
     "eligible": 13273,
     "votes": 10243,
     "avoda": 3293,
@@ -3140,7 +3140,7 @@
     "right_attitude": 5524.7
   },
   {
-    "city": "χμπρεεδ",
+    "city": "Χ§ΧΧ Χ΅Χ•Χ•Χ”",
     "eligible": 12163,
     "votes": 8508,
     "avoda": 71,
@@ -3160,7 +3160,7 @@
     "right_attitude": 1321.225
   },
   {
-    "city": "χφψιο",
+    "city": "Χ§Χ¦Χ¨Χ™Χ",
     "eligible": 5769,
     "votes": 3491,
     "avoda": 463,
@@ -3180,7 +3180,7 @@
     "right_attitude": 2292.6
   },
   {
-    "city": "χψπι ωεξψεο",
+    "city": "Χ§Χ¨Χ Χ™ Χ©Χ•ΧΧ¨Χ•Χ",
     "eligible": 4757,
     "votes": 3650,
     "avoda": 87,
@@ -3200,7 +3200,7 @@
     "right_attitude": 2678.95
   },
   {
-    "city": "ψΰξδ",
+    "city": "Χ¨ΧΧΧ”",
     "eligible": 5935,
     "votes": 3495,
     "avoda": 505,
@@ -3220,7 +3220,7 @@
     "right_attitude": 1028.75
   },
   {
-    "city": "ψΰω δςιο",
+    "city": "Χ¨ΧΧ© Χ”ΧΆΧ™Χ",
     "eligible": 30473,
     "votes": 23629,
     "avoda": 4526,
@@ -3240,7 +3240,7 @@
     "right_attitude": 14969.4
   },
   {
-    "city": "ψΰω τιπδ",
+    "city": "Χ¨ΧΧ© Χ¤Χ™Χ Χ”",
     "eligible": 2170,
     "votes": 1609,
     "avoda": 615,
@@ -3260,7 +3260,7 @@
     "right_attitude": 777.525
   },
   {
-    "city": "ψΰωεο μφιεο",
+    "city": "Χ¨ΧΧ©Χ•Χ ΧΧ¦Χ™Χ•Χ",
     "eligible": 195958,
     "votes": 137462,
     "avoda": 31492,
@@ -3280,7 +3280,7 @@
     "right_attitude": 85313.3
   },
   {
-    "city": "ψδθ",
+    "city": "Χ¨Χ”Χ",
     "eligible": 26511,
     "votes": 14851,
     "avoda": 311,
@@ -3300,7 +3300,7 @@
     "right_attitude": 2434.125
   },
   {
-    "city": "ψηεαεϊ",
+    "city": "Χ¨Χ—Χ•Χ‘Χ•Χª",
     "eligible": 98300,
     "votes": 69179,
     "avoda": 14317,
@@ -3320,7 +3320,7 @@
     "right_attitude": 41022.825
   },
   {
-    "city": "ψιιπδ",
+    "city": "Χ¨Χ™Χ™Χ Χ”",
     "eligible": 10217,
     "votes": 6431,
     "avoda": 168,
@@ -3340,7 +3340,7 @@
     "right_attitude": 1075.175
   },
   {
-    "city": "ψλριν",
+    "city": "Χ¨Χ›Χ΅Χ™Χ",
     "eligible": 5461,
     "votes": 4635,
     "avoda": 66,
@@ -3360,7 +3360,7 @@
     "right_attitude": 2103.8
   },
   {
-    "city": "ψξμδ",
+    "city": "Χ¨ΧΧΧ”",
     "eligible": 52690,
     "votes": 33263,
     "avoda": 2692,
@@ -3380,7 +3380,7 @@
     "right_attitude": 20509.9
   },
   {
-    "city": "ψξϊ βο",
+    "city": "Χ¨ΧΧª Χ’Χ",
     "eligible": 123618,
     "votes": 84910,
     "avoda": 26515,
@@ -3400,7 +3400,7 @@
     "right_attitude": 46419.85
   },
   {
-    "city": "ψξϊ δωψεο",
+    "city": "Χ¨ΧΧª Χ”Χ©Χ¨Χ•Χ",
     "eligible": 35514,
     "votes": 26587,
     "avoda": 11767,
@@ -3420,7 +3420,7 @@
     "right_attitude": 12092.025
   },
   {
-    "city": "ψξϊ ιωι",
+    "city": "Χ¨ΧΧª Χ™Χ©Χ™",
     "eligible": 5433,
     "votes": 4192,
     "avoda": 1562,
@@ -3440,7 +3440,7 @@
     "right_attitude": 2239.55
   },
   {
-    "city": "ψςππδ",
+    "city": "Χ¨ΧΆΧ Χ Χ”",
     "eligible": 60923,
     "votes": 42753,
     "avoda": 14117,
@@ -3460,7 +3460,7 @@
     "right_attitude": 23094.45
   },
   {
-    "city": "ωαμι - ΰεν ΰμ-βπν",
+    "city": "Χ©Χ‘ΧΧ™ - ΧΧ•Χ ΧΧ-Χ’Χ Χ",
     "eligible": 3586,
     "votes": 2073,
     "avoda": 199,
@@ -3480,7 +3480,7 @@
     "right_attitude": 390.1
   },
   {
-    "city": "ωβα-ωμεν",
+    "city": "Χ©Χ’Χ‘-Χ©ΧΧ•Χ",
     "eligible": 3761,
     "votes": 1878,
     "avoda": 30,
@@ -3500,7 +3500,7 @@
     "right_attitude": 312.975
   },
   {
-    "city": "ωγψεϊ",
+    "city": "Χ©Χ“Χ¨Χ•Χª",
     "eligible": 17460,
     "votes": 10732,
     "avoda": 806,
@@ -3520,7 +3520,7 @@
     "right_attitude": 7468.825
   },
   {
-    "city": "ωεδν",
+    "city": "Χ©Χ•Χ”Χ",
     "eligible": 13852,
     "votes": 11110,
     "avoda": 3491,
@@ -3540,7 +3540,7 @@
     "right_attitude": 6228.1
   },
   {
-    "city": "ωμεξι",
+    "city": "Χ©ΧΧ•ΧΧ™",
     "eligible": 4828,
     "votes": 3286,
     "avoda": 381,
@@ -3560,7 +3560,7 @@
     "right_attitude": 2215.2
   },
   {
-    "city": "ωςα",
+    "city": "Χ©ΧΆΧ‘",
     "eligible": 4249,
     "votes": 3193,
     "avoda": 142,
@@ -3580,7 +3580,7 @@
     "right_attitude": 521.575
   },
   {
-    "city": "ωτιψ",
+    "city": "Χ©Χ¤Χ™Χ¨",
     "eligible": 469,
     "votes": 397,
     "avoda": 58,
@@ -3600,7 +3600,7 @@
     "right_attitude": 263.175
   },
   {
-    "city": "ωτψςν",
+    "city": "Χ©Χ¤Χ¨ΧΆΧ",
     "eligible": 25674,
     "votes": 14930,
     "avoda": 724,
@@ -3620,7 +3620,7 @@
     "right_attitude": 3641.425
   },
   {
-    "city": "ϊμ ξεπγ",
+    "city": "ΧªΧ ΧΧ•Χ Χ“",
     "eligible": 8052,
     "votes": 6224,
     "avoda": 2147,
@@ -3640,7 +3640,7 @@
     "right_attitude": 3438.275
   },
   {
-    "city": "ϊμ ωας",
+    "city": "ΧªΧ Χ©Χ‘ΧΆ",
     "eligible": 7714,
     "votes": 3534,
     "avoda": 22,

@@ -23,23 +23,36 @@
     var margin = {top: 20, right: 20, bottom: 30, left: 40},
             width = 960 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
-    d3.json("../data-set-elections/electionAndEconomicData.json", function(error, data) {
+    d3.json("../data-set-elections/electionAndEconomicData2.json", function(error, data) {
         if (error) throw error;
         header_data = data.splice(0,3);
         console.log("TITLES: " );
         console.log(header_data[0]);
+        console.log("distribution: " );
+        console.log(header_data[2]);
         var p = header_data[0];
         var partiesHeaders = [];
-        var filterThisHeaders = ["city" , "eligible" , "", "votes","population","cluster"];
+        var filterFields = ["city" , "eligible" , "", "votes","population","cluster", "right_attitude"];
 
         for(var key in p) {
-            if (filterThisHeaders.indexOf(key) == -1){
+            if (filterFields.indexOf(key) == -1){
                 var pair = [key , p[key]];
                 partiesHeaders.push(pair);
         }};
 
+        var p2 = header_data[2];
+        var partiesDistribution = [];
+
+        for(var key in p2) {
+            if (filterFields.indexOf(key) == -1){
+                var pair = [key , p2[key]];
+                partiesDistribution.push(pair);
+        }};
+
         console.log("ALL HEADERS PAIRS: ");
         console.log(partiesHeaders);
+        console.log("ALL DISTRIBUTION PAIRS: ");
+        console.log(partiesDistribution);
 
         var xScale = d3.scale.ordinal()
                 .rangeRoundBands([0, width], .1);
@@ -61,7 +74,7 @@
                 .append("g")
                 .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        var inputClusterNumber = 9;
+        var inputClusterNumber = 5;
         var dataOfClusterRequested = data.filter(function(d){return d.cluster == inputClusterNumber });
         console.log("data Of Cluster Requested:");
         console.log(dataOfClusterRequested);
@@ -70,7 +83,7 @@
         var sumsVotesArray = [];
         for(var i=0; i < partiesHeaders.length ; i++){
             var tempSum = d3.sum(dataOfClusterRequested,function(d) { return d[partiesHeaders[i][0]]});
-            var pair = {key: partiesHeaders[i][1] , values:tempSum/totalPeopleInCluster};
+            var pair = {key: partiesHeaders[i][1] , values:[tempSum/totalPeopleInCluster,partiesDistribution[i][1]]};
             sumsVotesArray.push(pair);
         }
         console.log("sumsVotesArray");
@@ -107,9 +120,9 @@
                 .attr("class", "bar")
                 .attr("x", function(d) { return xScale(d.key); })
                 .attr("width", xScale.rangeBand())
-                .attr("y", function(d) { return yScale(d.values); })
-                .attr("height", function(d) { return height - yScale(d.values); })
-                .attr("style", function (d) {return "fill:" + colorScale(d.values)});
+                .attr("y", function(d) { return yScale(d.values[0]); })
+                .attr("height", function(d) { return height - yScale(d.values[0]); })
+                .attr("style", function (d) {return "fill:" + colorScale(d.values[1])});
     });
 </script>
 </body>
