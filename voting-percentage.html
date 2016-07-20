@@ -29,6 +29,7 @@
 </style>
 <body>
 <script src="dependencies/d3.min.js"></script>
+<script src="http://underscorejs.org/underscore.js"></script>
 <script>
     var margin = {top: 20, right: 20, bottom: 30, left: 40},
             width = 960 - margin.left - margin.right,
@@ -55,7 +56,7 @@
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    d3.json("data-set-elections/electionAndEconomicData.json", function(error, data) {
+    d3.json("data-set-elections/electionAndEconomicData2.json", function(error, data) {
         if (error) throw error;
 
         header_data = data.splice(0,3);
@@ -65,18 +66,19 @@
         var votingDataByCluster = d3.nest()
                 .key(function (d) {return d.cluster;})
                 .rollup(function (cities) {
-                    return d3.sum(cities, function(g) {return g.votes}) / d3.sum(cities, function(g) {return g.eligible})
+                    var totalVotesForCluster = d3.sum(cities, function(g) {return g.votes});
+                    var votingPercForCluster = totalVotesForCluster / d3.sum(cities, function(g) {return g.eligible});
+                    var rightAttributeForCluster = d3.sum(cities, function(g) {return g.right_attitude}) / totalVotesForCluster
+                    return { votingPerc: votingPercForCluster, rightAttribute: rightAttributeForCluster };
                 })
                 .entries(data);
         console.log(votingDataByCluster);
-//        xScale.domain(data.map(function(d) { return d.key; }));
         xScale.domain(d3.range(1, 11, 1));   // social classes [1,...,10]
-//            y.domain([0, d3.max(data, function(d) { return d.votes/d.eligible; })]);
         yScale.domain([0, 1]);
 
         var colorScale = d3.scale.linear()
-                .range(["white", "red"])
-                .domain([0.5, 0.8]);
+                .range(["#ffe6e6", "#990000"])
+                .domain(d3.extent(votingDataByCluster, function (d) { return d.values.rightAttribute }));
 
         svg.append("g")
                 .attr("class", "x axis")
@@ -100,8 +102,8 @@
                 .attr("class", "bar")
                 .attr("x", function(d) { return xScale(d.key); })
                 .attr("width", xScale.rangeBand())
-                .attr("y", function(d) { return yScale(d.values); })
-                .attr("height", function(d) { return height - yScale(d.values); })
-                .attr("style", function (d) {return "fill:" + colorScale(d.values)});
+                .attr("y", function(d) { return yScale(d.values.votingPerc); })
+                .attr("height", function(d) { return height - yScale(d.values.votingPerc); })
+                .attr("style", function (d) {return "fill:" + colorScale(d.values.rightAttribute)});
     });
 </script>
