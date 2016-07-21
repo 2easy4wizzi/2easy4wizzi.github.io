@@ -30,7 +30,9 @@ function transitionPartyVotingPerc(inputClusterNumber) {
         var sumsVotesArray = [];
         for(var i=0; i < partiesHeaders.length ; i++){
             var tempSum = d3.sum(dataOfClusterRequested,function(d) { return d[partiesHeaders[i][0]]});
-            var pair = {key: partiesHeaders[i][1] , values:[tempSum/totalPeopleInCluster,partiesDistribution[i][1]]};
+            var pair = {key: partiesHeaders[i][1] , values:{
+                votingPerc: tempSum/totalPeopleInCluster,
+                right_dist: partiesDistribution[i][1]}};
             sumsVotesArray.push(pair);
         }
         console.log("sumsVotesArray");
@@ -39,13 +41,13 @@ function transitionPartyVotingPerc(inputClusterNumber) {
             return d[1];
         }));
 
-        yScale.domain([0, 1]);
+        yScale.domain([0, d3.max(sumsVotesArray, function (d) {return d.values.votingPerc})]);
         var colorScale = d3.scale.linear()
             .range(["#90EE90", "#006400"])
             .domain([0, 1]);
 
-        svg.select('.x.axis').transition().duration(300).call(xAxis);
-        svg.select(".y.axis").transition().duration(300).call(yAxis)
+        svg.select('.x.axis').transition().duration(500).call(xAxis);
+        svg.select(".y.axis").transition().duration(500).call(yAxis);
 
         var bars = svg.selectAll(".bar").data(sumsVotesArray);
 
@@ -61,16 +63,18 @@ function transitionPartyVotingPerc(inputClusterNumber) {
         bars.enter().append("rect")
             .attr("class", "bar")
             .attr("y", yScale(0))
-            .attr("height", height - yScale(0));
+            .attr("height", height - yScale(0))
+            .on('mouseover', tip.show)
+            .on('mouseout', tip.hide);
 
         // the "UPDATE" set:
         bars.transition()
             .duration(300)
             .attr("x", function(d) { return xScale(d.key); })
             .attr("width", xScale.rangeBand())
-            .attr("y", function(d) { return yScale(d.values[0]); })
-            .attr("height", function(d) { return height - yScale(d.values[0]); })
-            .attr("style", function (d) {return "fill:" + colorScale(d.values[1])});
+            .attr("y", function(d) { return yScale(d.values.votingPerc); })
+            .attr("height", function(d) { return height - yScale(d.values.votingPerc); })
+            .attr("style", function (d) {return "fill:" + colorScale(d.values.right_dist)});
 
     });
 }
