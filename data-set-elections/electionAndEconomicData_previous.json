@@ -17,7 +17,7 @@
     "shas": "ש\"ס",
     "cluster": "קלאסטר",
     "population": "אוכלוסיה",
-    "right_attitude": ""
+    "": ""
   },
   {
     "city": "total",
@@ -37,27 +37,27 @@
     "shas": 196380,
     "cluster": "",
     "population": 5632343,
-    "right_attitude": 1570176.8
+    "": ""
   },
   {
     "city": "distribution",
     "eligible": "",
     "votes": "",
-    "avoda": 0.3,
-    "yahadut": 0.4,
-    "reshima": 0.15,
-    "benet": 0.75,
-    "kulanu": 0.875,
-    "beytenu": 0.6,
-    "likud": 0.875,
+    "avoda": 3,
+    "yahadut": 4,
+    "reshima": 1.5,
+    "benet": 7.5,
+    "kulanu": 8.75,
+    "beytenu": 6,
+    "likud": 8.75,
     "merets": 0,
-    "atid": 0.5,
-    "yarok": 1,
-    "yahad": 0.4,
-    "shas": 0.4,
+    "atid": 5,
+    "yarok": 10,
+    "yahad": 4,
+    "shas": 4,
     "cluster": "",
     "population": "",
-    "right_attitude": ""
+    "": ""
   },
   {
     "city": "אבו גוש",
@@ -77,7 +77,7 @@
     "shas": 35,
     "cluster": 2,
     "population": 5822,
-    "right_attitude": 466.225
+    "": ""
   },
   {
     "city": "אבו סנאן",
@@ -97,7 +97,7 @@
     "shas": 213,
     "cluster": 3,
     "population": 12238,
-    "right_attitude": 1634.575
+    "": ""
   },
   {
     "city": "אבן יהודה",
@@ -117,7 +117,7 @@
     "shas": 112,
     "cluster": 8,
     "population": 9645,
-    "right_attitude": 3675.825
+    "": ""
   },
   {
     "city": "אום אל-פחם",
@@ -137,7 +137,7 @@
     "shas": 4,
     "cluster": 2,
     "population": 45013,
-    "right_attitude": 3032.575
+    "": ""
   },
   {
     "city": "אופקים",
@@ -157,7 +157,7 @@
     "shas": 2450,
     "cluster": 3,
     "population": 23163,
-    "right_attitude": 7564.325
+    "": ""
   },
   {
     "city": "אור יהודה",
@@ -177,7 +177,7 @@
     "shas": 2682,
     "cluster": 5,
     "population": 33475,
-    "right_attitude": 12258.125
+    "": ""
   },
   {
     "city": "אור עקיבא",
@@ -197,7 +197,7 @@
     "shas": 913,
     "cluster": 4,
     "population": 15852,
-    "right_attitude": 6656.875
+    "": ""
   },
   {
     "city": "אורנית",
@@ -217,7 +217,7 @@
     "shas": 43,
     "cluster": 8,
     "population": 5656,
-    "right_attitude": 2840.4
+    "": ""
   },
   {
     "city": "אזור",
@@ -237,7 +237,7 @@
     "shas": 517,
     "cluster": 6,
     "population": 10452,
-    "right_attitude": 3973.85
+    "": ""
   },
   {
     "city": "אילת",
@@ -257,7 +257,7 @@
     "shas": 1025,
     "cluster": 5,
     "population": 47267,
-    "right_attitude": 14989.175
+    "": ""
   },
   {
     "city": "אכסאל",
@@ -277,7 +277,7 @@
     "shas": 60,
     "cluster": 2,
     "population": 11847,
-    "right_attitude": 873.1
+    "": ""
   },
   {
     "city": "אליכין",
@@ -297,7 +297,7 @@
     "shas": 210,
     "cluster": 5,
     "population": 2906,
-    "right_attitude": 1298.075
+    "": ""
   },
   {
     "city": "אלעד",
@@ -317,7 +317,7 @@
     "shas": 6193,
     "cluster": 2,
     "population": 33594,
-    "right_attitude": 6568.75
+    "": ""
   },
   {
     "city": "אלפי מנשה",
@@ -337,7 +337,7 @@
     "shas": 50,
     "cluster": 8,
     "population": 6339,
-    "right_attitude": 2663.925
+    "": ""
   },
   {
     "city": "אלקנה",
@@ -357,7 +357,7 @@
     "shas": 17,
     "cluster": 8,
     "population": 3216,
-    "right_attitude": 1538.175
+    "": ""
   },
   {
     "city": "אעבלין",
@@ -377,7 +377,7 @@
     "shas": 63,
     "cluster": 3,
     "population": 11215,
-    "right_attitude": 919.475
+    "": ""
   },
   {
     "city": "אריאל",
@@ -397,7 +397,7 @@
     "shas": 85,
     "cluster": 5,
     "population": 16008,
-    "right_attitude": 7179.775
+    "": ""
   },
   {
     "city": "אשדוד",
@@ -417,7 +417,7 @@
     "shas": 11923,
     "cluster": 5,
     "population": 199649,
-    "right_attitude": 71475.725
+    "": ""
   },
   {
     "city": "אשקלון",
@@ -437,7 +437,7 @@
     "shas": 4217,
     "cluster": 5,
     "population": 107636,
-    "right_attitude": 43624.425
+    "": ""
   },
   {
     "city": "באקה אל-גרביה",
@@ -457,7 +457,7 @@
     "shas": 9,
     "cluster": 3,
     "population": 24688,
-    "right_attitude": 1515.175
+    "": ""
   },
   {
     "city": "באר טוביה",
@@ -477,7 +477,7 @@
     "shas": 0,
     "cluster": 6,
     "population": 18558,
-    "right_attitude": 211.4
+    "": ""
   },
   {
     "city": "באר יעקב",
@@ -497,7 +497,7 @@
     "shas": 600,
     "cluster": 6,
     "population": 8025,
-    "right_attitude": 5273.85
+    "": ""
   },
   {
     "city": "באר שבע",
@@ -517,7 +517,7 @@
     "shas": 6178,
     "cluster": 5,
     "population": 187117,
-    "right_attitude": 64443.4
+    "": ""
   },
   {
     "city": "בועיינה-נוג'ידאת",
@@ -537,7 +537,7 @@
     "shas": 47,
     "cluster": 2,
     "population": 7835,
-    "right_attitude": 570.575
+    "": ""
   },
   {
     "city": "בוקעאתא",
@@ -557,7 +557,7 @@
     "shas": 1,
     "cluster": 2,
     "population": 5715,
-    "right_attitude": 10.25
+    "": ""
   },
   {
     "city": "ביר אל-מכסור",
@@ -577,7 +577,7 @@
     "shas": 167,
     "cluster": 2,
     "population": 7437,
-    "right_attitude": 638.5
+    "": ""
   },
   {
     "city": "בית אל",
@@ -597,7 +597,7 @@
     "shas": 20,
     "cluster": 5,
     "population": 4214,
-    "right_attitude": 1814.15
+    "": ""
   },
   {
     "city": "בית אריה",
@@ -617,7 +617,7 @@
     "shas": 47,
     "cluster": 7,
     "population": 3577,
-    "right_attitude": 1706.875
+    "": ""
   },
   {
     "city": "בית ג'ן",
@@ -637,7 +637,7 @@
     "shas": 99,
     "cluster": 2,
     "population": 10355,
-    "right_attitude": 1785.325
+    "": ""
   },
   {
     "city": "בית דגן",
@@ -657,7 +657,7 @@
     "shas": 204,
     "cluster": 7,
     "population": 6593,
-    "right_attitude": 2509
+    "": ""
   },
   {
     "city": "בית שאן",
@@ -677,7 +677,7 @@
     "shas": 1745,
     "cluster": 4,
     "population": 16794,
-    "right_attitude": 6539.1
+    "": ""
   },
   {
     "city": "בית שמש",
@@ -697,7 +697,7 @@
     "shas": 4860,
     "cluster": 3,
     "population": 72252,
-    "right_attitude": 19732.6
+    "": ""
   },
   {
     "city": "ביתר עילית",
@@ -717,7 +717,7 @@
     "shas": 3904,
     "cluster": 1,
     "population": 32800,
-    "right_attitude": 6557.325
+    "": ""
   },
   {
     "city": "בני ברק",
@@ -737,7 +737,7 @@
     "shas": 18843,
     "cluster": 3,
     "population": 141523,
-    "right_attitude": 34254.125
+    "": ""
   },
   {
     "city": "בני עי\"ש",
@@ -757,7 +757,7 @@
     "shas": 214,
     "cluster": 5,
     "population": 6582,
-    "right_attitude": 2671.85
+    "": ""
   },
   {
     "city": "בנימינה-גבעת עדה",
@@ -777,7 +777,7 @@
     "shas": 150,
     "cluster": 8,
     "population": 11877,
-    "right_attitude": 3409.95
+    "": ""
   },
   {
     "city": "בסמ\"ה",
@@ -797,7 +797,7 @@
     "shas": 6,
     "cluster": 2,
     "population": 7562,
-    "right_attitude": 568.8
+    "": ""
   },
   {
     "city": "בסמת טבעון",
@@ -817,7 +817,7 @@
     "shas": 11,
     "cluster": 2,
     "population": 6666,
-    "right_attitude": 501.725
+    "": ""
   },
   {
     "city": "בענה",
@@ -837,7 +837,7 @@
     "shas": 38,
     "cluster": 2,
     "population": 9481,
-    "right_attitude": 597.275
+    "": ""
   },
   {
     "city": "בת ים",
@@ -857,7 +857,7 @@
     "shas": 4692,
     "cluster": 5,
     "population": 128596,
-    "right_attitude": 44336.35
+    "": ""
   },
   {
     "city": "ג'דיידה-מכר",
@@ -877,7 +877,7 @@
     "shas": 26,
     "cluster": 2,
     "population": 17999,
-    "right_attitude": 1358.425
+    "": ""
   },
   {
     "city": "ג'ולס",
@@ -897,7 +897,7 @@
     "shas": 131,
     "cluster": 3,
     "population": 5580,
-    "right_attitude": 1246.15
+    "": ""
   },
   {
     "city": "ג'לג'וליה",
@@ -917,7 +917,7 @@
     "shas": 1,
     "cluster": 2,
     "population": 8405,
-    "right_attitude": 695.65
+    "": ""
   },
   {
     "city": "ג'סר א-זרקא",
@@ -937,7 +937,7 @@
     "shas": 391,
     "cluster": 1,
     "population": 12056,
-    "right_attitude": 879.05
+    "": ""
   },
   {
     "city": "ג'ש (גוש חלב)",
@@ -957,7 +957,7 @@
     "shas": 14,
     "cluster": 5,
     "population": 2872,
-    "right_attitude": 305.3
+    "": ""
   },
   {
     "city": "ג'ת",
@@ -977,7 +977,7 @@
     "shas": 23,
     "cluster": 3,
     "population": 8959,
-    "right_attitude": 549.1
+    "": ""
   },
   {
     "city": "גבעת זאב",
@@ -997,7 +997,7 @@
     "shas": 875,
     "cluster": 5,
     "population": 10413,
-    "right_attitude": 4917.65
+    "": ""
   },
   {
     "city": "גבעת שמואל",
@@ -1017,7 +1017,7 @@
     "shas": 500,
     "cluster": 8,
     "population": 20798,
-    "right_attitude": 8418.225
+    "": ""
   },
   {
     "city": "גבעתיים",
@@ -1037,7 +1037,7 @@
     "shas": 417,
     "cluster": 8,
     "population": 51575,
-    "right_attitude": 15942.575
+    "": ""
   },
   {
     "city": "גדרה",
@@ -1057,7 +1057,7 @@
     "shas": 345,
     "cluster": 6,
     "population": 18972,
-    "right_attitude": 7146.775
+    "": ""
   },
   {
     "city": "גזר",
@@ -1077,7 +1077,7 @@
     "shas": 1,
     "cluster": 7,
     "population": 20160,
-    "right_attitude": 60.775
+    "": ""
   },
   {
     "city": "גן יבנה",
@@ -1097,7 +1097,7 @@
     "shas": 423,
     "cluster": 6,
     "population": 17088,
-    "right_attitude": 6975.7
+    "": ""
   },
   {
     "city": "גני תקווה",
@@ -1117,7 +1117,7 @@
     "shas": 629,
     "cluster": 8,
     "population": 12430,
-    "right_attitude": 4832.675
+    "": ""
   },
   {
     "city": "דאלית אל-כרמל",
@@ -1137,7 +1137,7 @@
     "shas": 379,
     "cluster": 3,
     "population": 16032,
-    "right_attitude": 3952.575
+    "": ""
   },
   {
     "city": "דייר אל-אסד",
@@ -1157,7 +1157,7 @@
     "shas": 349,
     "cluster": 2,
     "population": 10370,
-    "right_attitude": 979.975
+    "": ""
   },
   {
     "city": "דייר חנא",
@@ -1177,7 +1177,7 @@
     "shas": 35,
     "cluster": 3,
     "population": 8717,
-    "right_attitude": 895.375
+    "": ""
   },
   {
     "city": "דימונה",
@@ -1197,7 +1197,7 @@
     "shas": 1992,
     "cluster": 4,
     "population": 31892,
-    "right_attitude": 10913.775
+    "": ""
   },
   {
     "city": "הוד השרון",
@@ -1217,7 +1217,7 @@
     "shas": 730,
     "cluster": 8,
     "population": 45091,
-    "right_attitude": 15404.65
+    "": ""
   },
   {
     "city": "הר אדר",
@@ -1237,7 +1237,7 @@
     "shas": 15,
     "cluster": 9,
     "population": 2904,
-    "right_attitude": 1038.1
+    "": ""
   },
   {
     "city": "זכרון יעקב",
@@ -1257,7 +1257,7 @@
     "shas": 499,
     "cluster": 8,
     "population": 17793,
-    "right_attitude": 5887.8
+    "": ""
   },
   {
     "city": "זמר",
@@ -1277,7 +1277,7 @@
     "shas": 3,
     "cluster": 3,
     "population": 5605,
-    "right_attitude": 397.65
+    "": ""
   },
   {
     "city": "זרזיר",
@@ -1297,7 +1297,7 @@
     "shas": 29,
     "cluster": 2,
     "population": 6248,
-    "right_attitude": 563.475
+    "": ""
   },
   {
     "city": "חדרה",
@@ -1317,7 +1317,7 @@
     "shas": 2765,
     "cluster": 5,
     "population": 77340,
-    "right_attitude": 29222.4
+    "": ""
   },
   {
     "city": "חולון",
@@ -1337,7 +1337,7 @@
     "shas": 8046,
     "cluster": 5,
     "population": 175227,
-    "right_attitude": 63508.725
+    "": ""
   },
   {
     "city": "חורה",
@@ -1357,7 +1357,7 @@
     "shas": 18,
     "cluster": 2,
     "population": 15969,
-    "right_attitude": 501.875
+    "": ""
   },
   {
     "city": "חורפיש",
@@ -1377,7 +1377,7 @@
     "shas": 133,
     "cluster": 3,
     "population": 5370,
-    "right_attitude": 1221.225
+    "": ""
   },
   {
     "city": "חיפה",
@@ -1397,7 +1397,7 @@
     "shas": 3342,
     "cluster": 7,
     "population": 253679,
-    "right_attitude": 78645.3
+    "": ""
   },
   {
     "city": "חצור הגלילית",
@@ -1417,7 +1417,7 @@
     "shas": 481,
     "cluster": 3,
     "population": 8344,
-    "right_attitude": 3287.675
+    "": ""
   },
   {
     "city": "טבריה",
@@ -1437,7 +1437,7 @@
     "shas": 3037,
     "cluster": 4,
     "population": 40215,
-    "right_attitude": 13781.725
+    "": ""
   },
   {
     "city": "טורעאן",
@@ -1457,7 +1457,7 @@
     "shas": 24,
     "cluster": 3,
     "population": 11720,
-    "right_attitude": 849.275
+    "": ""
   },
   {
     "city": "טייבה",
@@ -1477,7 +1477,7 @@
     "shas": 52,
     "cluster": 3,
     "population": 35716,
-    "right_attitude": 2740.05
+    "": ""
   },
   {
     "city": "טירה",
@@ -1497,7 +1497,7 @@
     "shas": 4,
     "cluster": 3,
     "population": 22161,
-    "right_attitude": 1743.025
+    "": ""
   },
   {
     "city": "טירת כרמל",
@@ -1517,7 +1517,7 @@
     "shas": 1151,
     "cluster": 4,
     "population": 18482,
-    "right_attitude": 7551.35
+    "": ""
   },
   {
     "city": "טמרה",
@@ -1537,7 +1537,7 @@
     "shas": 81,
     "cluster": 3,
     "population": 27919,
-    "right_attitude": 2437.55
+    "": ""
   },
   {
     "city": "יאנוח-ג'ת",
@@ -1557,7 +1557,7 @@
     "shas": 248,
     "cluster": 3,
     "population": 5558,
-    "right_attitude": 1301.225
+    "": ""
   },
   {
     "city": "יבנאל",
@@ -1577,7 +1577,7 @@
     "shas": 671,
     "cluster": 4,
     "population": 3212,
-    "right_attitude": 968.975
+    "": ""
   },
   {
     "city": "יבנה",
@@ -1597,7 +1597,7 @@
     "shas": 1473,
     "cluster": 5,
     "population": 32640,
-    "right_attitude": 13952.4
+    "": ""
   },
   {
     "city": "יסוד המעלה",
@@ -1617,7 +1617,7 @@
     "shas": 3,
     "cluster": 8,
     "population": 1408,
-    "right_attitude": 440.2
+    "": ""
   },
   {
     "city": "יפיע",
@@ -1637,7 +1637,7 @@
     "shas": 21,
     "cluster": 3,
     "population": 16176,
-    "right_attitude": 1308.925
+    "": ""
   },
   {
     "city": "יקנעם עילית",
@@ -1657,7 +1657,7 @@
     "shas": 400,
     "cluster": 6,
     "population": 18900,
-    "right_attitude": 7119.4
+    "": ""
   },
   {
     "city": "ירוחם",
@@ -1677,7 +1677,7 @@
     "shas": 620,
     "cluster": 4,
     "population": 7845,
-    "right_attitude": 2657.375
+    "": ""
   },
   {
     "city": "ירושלים",
@@ -1697,7 +1697,7 @@
     "shas": 30579,
     "cluster": 4,
     "population": 730633,
-    "right_attitude": 140182.625
+    "": ""
   },
   {
     "city": "ירכא",
@@ -1717,7 +1717,7 @@
     "shas": 805,
     "cluster": 2,
     "population": 14196,
-    "right_attitude": 2201.875
+    "": ""
   },
   {
     "city": "כאבול",
@@ -1737,7 +1737,7 @@
     "shas": 13,
     "cluster": 2,
     "population": 11929,
-    "right_attitude": 876.675
+    "": ""
   },
   {
     "city": "כוכב יאיר",
@@ -1757,7 +1757,7 @@
     "shas": 25,
     "cluster": 9,
     "population": 9489,
-    "right_attitude": 3050.025
+    "": ""
   },
   {
     "city": "כסיפה",
@@ -1777,7 +1777,7 @@
     "shas": 34,
     "cluster": 2,
     "population": 16160,
-    "right_attitude": 673.9
+    "": ""
   },
   {
     "city": "כסרא-סמיע",
@@ -1797,7 +1797,7 @@
     "shas": 77,
     "cluster": 2,
     "population": 7201,
-    "right_attitude": 1715.25
+    "": ""
   },
   {
     "city": "כפר ברא",
@@ -1817,7 +1817,7 @@
     "shas": 1,
     "cluster": 3,
     "population": 2782,
-    "right_attitude": 208.275
+    "": ""
   },
   {
     "city": "כפר ורדים",
@@ -1837,7 +1837,7 @@
     "shas": 12,
     "cluster": 9,
     "population": 5463,
-    "right_attitude": 1384.65
+    "": ""
   },
   {
     "city": "כפר יאסיף",
@@ -1857,7 +1857,7 @@
     "shas": 15,
     "cluster": 4,
     "population": 8504,
-    "right_attitude": 898.825
+    "": ""
   },
   {
     "city": "כפר יונה",
@@ -1877,7 +1877,7 @@
     "shas": 388,
     "cluster": 7,
     "population": 16411,
-    "right_attitude": 6382.5
+    "": ""
   },
   {
     "city": "כפר כמא",
@@ -1897,7 +1897,7 @@
     "shas": 5,
     "cluster": 4,
     "population": 2898,
-    "right_attitude": 386
+    "": ""
   },
   {
     "city": "כפר כנא",
@@ -1917,7 +1917,7 @@
     "shas": 75,
     "cluster": 2,
     "population": 18332,
-    "right_attitude": 1447.15
+    "": ""
   },
   {
     "city": "כפר מנדא",
@@ -1937,7 +1937,7 @@
     "shas": 610,
     "cluster": 2,
     "population": 15746,
-    "right_attitude": 1475.425
+    "": ""
   },
   {
     "city": "כפר סבא",
@@ -1957,7 +1957,7 @@
     "shas": 1374,
     "cluster": 8,
     "population": 79840,
-    "right_attitude": 29849.3
+    "": ""
   },
   {
     "city": "כפר קאסם",
@@ -1977,7 +1977,7 @@
     "shas": 8,
     "cluster": 3,
     "population": 18352,
-    "right_attitude": 1051.95
+    "": ""
   },
   {
     "city": "כפר קרע",
@@ -1997,7 +1997,7 @@
     "shas": 7,
     "cluster": 4,
     "population": 14990,
-    "right_attitude": 1344.875
+    "": ""
   },
   {
     "city": "כפר שמריהו",
@@ -2017,7 +2017,7 @@
     "shas": 2,
     "cluster": 10,
     "population": 1603,
-    "right_attitude": 505.325
+    "": ""
   },
   {
     "city": "כפר תבור",
@@ -2037,7 +2037,7 @@
     "shas": 16,
     "cluster": 8,
     "population": 2539,
-    "right_attitude": 1085.7
+    "": ""
   },
   {
     "city": "כרמיאל",
@@ -2057,7 +2057,7 @@
     "shas": 630,
     "cluster": 5,
     "population": 42568,
-    "right_attitude": 15262.8
+    "": ""
   },
   {
     "city": "להבים",
@@ -2077,7 +2077,7 @@
     "shas": 17,
     "cluster": 9,
     "population": 5717,
-    "right_attitude": 1874.475
+    "": ""
   },
   {
     "city": "לוד",
@@ -2097,7 +2097,7 @@
     "shas": 1998,
     "cluster": 4,
     "population": 68232,
-    "right_attitude": 18930.4
+    "": ""
   },
   {
     "city": "לכיש",
@@ -2117,7 +2117,7 @@
     "shas": 1,
     "cluster": 5,
     "population": 8250,
-    "right_attitude": 138.05
+    "": ""
   },
   {
     "city": "לקיה",
@@ -2137,7 +2137,7 @@
     "shas": 29,
     "cluster": 1,
     "population": 9233,
-    "right_attitude": 423.7
+    "": ""
   },
   {
     "city": "מבשרת ציון",
@@ -2157,7 +2157,7 @@
     "shas": 536,
     "cluster": 8,
     "population": 22227,
-    "right_attitude": 7954.8
+    "": ""
   },
   {
     "city": "מג'ד אל-כרום",
@@ -2177,7 +2177,7 @@
     "shas": 26,
     "cluster": 2,
     "population": 10265,
-    "right_attitude": 1077.75
+    "": ""
   },
   {
     "city": "מג'דל שמס",
@@ -2197,7 +2197,7 @@
     "shas": 3,
     "cluster": 2,
     "population": 9474,
-    "right_attitude": 64.9
+    "": ""
   },
   {
     "city": "מגאר",
@@ -2217,7 +2217,7 @@
     "shas": 779,
     "cluster": 2,
     "population": 19600,
-    "right_attitude": 2433.125
+    "": ""
   },
   {
     "city": "מגדל",
@@ -2237,7 +2237,7 @@
     "shas": 139,
     "cluster": 5,
     "population": 1359,
-    "right_attitude": 577.475
+    "": ""
   },
   {
     "city": "מגדל העמק",
@@ -2257,7 +2257,7 @@
     "shas": 1809,
     "cluster": 5,
     "population": 23199,
-    "right_attitude": 8615.65
+    "": ""
   },
   {
     "city": "מגידו",
@@ -2277,7 +2277,7 @@
     "shas": 0,
     "cluster": 6,
     "population": 9232,
-    "right_attitude": 165.125
+    "": ""
   },
   {
     "city": "מודיעין עילית",
@@ -2297,7 +2297,7 @@
     "shas": 3342,
     "cluster": 1,
     "population": 39519,
-    "right_attitude": 8172.325
+    "": ""
   },
   {
     "city": "מזכרת בתיה",
@@ -2317,7 +2317,7 @@
     "shas": 143,
     "cluster": 8,
     "population": 8760,
-    "right_attitude": 3888
+    "": ""
   },
   {
     "city": "מזרעה",
@@ -2337,7 +2337,7 @@
     "shas": 13,
     "cluster": 2,
     "population": 3397,
-    "right_attitude": 314.575
+    "": ""
   },
   {
     "city": "מטולה",
@@ -2357,7 +2357,7 @@
     "shas": 6,
     "cluster": 7,
     "population": 1509,
-    "right_attitude": 463.4
+    "": ""
   },
   {
     "city": "מיתר",
@@ -2377,7 +2377,7 @@
     "shas": 38,
     "cluster": 9,
     "population": 6060,
-    "right_attitude": 2441.575
+    "": ""
   },
   {
     "city": "מסעדה",
@@ -2397,7 +2397,7 @@
     "shas": 0,
     "cluster": 2,
     "population": 3021,
-    "right_attitude": 11.625
+    "": ""
   },
   {
     "city": "מעיליא",
@@ -2417,7 +2417,7 @@
     "shas": 22,
     "cluster": 5,
     "population": 2829,
-    "right_attitude": 259.45
+    "": ""
   },
   {
     "city": "מעלה אדומים",
@@ -2437,7 +2437,7 @@
     "shas": 1000,
     "cluster": 5,
     "population": 33048,
-    "right_attitude": 14510.35
+    "": ""
   },
   {
     "city": "מעלה אפרים",
@@ -2457,7 +2457,7 @@
     "shas": 7,
     "cluster": 5,
     "population": 1170,
-    "right_attitude": 444.375
+    "": ""
   },
   {
     "city": "מעלה עירון",
@@ -2477,7 +2477,7 @@
     "shas": 44,
     "cluster": 2,
     "population": 12598,
-    "right_attitude": 853.45
+    "": ""
   },
   {
     "city": "מעלות-תרשיחא",
@@ -2497,7 +2497,7 @@
     "shas": 683,
     "cluster": 5,
     "population": 19997,
-    "right_attitude": 6363.1
+    "": ""
   },
   {
     "city": "מצפה רמון",
@@ -2517,7 +2517,7 @@
     "shas": 31,
     "cluster": 4,
     "population": 4359,
-    "right_attitude": 1238.875
+    "": ""
   },
   {
     "city": "משהד",
@@ -2537,7 +2537,7 @@
     "shas": 7,
     "cluster": 2,
     "population": 6911,
-    "right_attitude": 552.675
+    "": ""
   },
   {
     "city": "נחף",
@@ -2557,7 +2557,7 @@
     "shas": 6,
     "cluster": 2,
     "population": 10491,
-    "right_attitude": 774.125
+    "": ""
   },
   {
     "city": "נס ציונה",
@@ -2577,7 +2577,7 @@
     "shas": 560,
     "cluster": 7,
     "population": 35599,
-    "right_attitude": 13214.175
+    "": ""
   },
   {
     "city": "נצרת",
@@ -2597,7 +2597,7 @@
     "shas": 63,
     "cluster": 3,
     "population": 71592,
-    "right_attitude": 5353.675
+    "": ""
   },
   {
     "city": "נצרת עילית",
@@ -2617,7 +2617,7 @@
     "shas": 287,
     "cluster": 5,
     "population": 40624,
-    "right_attitude": 12729.2
+    "": ""
   },
   {
     "city": "נשר",
@@ -2637,7 +2637,7 @@
     "shas": 466,
     "cluster": 7,
     "population": 21945,
-    "right_attitude": 8079.95
+    "": ""
   },
   {
     "city": "נתיבות",
@@ -2657,7 +2657,7 @@
     "shas": 3403,
     "cluster": 3,
     "population": 25572,
-    "right_attitude": 8649.175
+    "": ""
   },
   {
     "city": "נתניה",
@@ -2677,7 +2677,7 @@
     "shas": 8319,
     "cluster": 5,
     "population": 175460,
-    "right_attitude": 68221.95
+    "": ""
   },
   {
     "city": "סאג'ור",
@@ -2697,7 +2697,7 @@
     "shas": 189,
     "cluster": 3,
     "population": 3679,
-    "right_attitude": 811.175
+    "": ""
   },
   {
     "city": "סביון",
@@ -2717,7 +2717,7 @@
     "shas": 7,
     "cluster": 10,
     "population": 2969,
-    "right_attitude": 1098.575
+    "": ""
   },
   {
     "city": "סח'נין",
@@ -2737,7 +2737,7 @@
     "shas": 39,
     "cluster": 2,
     "population": 25085,
-    "right_attitude": 2378.35
+    "": ""
   },
   {
     "city": "עומר",
@@ -2757,7 +2757,7 @@
     "shas": 17,
     "cluster": 10,
     "population": 6190,
-    "right_attitude": 2403.025
+    "": ""
   },
   {
     "city": "עיילבון",
@@ -2777,7 +2777,7 @@
     "shas": 125,
     "cluster": 4,
     "population": 4765,
-    "right_attitude": 620.35
+    "": ""
   },
   {
     "city": "עילוט",
@@ -2797,7 +2797,7 @@
     "shas": 86,
     "cluster": 2,
     "population": 6748,
-    "right_attitude": 378.5
+    "": ""
   },
   {
     "city": "עין מאהל",
@@ -2817,7 +2817,7 @@
     "shas": 59,
     "cluster": 2,
     "population": 10946,
-    "right_attitude": 878.95
+    "": ""
   },
   {
     "city": "עכו",
@@ -2837,7 +2837,7 @@
     "shas": 1946,
     "cluster": 4,
     "population": 44675,
-    "right_attitude": 13881.475
+    "": ""
   },
   {
     "city": "עמנואל",
@@ -2857,7 +2857,7 @@
     "shas": 459,
     "cluster": 2,
     "population": 2810,
-    "right_attitude": 616.05
+    "": ""
   },
   {
     "city": "עספיא",
@@ -2877,7 +2877,7 @@
     "shas": 34,
     "cluster": 4,
     "population": 9526,
-    "right_attitude": 2191.425
+    "": ""
   },
   {
     "city": "עפולה",
@@ -2897,7 +2897,7 @@
     "shas": 1365,
     "cluster": 5,
     "population": 38930,
-    "right_attitude": 15827.05
+    "": ""
   },
   {
     "city": "עראבה",
@@ -2917,7 +2917,7 @@
     "shas": 31,
     "cluster": 2,
     "population": 20618,
-    "right_attitude": 1629.75
+    "": ""
   },
   {
     "city": "ערד",
@@ -2937,7 +2937,7 @@
     "shas": 129,
     "cluster": 5,
     "population": 22203,
-    "right_attitude": 7127.55
+    "": ""
   },
   {
     "city": "ערערה",
@@ -2957,7 +2957,7 @@
     "shas": 4,
     "cluster": 2,
     "population": 21660,
-    "right_attitude": 1233.275
+    "": ""
   },
   {
     "city": "ערערה-בנגב",
@@ -2977,7 +2977,7 @@
     "shas": 15,
     "cluster": 2,
     "population": 11522,
-    "right_attitude": 611.425
+    "": ""
   },
   {
     "city": "פוריידיס",
@@ -2997,7 +2997,7 @@
     "shas": 4,
     "cluster": 2,
     "population": 10800,
-    "right_attitude": 1086.925
+    "": ""
   },
   {
     "city": "פסוטה",
@@ -3017,7 +3017,7 @@
     "shas": 7,
     "cluster": 4,
     "population": 2866,
-    "right_attitude": 218.925
+    "": ""
   },
   {
     "city": "פקיעין (בוקייעה)",
@@ -3037,7 +3037,7 @@
     "shas": 221,
     "cluster": 4,
     "population": 5287,
-    "right_attitude": 1116.525
+    "": ""
   },
   {
     "city": "פרדס חנה-כרכור",
@@ -3057,7 +3057,7 @@
     "shas": 832,
     "cluster": 6,
     "population": 29637,
-    "right_attitude": 10765.15
+    "": ""
   },
   {
     "city": "פתח תקווה",
@@ -3077,7 +3077,7 @@
     "shas": 6946,
     "cluster": 6,
     "population": 195634,
-    "right_attitude": 77199.425
+    "": ""
   },
   {
     "city": "צפת",
@@ -3097,7 +3097,7 @@
     "shas": 2075,
     "cluster": 4,
     "population": 27629,
-    "right_attitude": 8413.25
+    "": ""
   },
   {
     "city": "קדומים",
@@ -3117,7 +3117,7 @@
     "shas": 18,
     "cluster": 5,
     "population": 3524,
-    "right_attitude": 1488.225
+    "": ""
   },
   {
     "city": "קדימה-צורן",
@@ -3137,7 +3137,7 @@
     "shas": 478,
     "cluster": 7,
     "population": 16472,
-    "right_attitude": 5524.7
+    "": ""
   },
   {
     "city": "קלנסווה",
@@ -3157,7 +3157,7 @@
     "shas": 4,
     "cluster": 2,
     "population": 18162,
-    "right_attitude": 1321.225
+    "": ""
   },
   {
     "city": "קצרין",
@@ -3177,7 +3177,7 @@
     "shas": 83,
     "cluster": 5,
     "population": 6342,
-    "right_attitude": 2292.6
+    "": ""
   },
   {
     "city": "קרני שומרון",
@@ -3197,7 +3197,7 @@
     "shas": 82,
     "cluster": 6,
     "population": 5703,
-    "right_attitude": 2678.95
+    "": ""
   },
   {
     "city": "ראמה",
@@ -3217,7 +3217,7 @@
     "shas": 183,
     "cluster": 4,
     "population": 7150,
-    "right_attitude": 1028.75
+    "": ""
   },
   {
     "city": "ראש העין",
@@ -3237,7 +3237,7 @@
     "shas": 1520,
     "cluster": 6,
     "population": 37670,
-    "right_attitude": 14969.4
+    "": ""
   },
   {
     "city": "ראש פינה",
@@ -3257,7 +3257,7 @@
     "shas": 16,
     "cluster": 7,
     "population": 2624,
-    "right_attitude": 777.525
+    "": ""
   },
   {
     "city": "ראשון לציון",
@@ -3277,7 +3277,7 @@
     "shas": 4095,
     "cluster": 6,
     "population": 224253,
-    "right_attitude": 85313.3
+    "": ""
   },
   {
     "city": "רהט",
@@ -3297,7 +3297,7 @@
     "shas": 68,
     "cluster": 2,
     "population": 49910,
-    "right_attitude": 2434.125
+    "": ""
   },
   {
     "city": "רחובות",
@@ -3317,7 +3317,7 @@
     "shas": 3332,
     "cluster": 6,
     "population": 108763,
-    "right_attitude": 41022.825
+    "": ""
   },
   {
     "city": "ריינה",
@@ -3337,7 +3337,7 @@
     "shas": 9,
     "cluster": 3,
     "population": 17067,
-    "right_attitude": 1075.175
+    "": ""
   },
   {
     "city": "רכסים",
@@ -3357,7 +3357,7 @@
     "shas": 1754,
     "cluster": 2,
     "population": 8150,
-    "right_attitude": 2103.8
+    "": ""
   },
   {
     "city": "רמלה",
@@ -3377,7 +3377,7 @@
     "shas": 2989,
     "cluster": 4,
     "population": 61160,
-    "right_attitude": 20509.9
+    "": ""
   },
   {
     "city": "רמת גן",
@@ -3397,7 +3397,7 @@
     "shas": 2661,
     "cluster": 7,
     "population": 140200,
-    "right_attitude": 46419.85
+    "": ""
   },
   {
     "city": "רמת השרון",
@@ -3417,7 +3417,7 @@
     "shas": 498,
     "cluster": 9,
     "population": 38062,
-    "right_attitude": 12092.025
+    "": ""
   },
   {
     "city": "רמת ישי",
@@ -3437,7 +3437,7 @@
     "shas": 41,
     "cluster": 8,
     "population": 6155,
-    "right_attitude": 2239.55
+    "": ""
   },
   {
     "city": "רעננה",
@@ -3457,7 +3457,7 @@
     "shas": 882,
     "cluster": 8,
     "population": 66558,
-    "right_attitude": 23094.45
+    "": ""
   },
   {
     "city": "שבלי - אום אל-גנם",
@@ -3477,7 +3477,7 @@
     "shas": 3,
     "cluster": 2,
     "population": 4858,
-    "right_attitude": 390.1
+    "": ""
   },
   {
     "city": "שגב-שלום",
@@ -3497,7 +3497,7 @@
     "shas": 30,
     "cluster": 2,
     "population": 7023,
-    "right_attitude": 312.975
+    "": ""
   },
   {
     "city": "שדרות",
@@ -3517,7 +3517,7 @@
     "shas": 840,
     "cluster": 4,
     "population": 20346,
-    "right_attitude": 7468.825
+    "": ""
   },
   {
     "city": "שוהם",
@@ -3537,7 +3537,7 @@
     "shas": 115,
     "cluster": 8,
     "population": 17888,
-    "right_attitude": 6228.1
+    "": ""
   },
   {
     "city": "שלומי",
@@ -3557,7 +3557,7 @@
     "shas": 326,
     "cluster": 5,
     "population": 5840,
-    "right_attitude": 2215.2
+    "": ""
   },
   {
     "city": "שעב",
@@ -3577,7 +3577,7 @@
     "shas": 50,
     "cluster": 2,
     "population": 5820,
-    "right_attitude": 521.575
+    "": ""
   },
   {
     "city": "שפיר",
@@ -3597,7 +3597,7 @@
     "shas": 14,
     "cluster": 5,
     "population": 8248,
-    "right_attitude": 263.175
+    "": ""
   },
   {
     "city": "שפרעם",
@@ -3617,7 +3617,7 @@
     "shas": 54,
     "cluster": 3,
     "population": 35606,
-    "right_attitude": 3641.425
+    "": ""
   },
   {
     "city": "תל מונד",
@@ -3637,7 +3637,7 @@
     "shas": 114,
     "cluster": 9,
     "population": 9997,
-    "right_attitude": 3438.275
+    "": ""
   },
   {
     "city": "תל שבע",
@@ -3657,6 +3657,6 @@
     "shas": 54,
     "cluster": 1,
     "population": 14643,
-    "right_attitude": 567.975
+    "": ""
   }
 ]

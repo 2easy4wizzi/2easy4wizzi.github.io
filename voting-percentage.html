@@ -1,42 +1,19 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<style>
-
-    .bar {
-        fill: steelblue;
-    }
-
-    .bar:hover {
-        fill: brown;
-    }
-
-    .axis {
-        font: 10px sans-serif;
-    }
-
-    .axis path,
-    .axis line {
-        fill: none;
-        stroke: #000;
-        shape-rendering: crispEdges;
-        stroke-width: 5;
-    }
-
-    /*.x.axis path {*/
-        /*display: none;*/
-    /*}*/
-
-</style>
+<head>
+    <link rel="stylesheet" href="general.css">
+</head>
 <body>
 <script src="dependencies/d3.min.js"></script>
 <script src="http://underscorejs.org/underscore.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 <script>
     var margin = {top: 20, right: 20, bottom: 30, left: 40},
             width = 960 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
 
     var xScale = d3.scale.ordinal()
-            .rangeRoundBands([0, width], .1);
+            .rangeRoundBands([0, width], .3);
 
     var yScale = d3.scale.linear()
             .range([height, 0]);
@@ -56,7 +33,16 @@
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    d3.json("data-set-elections/electionAndEconomicData2.json", function(error, data) {
+    var tip = d3.tip()
+            .attr('class', 'd3-tip')
+            .offset([-10, 0])
+            .html(function(d) {
+                return "<span style='color:red'>" + parseInt(d.values.votingPerc*100) + "%" + "</span><strong> :אחוזי הצבעה</strong>";
+            });
+
+    svg.call(tip);
+
+    d3.json("data-set-elections/electionAndEconomicData.json", function(error, data) {
         if (error) throw error;
 
         header_data = data.splice(0,3);
@@ -75,7 +61,12 @@
         console.log(votingDataByCluster);
         xScale.domain(d3.range(1, 11, 1));   // social classes [1,...,10]
         yScale.domain([0, 1]);
+//        yScale.domain([0, d3.max(votingDataByCluster, function (d) { return d.values.votingPerc })]); // max percent is highest
 
+
+        var averageVotingPerc = d3.sum(data, function (d) { return d.votes}) / d3.sum(data, function(d) { return d.eligible});
+
+        console.log(averageVotingPerc);
         var colorScale = d3.scale.linear()
                 .range(["#ffe6e6", "#990000"])
                 .domain(d3.extent(votingDataByCluster, function (d) { return d.values.rightAttribute }));
@@ -95,6 +86,13 @@
                 .style("text-anchor", "end")
                 .text("Voting Percentage");
 
+        svg.append("line")
+                .attr("x1", 0)
+                .attr("y1", yScale(averageVotingPerc))
+                .attr("x2", width)
+                .attr("y2", yScale(averageVotingPerc))
+                .attr("style", 'stroke:red;stroke-width:2;stroke-dasharray: 10;');
+
         svg.selectAll(".bar")
                 .data(votingDataByCluster)
                 .enter()
@@ -104,6 +102,10 @@
                 .attr("width", xScale.rangeBand())
                 .attr("y", function(d) { return yScale(d.values.votingPerc); })
                 .attr("height", function(d) { return height - yScale(d.values.votingPerc); })
-                .attr("style", function (d) {return "fill:" + colorScale(d.values.rightAttribute)});
+                .attr("style", function (d) {return "fill:" + colorScale(d.values.rightAttribute)})
+                .on('mouseover', tip.show)
+                .on('mouseout', tip.hide)
+
+        ;
     });
 </script>
