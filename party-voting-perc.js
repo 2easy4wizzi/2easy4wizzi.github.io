@@ -49,6 +49,16 @@ function transitionPartyVotingPerc(inputClusterNumber) {
         svg.select('.x.axis').transition().duration(500).call(xAxis);
         svg.select(".y.axis").transition().duration(500).call(yAxis);
 
+
+        svg.select(".perc-line")
+            .transition()
+            .duration(500)
+            .attr("x1", 0)
+            .attr("y1", yScale(0.0325)) // ahuz hahasima
+            .attr("x2", width)
+            .attr("y2", yScale(0.0325)) // ahuz hahasima
+            .attr("style", 'stroke:red;stroke-width:2;stroke-dasharray: 10;');
+
         var bars = svg.selectAll(".bar").data(sumsVotesArray);
 
         bars.exit()

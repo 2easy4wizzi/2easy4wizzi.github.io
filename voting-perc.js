@@ -44,6 +44,7 @@ function generateVotingPercentage() {
             .text("Voting Percentage");
 
         svg.append("line")
+            .attr("class", "perc-line")
             .attr("x1", 0)
             .attr("y1", yScale(averageVotingPerc))
             .attr("x2", width)
