@@ -49,7 +49,7 @@ function generateVotingPercentage() {
             .attr("y1", yScale(averageVotingPerc))
             .attr("x2", width)
             .attr("y2", yScale(averageVotingPerc))
-            .attr("style", 'stroke:red;stroke-width:2;stroke-dasharray: 10;');
+            .attr("style", 'stroke:grey;stroke-width:2;stroke-dasharray: 10;');
 
         svg.selectAll(".bar")
             .data(votingDataByCluster)
