@@ -1,4 +1,4 @@
-var generateVotingPercentage = function () {
+function generateVotingPercentage() {
     d3.json("data-set-elections/electionAndEconomicData.json", function(error, data) {
         if (error) throw error;
 
@@ -62,7 +62,7 @@ var generateVotingPercentage = function () {
             .attr("style", function (d) {return "fill:" + colorScale(d.values.rightAttribute)})
             .on('mouseover', tip.show)
             .on('mouseout', tip.hide)
-
+            .on("click", function (d,i) {transitionPartyVotingPerc(i+1)})
         ;
     });
 };
