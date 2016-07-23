@@ -58,3 +58,8 @@
     top: 100%;
     left: 0;
 }
+
+table, td {
+    border: 1px solid green;
+    direction: rtl;
+}
