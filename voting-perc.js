@@ -73,7 +73,7 @@ function generateCityPopulationTableData(data){
     var cityPopulationTableData = data.map(function(d){ return [d.city , d.population];}); //filtering data
     console.log("cityPopulationTableData data:");
     console.log(cityPopulationTableData);
-    var table = document.getElementById("myTable"); 
+    var table = document.getElementById("myTable");
 
     for(var i = 0; i < cityPopulationTableData.length ; i++){ //generating table rows
         var row = table.insertRow(0);
@@ -91,8 +91,26 @@ function generateCityPopulationTableData(data){
     var cell1 = row.insertCell(0);
     var cell2 = row.insertCell(1);
     var cell3 = row.insertCell(2);
+    //cell1.setAttribute("data-priority","1");
     cell1.innerHTML = "<b>מספר</b>";
     cell2.innerHTML = "<b>עיר</b>";
     cell3.innerHTML = "<b>אוכלוסיה</b>";
 }
+/*
+
+<thead>
+<tr>
+<th data-priority="6">מספר</th>
+    <th>מספר</th>
+    <th data-priority="1">ContactName</th>
+    <th data-priority="2">Address</th>
+    <th data-priority="3">City</th>
+    <th data-priority="4">PostalCode</th>
+    <th data-priority="5">Country</th>
+    </tr>
+    </thead>
+
+ http://www.w3schools.com/jquerymobile/tryit.asp?filename=tryjqmob_filters_tables
+
+*/
 

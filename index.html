@@ -4,11 +4,23 @@
     <link rel="stylesheet" href="general.css">
 </head>
 <body>
+<script src="dependencies/jquery-1.11.3.min.js"></script>
+<script src="dependencies/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <script src="dependencies/d3.js"></script>
 <script src="dependencies/d3.tip.v0.6.3.js"></script>
 <script src="party-voting-perc.js"></script>
 <script src="voting-perc.js"></script>
 <script src="mainApp.js"></script>
-<table id="myTable"></table>
+<form><input id="filterTable-input" data-type="search" placeholder="..."></form>
+<table data-role="table" data-mode="columntoggle" data-filter="true" data-input="#filterTable-input" id="myTable" class="ui-responsive ui-shadow">
+    <!--<thead>
+    <tr>
+        <th data-priority="3">מספר</th>
+        <th data-priority="1">עיר</th>
+        <th data-priority="2">אוכלוסיה</th>
+    </tr>
+    </thead>-->
+</table>
 </body>
 </html>
