@@ -43,6 +43,8 @@ function generateVotingPercentage() {
             .attr("style", 'stroke:grey;stroke-width:2;stroke-dasharray: 10;')
         ;
 
+        parent_svg.on("click", null); // disable click on background
+
         var bars = svg.selectAll(".bar").data(votingDataByCluster);
 
         // data that needs DOM = enter() (a set/selection, not an event!)
@@ -60,10 +62,12 @@ function generateVotingPercentage() {
             .attr("height", height - yScale(0))
             .on('mouseover', tip.show)
             .on('mouseout', tip.hide)
-            .on('click', function (d,i) {
-                transitionPartyVotingPerc(i+1);
-                d3.event.stopPropagation();
-            });
+        ;
+
+        bars.on('click', function (d,i) {
+            transitionPartyVotingPerc(i+1);
+            d3.event.stopPropagation();
+        });
 
         // the "UPDATE" set:
         bars.transition()

@@ -44,10 +44,7 @@ function transitionPartyVotingPerc(inputClusterNumber) {
         }
         // console.log("sumsVotesArray");
         console.log(sumsVotesArray);
-        xScale.domain(partiesHeaders.map(function (d) {
-            return d[1];
-        }));
-
+        xScale.domain(partiesHeaders.map(function (d) { return d[1] }));
         yScale.domain([0, d3.max(sumsVotesArray, function (d) {return d.values.votingPerc})]);
 
         svg.select('.x.axis').transition().duration(TRANSITION_TIME).call(xAxis);
@@ -88,9 +85,10 @@ function transitionPartyVotingPerc(inputClusterNumber) {
         bars
             .on('mouseover', tip.show)
             .on('mouseout', tip.hide)
-            // .on("click", function (d,i) {
-            //     console.log("clicked");
-            // })
+            .on("click", function (d,i) {
+                transitionPartyVotingPercentPerCluster(d.values.party_field_name);
+                d3.event.stopPropagation();
+            })
         ;
 
         // the "UPDATE" set:
@@ -102,6 +100,5 @@ function transitionPartyVotingPerc(inputClusterNumber) {
             .attr("height", function(d) { return height - yScale(d.values.votingPerc); })
             .style("fill", function (d) {return d3.interpolateGnBu(d.values.right_dist)})
             ;
-
     });
 }
