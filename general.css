@@ -59,7 +59,20 @@
     left: 0;
 }
 
-table, td {
+table, td ,th{
     border: 1px solid green;
     direction: rtl;
+    /*text-align: right;*/
+}
+
+
+.tableAndFilter {
+    float: right;
+    width: 271px !important;
+
+}
+
+.populationTable{
+    height:500px;
+    overflow:auto;
 }
