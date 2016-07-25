@@ -56,3 +56,4 @@ svg.append("line")
     .attr("class", "perc-line");
 
 generateVotingPercentage();
+generateCityPopulationTableData();

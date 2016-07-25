@@ -20,7 +20,7 @@ function generateVotingPercentage() {
         xScale.domain(d3.range(1, 11, 1));   // social classes [1,...,10]
         yScale.domain([0, 1]);
 
-        generateCityPopulationTableData(data);
+
 
         var averageVotingPerc = d3.sum(data, function (d) { return d.votes}) / d3.sum(data, function(d) { return d.eligible});
 
