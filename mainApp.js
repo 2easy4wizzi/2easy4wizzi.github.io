@@ -35,8 +35,8 @@ var tip = d3.tip()
     .html(function(d) {
         return "<span style='color:red'>"
             + (checkShowPercent()
-                ? parseInt(d.values.voting*100) + "%"
-                : parseInt(d.values.voting / 1000)  + "k")
+                ? d3.format("%")(d.values.voting)
+                : d3.format(".2s")(d.values.voting))
             + "</span><strong> :הצבעה</strong>";
     });
 
