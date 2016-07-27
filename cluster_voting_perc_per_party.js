@@ -1,5 +1,11 @@
 function transitionPartyVotingPercentPerCluster(partyName) {
     console.log("transitionPartyVotingPercentPerCluster, cluster:" + partyName);
+
+    showPercent  = checkShowPercent();
+
+    d3.selectAll('input[name="mode"]')
+        .on("change", function() { transitionPartyVotingPercentPerCluster(partyName) });
+
     d3.json("data-set-elections/electionAndEconomicData.json", function(error, data) {
         header_data = data.splice(0,3);
         console.log(data);
@@ -10,11 +16,11 @@ function transitionPartyVotingPercentPerCluster(partyName) {
             .key(function (d) {return d.cluster;})
             .rollup(function (cities) {
                 var totalVotesForPartyForCluster = d3.sum(cities, function(g) {return g[partyName]});
-                var votingPercForClusterForParty = totalVotesForPartyForCluster / totalVotesForParty;
                 var totalVotesForCluster = d3.sum(cities, function(g) {return g.votes});
+                var votingPercForClusterForParty = totalVotesForPartyForCluster / totalVotesForCluster;
                 var rightAttributeForCluster = d3.sum(cities, function(g) {return g.right_attitude}) / totalVotesForCluster;
                 return {
-                    votingPerc: votingPercForClusterForParty,
+                    voting: showPercent ? votingPercForClusterForParty : totalVotesForPartyForCluster,
                     votingTotal: totalVotesForPartyForCluster,
                     rightAttribute: rightAttributeForCluster
                 };
@@ -24,10 +30,11 @@ function transitionPartyVotingPercentPerCluster(partyName) {
         console.log(votingDataByCluster);
 
         xScale.domain(d3.range(1, 11, 1));   // social classes [1,...,10]
-        yScale.domain([0, d3.max(votingDataByCluster, function (d) {return d.values.votingPerc})]);
+        yScale.domain(showPercent
+            ? [0, d3.max(votingDataByCluster, function (d) {return d.values.voting})]
+            : [0, d3.max(votingDataByCluster, function(g) { return g.values.voting })]);
 
-        svg.select('.x.axis').transition().duration(TRANSITION_TIME).call(xAxis);
-        svg.select(".y.axis").transition().duration(TRANSITION_TIME).call(yAxis);
+        changeAxis();
 
         // var line = svg.select(".perc-line").data(votingDataByCluster);
         // line.enter();
@@ -73,8 +80,8 @@ function transitionPartyVotingPercentPerCluster(partyName) {
             .duration(TRANSITION_TIME)
             .attr("x", function(d) { return xScale(d.key); })
             .attr("width", xScale.rangeBand())
-            .attr("y", function(d) { return yScale(d.values.votingPerc); })
-            .attr("height", function(d) { return height - yScale(d.values.votingPerc); })
+            .attr("y", function(d) { return yScale(d.values.voting); })
+            .attr("height", function(d) { return height - yScale(d.values.voting); })
             .style("fill", function (d) {return d3.interpolateGnBu(d.values.rightAttribute)})
 
     });

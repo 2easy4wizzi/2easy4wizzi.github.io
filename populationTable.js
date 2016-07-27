@@ -1,5 +1,5 @@
 function generateCityPopulationTableData(){
-    console.log("generateCityPopulationTableData");
+    // console.log("generateCityPopulationTableData");
     d3.json("data-set-elections/electionAndEconomicData.json", function(error, data) {
         if (error) throw error;
 
@@ -7,8 +7,8 @@ function generateCityPopulationTableData(){
 
 
         var cityPopulationTableData = data.map(function(d){ return [d.city , d.population];}); //filtering data
-        console.log("cityPopulationTableData data:");
-        console.log(cityPopulationTableData);
+        // console.log("cityPopulationTableData data:");
+        // console.log(cityPopulationTableData);
 
         var form = document.getElementById("filterTable-input");
         form.setAttribute("data-type","search");

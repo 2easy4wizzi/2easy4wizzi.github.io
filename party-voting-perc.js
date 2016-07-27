@@ -1,5 +1,10 @@
 function transitionPartyVotingPerc(inputClusterNumber) {
     console.log("transitionPartyVotingPerc, cluster:" + inputClusterNumber);
+    showPercent = checkShowPercent();
+
+    d3.selectAll('input[name="mode"]')
+        .on("change", function() { transitionPartyVotingPerc(inputClusterNumber) });
+
     d3.json("data-set-elections/electionAndEconomicData.json", function(error, data) {
         if (error) throw error;
         header_data = data.splice(0,3);
@@ -35,7 +40,7 @@ function transitionPartyVotingPerc(inputClusterNumber) {
             var pair = {
                 key: partiesHeaders[i][1],
                 values: {
-                    votingPerc: tempSum/totalPeopleInCluster,
+                    voting: showPercent ? tempSum/totalPeopleInCluster : tempSum,
                     right_dist: partiesDistribution[i][1],
                     party_field_name: partiesHeaders[i][0]
                 }
@@ -43,25 +48,27 @@ function transitionPartyVotingPerc(inputClusterNumber) {
             sumsVotesArray.push(pair);
         }
         // console.log("sumsVotesArray");
-        console.log(sumsVotesArray);
         xScale.domain(partiesHeaders.map(function (d) { return d[1] }));
-        yScale.domain([0, d3.max(sumsVotesArray, function (d) {return d.values.votingPerc})]);
+        // yScale.domain([0, d3.max(sumsVotesArray, function (d) {return d.values.voting})]);
+        yScale.domain(showPercent
+            ? [0, d3.max(sumsVotesArray, function (d) {return d.values.voting})]
+            : [0, d3.max(sumsVotesArray, function(g) { return g.values.voting })]);
 
-        svg.select('.x.axis').transition().duration(TRANSITION_TIME).call(xAxis);
-        svg.select(".y.axis").transition().duration(TRANSITION_TIME).call(yAxis);
 
+        changeAxis();
 
         parent_svg.on("click", function (d,i) { // the "return button" - click on background
             generateVotingPercentage();
         });
 
+        var ahuzHahasima = showPercent ? 0.0325 : 0.0325 * totalPeopleInCluster;
         svg.select(".perc-line")
             .transition()
             .duration(TRANSITION_TIME)
             .attr("x1", 0)
-            .attr("y1", yScale(0.0325)) // ahuz hahasima
+            .attr("y1", yScale(ahuzHahasima)) // ahuz hahasima
             .attr("x2", width)
-            .attr("y2", yScale(0.0325)) // ahuz hahasima
+            .attr("y2", yScale(ahuzHahasima)) // ahuz hahasima
             .attr("style", 'stroke:red;stroke-width:2;stroke-dasharray: 10;')
         ;
 
@@ -96,8 +103,8 @@ function transitionPartyVotingPerc(inputClusterNumber) {
             .duration(TRANSITION_TIME)
             .attr("x", function(d) { return xScale(d.key); })
             .attr("width", xScale.rangeBand())
-            .attr("y", function(d) { return yScale(d.values.votingPerc); })
-            .attr("height", function(d) { return height - yScale(d.values.votingPerc); })
+            .attr("y", function(d) { return yScale(d.values.voting); })
+            .attr("height", function(d) { return height - yScale(d.values.voting); })
             .style("fill", function (d) {return d3.interpolateGnBu(d.values.right_dist)})
             ;
     });
