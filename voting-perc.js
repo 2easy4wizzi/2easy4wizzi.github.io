@@ -42,13 +42,18 @@ function generateVotingPercentage() {
             .attr("style", 'stroke:grey;stroke-width:2;stroke-dasharray: 10;')
         ;
 
+        title.transition()
+            .duration(TRANSITION_TIME)
+            .text(showPercent
+                ? "אחוזי הצבעה ארצי"
+                : "סך הצבעות ארצי");
+
         changeAxis();
 
-        parent_svg.on("click", null); // disable click on background
+        parent_svg.on("click", function () {transitionPartyVotingPerc(0)}); // click on background from main screen gives election results nationwide.
 
         var bars = svg.selectAll(".bar").data(votingDataByCluster);
 
-        // data that needs DOM = enter() (a set/selection, not an event!)
         bars.exit()
             .transition()
             .duration(TRANSITION_TIME)
@@ -70,7 +75,6 @@ function generateVotingPercentage() {
             d3.event.stopPropagation();
         });
 
-        // the "UPDATE" set:
         bars.transition()
             .duration(TRANSITION_TIME)
             .attr("x", function(d) { return xScale(d.key); })

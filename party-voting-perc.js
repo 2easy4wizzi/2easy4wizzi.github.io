@@ -28,10 +28,13 @@ function transitionPartyVotingPerc(inputClusterNumber) {
                 partiesDistribution.push(pair);
             }
         }
+        var dataOfClusterRequested = data;
+        if (inputClusterNumber != 0) {
+            dataOfClusterRequested = data.filter(function(d){return d.cluster == inputClusterNumber });
+        }
 
-        var dataOfClusterRequested = data.filter(function(d){return d.cluster == inputClusterNumber });
-
-        console.log("data Of Cluster Requested:" + dataOfClusterRequested);
+        console.log("data Of Cluster Requested:")
+        console.log(dataOfClusterRequested);
         var totalPeopleInCluster = d3.sum(dataOfClusterRequested,function(d) { return d.votes});
         // console.log("total people in cluster number " + inputClusterNumber +" : " + totalPeopleInCluster);
         var sumsVotesArray = [];
@@ -49,13 +52,21 @@ function transitionPartyVotingPerc(inputClusterNumber) {
         }
         // console.log("sumsVotesArray");
         xScale.domain(partiesHeaders.map(function (d) { return d[1] }));
-        // yScale.domain([0, d3.max(sumsVotesArray, function (d) {return d.values.voting})]);
-        yScale.domain(showPercent
-            ? [0, d3.max(sumsVotesArray, function (d) {return d.values.voting})]
-            : [0, d3.max(sumsVotesArray, function(g) { return g.values.voting })]);
+        var domainMax = d3.max(sumsVotesArray, function (g) { return g.values.voting }) * 1.1;
+        yScale.domain([0, domainMax]);
+        changeAxis(domainMax);
 
+        var titleText = (inputClusterNumber != 0
+                ? " (קבוצה " + inputClusterNumber
+                : " (תוצאות ארציות")
+            + " " + (showPercent
+            ? "(אחוז התפלגות הצבעות למפלגות"
+            : "(סך הצבעות למפלגות");
 
-        changeAxis();
+        title.transition()
+            .duration(TRANSITION_TIME)
+            .text(titleText);
+
 
         parent_svg.on("click", function (d,i) { // the "return button" - click on background
             generateVotingPercentage();
@@ -82,7 +93,6 @@ function transitionPartyVotingPerc(inputClusterNumber) {
             .style('fill-opacity', 1e-6)
             .remove();
 
-        // data that needs DOM = enter() (a set/selection, not an event!)
         bars.enter().append("rect")
             .attr("class", "bar")
             .attr("y", yScale(0))
@@ -98,7 +108,6 @@ function transitionPartyVotingPerc(inputClusterNumber) {
             })
         ;
 
-        // the "UPDATE" set:
         bars.transition()
             .duration(TRANSITION_TIME)
             .attr("x", function(d) { return xScale(d.key); })
@@ -106,6 +115,7 @@ function transitionPartyVotingPerc(inputClusterNumber) {
             .attr("y", function(d) { return yScale(d.values.voting); })
             .attr("height", function(d) { return height - yScale(d.values.voting); })
             .style("fill", function (d) {return d3.interpolateGnBu(d.values.right_dist)})
+            .style("fill-opacity", 1)
             ;
     });
 }

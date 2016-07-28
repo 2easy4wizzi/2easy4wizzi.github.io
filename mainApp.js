@@ -1,7 +1,7 @@
 const TRANSITION_TIME = 300;
 
 
-var margin = {top: 20, right: 20, bottom: 30, left: 40},
+var margin = {top: 35, right: 20, bottom: 30, left: 45},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
@@ -25,6 +25,14 @@ var parent_svg = d3.select("#vis").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom);
 
+var title = parent_svg.append("text")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+    .attr("x", (width / 2))
+    .attr("y", 0 - (margin.top / 2))
+    .attr("text-anchor", "middle")
+    .style("font-size", "22px")
+    .style("text-decoration", "underline");
+
 var svg = parent_svg
     .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -35,7 +43,7 @@ var tip = d3.tip()
     .html(function(d) {
         return "<span style='color:red'>"
             + (checkShowPercent()
-                ? d3.format("%")(d.values.voting)
+                ? d3.format(".1%")(d.values.voting)
                 : d3.format(".2s")(d.values.voting))
             + "</span><strong> :הצבעה</strong>";
     });
@@ -69,10 +77,15 @@ function checkShowPercent() {
     return d3.select('input[name="mode"]:checked').property("value") == "percent";
 }
 
-function changeAxis() {
+function changeAxis(domainMax) {
     showPercent = checkShowPercent();
-    yAxis.tickFormat(d3.format(showPercent ? "%" : "s"));
+    if (domainMax < 0.1) {
+        yAxis.tickFormat(d3.format('.1%'));
+    } else {
+        yAxis.tickFormat(d3.format(showPercent ? "%" : "s"));
+    }
+    yAxis.outerTickSize(0);
     svg.select('.x.axis').transition().duration(TRANSITION_TIME).call(xAxis);
     svg.select('.y.axis').transition().duration(TRANSITION_TIME).call(yAxis);
-    svg.select('#y-axis-text').text(showPercent ? "Voters Percentage" : "Voters Absolute");
+    svg.select('#y-axis-text').text(showPercent ? "מצביעים באחוזים" : "מצביעים");
 }
