@@ -49,3 +49,4 @@ Temporary Items
 *.iml
 .idea/modules.xml
 *.xml
+*.xml___jb_tmp___
