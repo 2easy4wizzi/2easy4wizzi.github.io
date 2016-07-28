@@ -76,3 +76,7 @@ table, td ,th{
     height:500px;
     overflow:auto;
 }
+
+.hebrew_pargh {
+    text-align: right;
+}

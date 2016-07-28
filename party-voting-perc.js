@@ -57,7 +57,7 @@ function transitionPartyVotingPerc(inputClusterNumber) {
         changeAxis(domainMax);
 
         var titleText = (inputClusterNumber != 0
-                ? " (קבוצה " + inputClusterNumber
+                ? " (אשכול " + inputClusterNumber
                 : " (תוצאות ארציות")
             + " " + (showPercent
             ? "(אחוז התפלגות הצבעות למפלגות"
