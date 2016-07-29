@@ -1,7 +1,8 @@
 function transitionPartyVotingPerc(inputClusterNumber) {
-    console.log("transitionPartyVotingPerc, cluster:" + inputClusterNumber);
     showPercent = checkShowPercent();
-
+    var precentView = showPercent ? "precentView" : "absoluteView";
+    var description = " - תוצאות עבור אשכול בודד";
+    console.log(precentView + ": transitionPartyVotingPerc, cluster:" + inputClusterNumber + description);
     d3.selectAll('input[name="mode"]')
         .on("change", function() { transitionPartyVotingPerc(inputClusterNumber) });
 
@@ -33,8 +34,8 @@ function transitionPartyVotingPerc(inputClusterNumber) {
             dataOfClusterRequested = data.filter(function(d){return d.cluster == inputClusterNumber });
         }
 
-        console.log("data Of Cluster Requested:")
-        console.log(dataOfClusterRequested);
+        /*console.log("data Of Cluster Requested:")
+        console.log(dataOfClusterRequested);*/
         var totalPeopleInCluster = d3.sum(dataOfClusterRequested,function(d) { return d.votes});
         // console.log("total people in cluster number " + inputClusterNumber +" : " + totalPeopleInCluster);
         var sumsVotesArray = [];

@@ -1,6 +1,10 @@
 function generateVotingPercentage() {
     showPercent = checkShowPercent();
 
+    var precentView = showPercent ? "precentView" : "absoluteView";
+    var description = "תוצאות כלליות של בחירות 2015";
+    console.log(precentView + ": generateVotingPercentage - " + description );
+
     d3.selectAll('input[name="mode"]')
         .on("change", function() { generateVotingPercentage() });
 
@@ -23,7 +27,7 @@ function generateVotingPercentage() {
                 };
             })
             .entries(data);
-        console.log(votingDataByCluster);
+        //console.log(votingDataByCluster);
         xScale.domain(d3.range(1, 11, 1));   // social classes [1,...,10]
         yScale.domain(showPercent ? [0, 1] : [0, d3.max(votingDataByCluster, function(g) { return g.values.voting })]);
 

@@ -1,7 +1,9 @@
 function transitionPartyVotingPercentPerCluster(partyName) {
-    console.log("transitionPartyVotingPercentPerCluster, cluster:" + partyName);
-
     showPercent  = checkShowPercent();
+    var precentView = showPercent ? "precentView" : "absoluteView";
+    var description = " - תוצאות עבור מפלגה";
+    console.log(precentView + ": transitionPartyVotingPercentPerCluster, cluster:" + partyName + description);
+
 
     d3.selectAll('input[name="mode"]')
         .on("change", function() { transitionPartyVotingPercentPerCluster(partyName) });
@@ -9,7 +11,7 @@ function transitionPartyVotingPercentPerCluster(partyName) {
     d3.json("data-set-elections/electionAndEconomicData.json", function(error, data) {
         header_data = data.splice(0,3);
         partyHebrewName = header_data[0][partyName];
-        console.log(data);
+        //console.log(data);
         var totalVotesForParty = d3.sum(data, function (d, i) { return data[i][partyName] });
 
         var votingDataByCluster = d3.nest()
@@ -27,7 +29,7 @@ function transitionPartyVotingPercentPerCluster(partyName) {
             })
             .entries(data);
 
-        console.log(votingDataByCluster);
+        //console.log(votingDataByCluster);
 
         xScale.domain(d3.range(1, 11, 1));   // social classes [1,...,10]
         var domainMax = d3.max(votingDataByCluster, function (d){ return d.values.voting })* 1.1;
