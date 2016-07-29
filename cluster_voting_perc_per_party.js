@@ -90,7 +90,7 @@ function transitionPartyVotingPercentPerCluster(partyName) {
             .attr("width", xScale.rangeBand())
             .attr("y", function(d) { return yScale(d.values.voting); })
             .attr("height", function(d) { return height - yScale(d.values.voting); })
-            .style("fill", function (d) {return d3.interpolateGnBu(d.values.rightAttribute)})
+            .style("fill", function (d) {return colorIntrepulate(d.values.rightAttribute)})
 
     });
 }
