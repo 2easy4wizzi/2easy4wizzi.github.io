@@ -59,9 +59,9 @@ function transitionPartyVotingPercentPerCluster(partyName) {
         title.transition()
             .duration(TRANSITION_TIME)
             .text(
-                "(מפלגת " + partyHebrewName + " " + (showPercent
-                ? "(אחוזי הצבעת כל אשכול"
-                : "(סך הצבעות כל אשכול"));
+                "(" + partyHebrewName + " " + (showPercent
+                ? "(אחוזי הצבעה מכל אשכול"
+                : "(מספר הצבעות מכל אשכול"));
 
         bars.exit()
             .transition()

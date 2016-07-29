@@ -46,11 +46,11 @@ function generateVotingPercentage() {
             .attr("style", 'stroke:grey;stroke-width:2;stroke-dasharray: 10;')
         ;
 
+        var miniTitle = showPercent ? "(אחוזי הצבעה ארציים(לפי אשכולות" : "(מספר הצבעות ארצי(לפי אשכולות";
+
         title.transition()
             .duration(TRANSITION_TIME)
-            .text(showPercent
-                ? "אחוזי הצבעה ארצי"
-                : "סך הצבעות ארצי");
+            .text(miniTitle);
 
         changeAxis();
 

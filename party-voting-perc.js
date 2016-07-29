@@ -57,12 +57,10 @@ function transitionPartyVotingPerc(inputClusterNumber) {
         yScale.domain([0, domainMax]);
         changeAxis(domainMax);
 
-        var titleText = (inputClusterNumber != 0
-                ? " (אשכול " + inputClusterNumber
-                : " (תוצאות ארציות")
-            + " " + (showPercent
-            ? "(אחוז התפלגות הצבעות למפלגות"
-            : "(סך הצבעות למפלגות");
+        var prefix = inputClusterNumber  ? " (אשכול " + inputClusterNumber : "(תוצאות ארציות סופיות";
+        var suffix = showPercent  ? "(אחוזים" : "(מספר הצבעות";
+
+        var titleText = prefix + " " + suffix;
 
         title.transition()
             .duration(TRANSITION_TIME)
