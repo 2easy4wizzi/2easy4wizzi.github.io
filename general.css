@@ -68,13 +68,17 @@ table, td ,th{
 
 .tableAndFilter {
     float: right;
-    width: 310px !important;
-
+    width: 266px;
 }
 
 .populationTable{
-    height:500px;
+    height:550px;
     overflow:auto;
+    text-align: center;
+}
+
+#filter{
+    width: 266px;
 }
 
 #headline, .hebrew_pargh {
