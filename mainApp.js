@@ -1,5 +1,6 @@
 const TRANSITION_TIME = 300;
 
+var colorIntrepulate = d3.interpolateGnBu;
 
 var margin = {top: 35, right: 20, bottom: 30, left: 45},
     width = 960 - margin.left - margin.right,
@@ -71,6 +72,7 @@ svg.append("line")
     .attr("class", "perc-line");
 
 generateVotingPercentage();
+legend();
 // generateCityPopulationTableData();
 
 function checkShowPercent() {
