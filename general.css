@@ -62,7 +62,7 @@
 table, td ,th{
     border: 1px solid green;
     direction: rtl;
-    /*text-align: right;*/
+
 }
 
 
@@ -79,6 +79,7 @@ table, td ,th{
 
 #filter{
     width: 266px;
+    direction: rtl;
 }
 
 #headline, .hebrew_pargh {

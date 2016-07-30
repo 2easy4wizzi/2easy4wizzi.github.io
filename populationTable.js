@@ -24,40 +24,44 @@ function generateCityPopulationTableData(){
             }
         }
 
-        var classTableAndFilter = d3.select("#filterTag")
-            .append("form")
-            .append("input")
-            .attr("id","filter")
-            .attr("data-type","search")
-            .attr("placeholder","gilad");
+
 
 
 
     });
 }
-function filterRows() { //attach to 'changed()' event , and filter rows that doesnt contain form.input.innerText
-
-
-    var temprows = document.getElementById("mytab1").rows;
-    console.log(temprows); // this is working
-    var rows = document.getElementById("myTable").rows;
-    console.log(rows); // this is givving HTML collection[0];
-
-
-    //maybe its a problem of order of the script in comapareson to the table being built
 
 
 
 
+//find out why is table shrinking(CSS)
+$(function() {
+    var text = $('#filter').val();
 
-    /*
-     var substring = "קר";
-     for (var i = 0; i < rows.length; ++i) {
-     console.log(row[i]);
-     if (rows[i].indexOf(substring) !== -1)
-     rows[i].style.display = "inherit";
-     else
-     rows[i].style.display = "none";
-     }
-     */
+    $('#filter').keyup(function() {
+        if ($('#filter').val() != text) {
+            text = $('#filter').val();
+            console.log('Content has been changed ' + text);
+            var rows = document.getElementById("myTable").rows;
+            //var str = rows[1].cells[1].innerHTML.indexOf("s");
+            filterRows(text, rows);
+        }
+    });
+});
+
+function filterRows(text, rows) { //attach to 'changed()' event , and filter rows that doesnt contain form.input.innerText
+    //iterate through all row while this is the LAST call to the function
+    for (var i = 0; i < rows.length; ++i) {
+        var keepRow = false;// keep row only if substring exist in the row
+        for (var j = 0; j < rows[i].cells.length && !keepRow; ++j) {
+            if (rows[i].cells[j].innerHTML.indexOf(text) !== -1){
+                keepRow = true;// found the substring in one of the columns
+            }
+        }
+        if (keepRow){
+            rows[i].style.display = "inherit";
+        }else {
+            rows[i].style.display = "none";
+        }
+    }
 }

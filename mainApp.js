@@ -74,7 +74,6 @@ svg.append("line")
 generateVotingPercentage();
 legend();
 generateCityPopulationTableData();
-filterRows();
 
 function checkShowPercent() {
     return d3.select('input[name="mode"]:checked').property("value") == "percent";
