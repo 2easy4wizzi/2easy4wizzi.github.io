@@ -1,3 +1,9 @@
+var language = 0; // 0 is Hebrew , 1 is English
+
+if (language) { //hebrew already been set by default
+    setHTMLtext(language);
+}
+
 const TRANSITION_TIME = 300;
 
 var colorIntrepulate = d3.interpolateGnBu;
@@ -36,17 +42,29 @@ var title = parent_svg.append("text")
 
 var svg = parent_svg
     .append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var text = [" :הצבעה" , "voting: "];
+var str1;
+var str2;
+
+if (language == 0) { // hebrew - direction
+    str1 = "";
+    str2 = text[0];
+}else if (language == 1){ //english - direction
+    str1 = text[1];
+    str2 = "";
+}
 
 var tip = d3.tip()
     .attr('class', 'd3-tip')
     .offset([-10, 0])
     .html(function(d) {
-        return "<span style='color:red'>"
+        return  str1 + "<span style='color:red'>"
             + (checkShowPercent()
                 ? d3.format(".1%")(d.values.voting)
                 : d3.format(".2s")(d.values.voting))
-            + "</span><strong> :הצבעה</strong>";
+            + "</span><strong>" + str2 +"</strong>";
     });
 
 svg.call(tip);
@@ -89,5 +107,6 @@ function changeAxis(domainMax) {
     yAxis.outerTickSize(0);
     svg.select('.x.axis').transition().duration(TRANSITION_TIME).call(xAxis);
     svg.select('.y.axis').transition().duration(TRANSITION_TIME).call(yAxis);
-    svg.select('#y-axis-text').text(showPercent ? "מצביעים באחוזים" : "מצביעים");
+    var text = [ ["מצביעים באחוזים" , "מצביעים"] ,["votes in percentage" , "votes"]];
+    svg.select('#y-axis-text').text(showPercent ? text[language][0] : text[language][1]);
 }

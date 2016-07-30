@@ -59,27 +59,26 @@
     left: 0;
 }
 
-table, td ,th{
-    border: 1px solid green;
-    direction: rtl;
 
+
+.tableAndFilter { /*grouped filter and table*/
+    /*float: right;*/
+    /*width: 266px;*/
 }
 
-
-.tableAndFilter {
-    float: right;
-    width: 266px;
-}
-
-.populationTable{
+.populationTable{ /*div around table*/
     height:550px;
     overflow:auto;
     text-align: center;
 }
-
-#filter{
-    width: 266px;
+table, td ,th{
+    border: 1px solid green;
     direction: rtl;
+}
+
+#filter{ /*just filter*/
+    /*width: 266px;*/
+    /*direction: rtl;*/
 }
 
 #headline, .hebrew_pargh {

@@ -15,7 +15,7 @@ function transitionPartyVotingPerc(inputClusterNumber) {
 
         for(var key in party_dictionary) {
             if (filterFields.indexOf(key) == -1){
-                var pair = [key , party_dictionary[key]];
+                var pair = [key , languagePartiesHeadersDictionary[key][language]];
                 partiesHeaders.push(pair);
             }
         }
@@ -57,14 +57,20 @@ function transitionPartyVotingPerc(inputClusterNumber) {
         yScale.domain([0, domainMax]);
         changeAxis(domainMax);
 
-        var prefix = inputClusterNumber  ? " (אשכול " + inputClusterNumber : "(תוצאות ארציות סופיות";
-        var suffix = showPercent  ? "(אחוזים" : "(מספר הצבעות";
+        var prefixH = inputClusterNumber  ? " (אשכול " + inputClusterNumber : "(תוצאות ארציות סופיות";
+        var suffixH = showPercent  ? "(אחוזים" : "(מספר הצבעות";
+        var titleTextHebrew = prefixH + " " + suffixH;
 
-        var titleText = prefix + " " + suffix;
+        var prefixE = inputClusterNumber  ? "cluster " + inputClusterNumber : "final election results";
+        var suffixE = showPercent  ? "(percentage)" : "(number of votes)";
+        var titleTextEnglish = prefixE + " " + suffixE;
+
+
+        var titleText = [titleTextHebrew , titleTextEnglish];
 
         title.transition()
             .duration(TRANSITION_TIME)
-            .text(titleText);
+            .text(titleText[language]);
 
 
         parent_svg.on("click", function (d,i) { // the "return button" - click on background

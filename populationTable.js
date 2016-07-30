@@ -6,11 +6,17 @@ function generateCityPopulationTableData(){
 
 
         header_data = data.splice(0,3);
-        tableHeaders = [ "<b>מספר</b>" , "<b>עיר</b>" , "<b>אוכלוסיה</b>" ,"<b>קלאסטר</b>" ];
+        tableHeaders = [
+            [ "<b>מספר</b>" , "<b>עיר</b>" , "<b>אוכלוסיה</b>" ,"<b>קלאסטר</b>" ],
+            [ "<b>Num</b>" , "<b>City</b>" , "<b>Population</b>" ,"<b>Cluster</b>"]
+        ];
+
         var cityPopulationTableData = data.map(function(d,i){ return [i ,d.city , d.population , d.cluster];}); //filtering data
-        cityPopulationTableData.unshift(tableHeaders);
+        cityPopulationTableData.unshift(tableHeaders[language]);
 
         var table = document.getElementById("myTable");
+        /*table.style.direction = direction;*/
+
         var header = table.createTHead();
         var body   = table.createTBody();
 
@@ -26,7 +32,27 @@ function generateCityPopulationTableData(){
 
 
 
+        var direction = "rtl"; // default
+        var float = "right";
+        var myWitdh = "266px";
+        if (language == 0) { //hebrew
+            direction = "rtl";
+            float = "right";
+            myWitdh = "266px";
+        }else if (language == 1){ //english
+            direction = "ltr";
+            float = "left";
+            myWitdh = "290px";
+        }
+        var tableAndFilter = document.getElementsByClassName('tableAndFilter')[0];
+        tableAndFilter.style.float = float;
+        tableAndFilter.style.width = myWitdh;
 
+        table.style.direction = direction;
+
+        var filter = document.getElementById('filter');
+        filter.style.width = myWitdh;
+        filter.style.direction = direction;
 
     });
 }
@@ -34,16 +60,14 @@ function generateCityPopulationTableData(){
 
 
 
-//find out why is table shrinking(CSS)
+//TODO find out why is table shrinking(CSS)
 $(function() {
     var text = $('#filter').val();
 
     $('#filter').keyup(function() {
         if ($('#filter').val() != text) {
             text = $('#filter').val();
-            console.log('Content has been changed ' + text);
             var rows = document.getElementById("myTable").rows;
-            //var str = rows[1].cells[1].innerHTML.indexOf("s");
             filterRows(text, rows);
         }
     });

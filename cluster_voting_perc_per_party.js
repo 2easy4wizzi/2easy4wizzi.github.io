@@ -6,11 +6,12 @@ function transitionPartyVotingPercentPerCluster(partyName) {
 
 
     d3.selectAll('input[name="mode"]')
-        .on("change", function() { transitionPartyVotingPercentPerCluster(partyName) });
+        .on("change", function() {transitionPartyVotingPercentPerCluster(partyName) });
 
     d3.json("data-set-elections/electionAndEconomicData.json", function(error, data) {
         header_data = data.splice(0,3);
         partyHebrewName = header_data[0][partyName];
+
         //console.log(data);
         var totalVotesForParty = d3.sum(data, function (d, i) { return data[i][partyName] });
 
@@ -56,12 +57,20 @@ function transitionPartyVotingPercentPerCluster(partyName) {
 
         var bars = svg.selectAll(".bar").data(votingDataByCluster);
 
+        var partyNameStr = partyHebrewName;
+        if (language == 0) { //hebrew
+            partyNameStr = "(" + languagePartiesHeadersDictionary[partyName][0] + " " + (showPercent
+                ? "(אחוזי הצבעה מכל אשכול"
+                : "(מספר הצבעות מכל אשכול");
+        }else if (language == 1){ //english
+            partyNameStr = languagePartiesHeadersDictionary[partyName][1] +
+                (showPercent ? '(voting precentage' : '(number of votes') + ' from each cluster)' ;
+        }
+
         title.transition()
             .duration(TRANSITION_TIME)
-            .text(
-                "(" + partyHebrewName + " " + (showPercent
-                ? "(אחוזי הצבעה מכל אשכול"
-                : "(מספר הצבעות מכל אשכול"));
+            .text(partyNameStr);
+
 
         bars.exit()
             .transition()

@@ -16,6 +16,7 @@
         <script src="voting-perc.js"></script>
         <script src="populationTable.js"></script>
         <script src="legend.js"></script>
+        <script src="htmlLanguageChanger.js"></script>
     </head>
 <body>
     <div class="container">
@@ -31,8 +32,8 @@
         </div>
         <div class="row">
             <form>
-                <label class="radio-inline"><input type="radio" name="mode" value="absolute" checked>סך הצבעות</label>
-                <label class="radio-inline"><input type="radio" name="mode" value="percent">אחוזי הצבעה</label>
+                <label class="radio-inline"><input type="radio" name="mode" value="absolute" checked><text class="radioButtonsText">סך הצבעות</text></label>
+                <label class="radio-inline"><input type="radio" name="mode" value="percent"><text class="radioButtonsText">אחוזי הצבעה</text></label>
             </form>
         </div>
         <div class="row" id="vis"></div>
