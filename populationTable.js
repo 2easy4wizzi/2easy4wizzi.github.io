@@ -58,10 +58,12 @@ function filterRows(text, rows) { //attach to 'changed()' event , and filter row
                 keepRow = true;// found the substring in one of the columns
             }
         }
-        if (keepRow){
-            rows[i].style.display = "inherit";
-        }else {
-            rows[i].style.display = "none";
+        if (i != 0) {
+            if (keepRow) {
+                rows[i].style.display = "inherit";
+            } else {
+                rows[i].style.display = "none";
+            }
         }
     }
 }
