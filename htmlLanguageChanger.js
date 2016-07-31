@@ -45,7 +45,7 @@ function setHTMLtext(languageNumber) {
     radioButtons[1].innerHTML =radioButtonsText[languageNumber][1];
     radioButtons[1].style.direction = direction;
 
-    var filterText = [ "פילטר" , "filter"];
+    var filterText = [ "הכנס שם עיר או מספר קלאסטר" , "enter city name or cluster number"];
     var filter = document.getElementById("filter");
     filter.placeholder =filterText[languageNumber];
     filter.style.direction = direction;

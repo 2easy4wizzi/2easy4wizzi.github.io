@@ -247,7 +247,7 @@ function generateCityPopulationTableData(){
             [ "<b>Num</b>" , "<b>City</b>" , "<b>Population</b>" ,"<b>Cluster</b>"]
         ];
 
-        var cityPopulationTableData = data.map(function(d,i){ return [i ,d.city , d.population , d.cluster];}); //filtering data
+        var cityPopulationTableData = data.map(function(d,i){ return [i+1 ,d.city , d.population , d.cluster];}); //filtering data
         cityPopulationTableData.unshift(tableHeaders[language]);
 
         var table = document.getElementById("myTable");
@@ -323,8 +323,9 @@ function filterRows(text, rows) { //attach to 'changed()' event , and filter row
     for (var i = 0; i < rows.length; ++i) {
         var keepRow = false;// keep row only if substring exist in the row
         for (var j = 0; j < rows[i].cells.length && !keepRow; ++j) {
-            if (rows[i].cells[j].innerHTML.toLowerCase().indexOf(text) !== -1){
+            if ((j==1 || j==3 ) && rows[i].cells[j].innerHTML.toLowerCase().indexOf(text) !== -1){ //search in columns 1(city) and 3(cluster)
                 keepRow = true;// found the substring in one of the columns
+                if(text == '1' && rows[i].cells[j].innerHTML == '10'){ keepRow = false;}
             }
         }
         if (i != 0) {
