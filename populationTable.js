@@ -303,14 +303,25 @@ function generateCityPopulationTableData(){
     });
 }
 
+$('html').bind('keypress', function(e)
+{
+    if(e.keyCode == 13)
+    {
+        return false;
+    }
+});
+
+
 
 $(function() {
     var text = $('#filter').val();
-    $('#filter').keyup(function() {
-        if ($('#filter').val() != text) {
-            text = $('#filter').val();
-            var rows = document.getElementById("myTable").rows;
-            filterRows(text, rows);
+    $('#filter').keyup(function(event) {
+        if (event.keyCode != 13) {
+            if ($('#filter').val() != text) {
+                text = $('#filter').val();
+                var rows = document.getElementById("myTable").rows;
+                filterRows(text, rows);
+            }
         }
     });
 });
