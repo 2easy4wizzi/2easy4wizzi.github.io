@@ -1,8 +1,15 @@
 function generateVotingPercentage() {
+
+    d3.selectAll('input[name="lan"]').on("change", function() {
+        //TODO bug with tool tip - there is a tip bug on view 2 and 3 that last until u move to diffrent view
+        onLanguageChange();
+        generateVotingPercentage();
+    });
     showPercent = checkShowPercent();
 
     var precentView = showPercent ? "precentView" : "absoluteView";
     var description = "תוצאות כלליות של בחירות 2015 לפי אשכולות";
+    console.log("view 3");
     console.log(precentView + ": generateVotingPercentage - " + description );
 
     d3.selectAll('input[name="mode"]')

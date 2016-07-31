@@ -1,7 +1,15 @@
 function transitionPartyVotingPercentPerCluster(partyName) {
+
+    d3.selectAll('input[name="lan"]').on("change", function() {
+        //TODO bug with tool tip - there is a tip bug on view 2 and 3 that last until u move to diffrent view
+        onLanguageChange();
+        transitionPartyVotingPercentPerCluster(partyName);
+    });
+
     showPercent  = checkShowPercent();
     var precentView = showPercent ? "precentView" : "absoluteView";
     var description = " - תוצאות עבור מפלגה";
+    console.log("view 2");
     console.log(precentView + ": transitionPartyVotingPercentPerCluster, cluster:" + partyName + description);
 
 

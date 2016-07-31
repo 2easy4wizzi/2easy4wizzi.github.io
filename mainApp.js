@@ -1,3 +1,8 @@
+
+
+var lan = checkLanguage();
+
+
 var language = 0; // 0 is Hebrew , 1 is English
 
 if (language) { //hebrew already been set by default
@@ -44,30 +49,34 @@ var svg = parent_svg
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-var text = [" :הצבעה" , "voting: "];
-var str1;
-var str2;
+var tip;
+function buildToolTip() {
 
-if (language == 0) { // hebrew - direction
-    str1 = "";
-    str2 = text[0];
-}else if (language == 1){ //english - direction
-    str1 = text[1];
-    str2 = "";
+    var text = [" :הצבעה", "voting: "];
+    var str1;
+    var str2;
+
+    if (language == 0) { // hebrew - direction
+        str1 = "";
+        str2 = text[0];
+    } else if (language == 1) { //english - direction
+        str1 = text[1];
+        str2 = "";
+    }
+    tip = d3.tip()
+        .attr('class', 'd3-tip')
+        .offset([-10, 0])
+        .html(function (d) {
+            return str1 + "<span style='color:red'>"
+                + (checkShowPercent()
+                    ? d3.format(".1%")(d.values.voting)
+                    : d3.format(".2s")(d.values.voting))
+                + "</span><strong>" + str2 + "</strong>";
+        });
+    parent_svg.call(tip);
 }
+buildToolTip();
 
-var tip = d3.tip()
-    .attr('class', 'd3-tip')
-    .offset([-10, 0])
-    .html(function(d) {
-        return  str1 + "<span style='color:red'>"
-            + (checkShowPercent()
-                ? d3.format(".1%")(d.values.voting)
-                : d3.format(".2s")(d.values.voting))
-            + "</span><strong>" + str2 +"</strong>";
-    });
-
-svg.call(tip);
 
 svg.append("g")
     .attr("class", "x axis")
@@ -97,8 +106,12 @@ function checkShowPercent() {
     return d3.select('input[name="mode"]:checked').property("value") == "percent";
 }
 
+function checkLanguage() {
+    return d3.select('input[name="lan"]:checked').property("value");
+}
+
 function changeAxis(domainMax) {
-    showPercent = checkShowPercent();
+    var showPercent = checkShowPercent();
     if (domainMax < 0.1) {
         yAxis.tickFormat(d3.format('.1%'));
     } else {
@@ -109,4 +122,15 @@ function changeAxis(domainMax) {
     svg.select('.y.axis').transition().duration(TRANSITION_TIME).call(yAxis);
     var text = [ ["מצביעים באחוזים" , "מצביעים"] ,["votes in percentage" , "votes"]];
     svg.select('#y-axis-text').text(showPercent ? text[language][0] : text[language][1]);
+}
+
+function onLanguageChange() {
+    var languageClicked = checkLanguage();
+    console.log("language changed to " + languageClicked);
+    (languageClicked == "hebrew") ? language = 0 : language = 1;
+
+    setHTMLtext(language);
+    generateCityPopulationTableData();
+    buildToolTip();
+    legend();
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <meta charset="utf-8">
     <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="dependencies/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!--<link rel="stylesheet" href="dependencies/jquery.mobile-1.4.5.min.css">-->
         <link rel="stylesheet" href="general.css">
         <script src="dependencies/jquery-1.11.3.min.js"></script>
@@ -21,6 +21,12 @@
 <body>
     <div class="container">
         <div class="row">
+            <form>
+                <label class="radio-inline language-button"><input type="radio" name="lan" value="hebrew" checked>עברית</label>
+                <label class="radio-inline language-button"><input type="radio" name="lan" value="english">English</label>
+            </form>
+        </div>
+        <div class="row">
             <!--<h1 align="center">ויזואליזציית השוואת דפוסי הצבעה בבחירות 2015 למצב הסוציו-אקונומי</h1>-->
             <h1 id="headline" align="center">האם יש קשר בין המצב הכלכלי להצבעה בקלפי?</h1>
         </div>
@@ -37,15 +43,14 @@
             </form>
         </div>
         <div class="row" id="vis"></div>
-
-        <div class="tableAndFilter">
-            <div id="filterTag">
+        <div class="row" >
+            <div class="tableAndFilter">
                 <form>
                     <input id="filter" placeholder="פילטר" >
                 </form>
-            </div>
-            <div class="populationTable">
-                <table id="myTable"></table>
+                <div class="populationTable">
+                    <table id="myTable"></table>
+                </div>
             </div>
         </div>
     </div>
