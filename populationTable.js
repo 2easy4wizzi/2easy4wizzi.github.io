@@ -263,6 +263,7 @@ function generateCityPopulationTableData(){
             var row = (i==0) ?  header.insertRow(-1) : body.insertRow(-1);
             row.setAttribute("class", "tableRow");
             row.setAttribute("id", "idRow");
+
             for (var j = 0; j < cityPopulationTableData[i].length ; j++) {
                 var cell = row.insertCell(j);
 
@@ -298,17 +299,13 @@ function generateCityPopulationTableData(){
         var filter = document.getElementById('filter');
         filter.style.width = myWitdh;
         filter.style.direction = direction;
-
+        table.setAttribute("width", "100%");
     });
 }
 
 
-
-
-//TODO find out why is table shrinking(CSS)
 $(function() {
     var text = $('#filter').val();
-
     $('#filter').keyup(function() {
         if ($('#filter').val() != text) {
             text = $('#filter').val();
@@ -330,7 +327,7 @@ function filterRows(text, rows) { //attach to 'changed()' event , and filter row
         }
         if (i != 0) {
             if (keepRow) {
-                rows[i].style.display = "inherit";
+                rows[i].style.display = "";
             } else {
                 rows[i].style.display = "none";
             }
