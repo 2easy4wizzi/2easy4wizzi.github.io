@@ -45,34 +45,38 @@ var svg = parent_svg
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-var tip;
-function buildToolTip() {
 
-    var text = [" :הצבעה", "voting: "];
-    var str1;
-    var str2;
 
-    if (language == 0) { // hebrew - direction
+
+var text = [" :הצבעה", "voting: "];
+var str1;
+var str2;
+
+if (language == 0) { // hebrew - direction
+    str1 = "";
+    str2 = "\<strong\>" + text[0] + "\</strong\>";
+} else if (language == 1) { //english - direction
+    str1 = "\<strong\>" + text[1] + "\</strong\>";
+    str2 = "";
+}
+var tip = d3.tip()
+    .attr('class', 'd3-tip')
+    .offset([-10, 0])
+    .html(function (d) {
+        var value = (checkShowPercent() ? d3.format(".1%")(d.values.voting) : d3.format(".2s")(d.values.voting));
+        return str1 + "<span style='color:red'>"  + value  + "</span>" + str2 ;
+    });
+parent_svg.call(tip);
+
+function changeToolTipText() {
+    if (language == 0) { // hebrew
         str1 = "";
-        str2 = text[0];
-    } else if (language == 1) { //english - direction
-        str1 = text[1];
+        str2 = "\<strong\>" + text[0] + "\</strong\>";
+    } else if (language == 1) { //english
+        str1 = "\<strong\>" + text[1] + "\</strong\>";
         str2 = "";
     }
-    tip = d3.tip()
-        .attr('class', 'd3-tip')
-        .offset([-10, 0])
-        .html(function (d) {
-            return str1 + "<span style='color:red'>"
-                + (checkShowPercent()
-                    ? d3.format(".1%")(d.values.voting)
-                    : d3.format(".2s")(d.values.voting))
-                + "</span><strong>" + str2 + "</strong>";
-        });
-    parent_svg.call(tip);
 }
-buildToolTip();
-
 
 svg.append("g")
     .attr("class", "x axis")
@@ -126,11 +130,8 @@ function changeAxis(domainMax) {
 
 function onLanguageChange() {
     language = checkLanguage();
-    console.log("language changed to " + language ? "english" : "hebrew");
-
-
     setHTMLtext(language);
     generateCityPopulationTableData();
-    buildToolTip();
+    changeToolTipText();
     legend();
 }
