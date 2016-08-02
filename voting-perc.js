@@ -1,10 +1,18 @@
+qTipView3Text =  [
+    "זה מידע על הויו השלישי !!!!!!! שלנו.\<br\> בלה בלה." ,
+    "this is information on our 33 view\<br\>tralala"
+];
+
+
+
 function generateVotingPercentage() {
 
     d3.selectAll('input[name="lan"]').on("change", function() {
-        //TODO bug with tool tip - there is a tip bug on view 2 and 3 that last until u move to diffrent view
-        onLanguageChange();
+        onLanguageChange(qTipView3Text[checkLanguage()]);
         generateVotingPercentage();
     });
+
+    changeToolQuestionMarkTipText(qTipView3Text[checkLanguage()]); // need to set QTip to info about this view
     showPercent = checkShowPercent();
 
     var precentView = showPercent ? "precentView" : "absoluteView";

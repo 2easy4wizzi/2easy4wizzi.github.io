@@ -9,6 +9,8 @@ var colorIntrepulate = d3.interpolateGnBu;
 var dashedLineAverageColor = "grey";
 var dashedLineAhuzHasimaColor = "red";
 
+
+
 var margin = {top: 35, right: 20, bottom: 30, left: 45},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
@@ -115,7 +117,7 @@ function checkLanguage() {
 }
 
 function changeAxis(domainMax) {
-    var showPercent = checkShowPercent();
+    showPercent = checkShowPercent();
     if (domainMax < 0.1) {
         yAxis.tickFormat(d3.format('.1%'));
     } else {
@@ -128,10 +130,11 @@ function changeAxis(domainMax) {
     svg.select('#y-axis-text').text(showPercent ? text[language][0] : text[language][1]);
 }
 
-function onLanguageChange() {
+function onLanguageChange(text) {
     language = checkLanguage();
     setHTMLtext(language);
     generateCityPopulationTableData();
     changeToolTipText();
+    changeToolQuestionMarkTipText(text);
     legend();
 }

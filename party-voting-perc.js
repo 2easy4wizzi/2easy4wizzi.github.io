@@ -1,12 +1,17 @@
+qTipView1Text =  [
+    "זה מידע על הויו הראשון !!!!!!! שלנו.\<br\> בלה בלה." ,
+    "this is information on our 11111 view\<br\>tralala"
+];
+
 function transitionPartyVotingPerc(inputClusterNumber) {
 
     d3.selectAll('input[name="lan"]').on("change", function() {
-        onLanguageChange();
+        onLanguageChange(qTipView1Text[checkLanguage()]);
         transitionPartyVotingPerc(inputClusterNumber);
     });
 
-
-    var showPercent = checkShowPercent();
+    changeToolQuestionMarkTipText(qTipView1Text[checkLanguage()]); // need to set QTip to info about this view
+    showPercent = checkShowPercent();
     var precentView = showPercent ? "precentView" : "absoluteView";
     var description = (inputClusterNumber ) ? " - תוצאות עבור אשכול בודד" : " - תוצאות כלליות של בחירות 2015 לפי מפלגות";
     console.log("view 1");

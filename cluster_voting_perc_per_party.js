@@ -1,11 +1,19 @@
+
+qTipView2Text =  [
+    "זה מידע על הויו השני שלנו.\<br\> בלה בלה." ,
+    "this is information on our second view\<br\>tralala"
+];
+
+
+
 function transitionPartyVotingPercentPerCluster(partyName) {
 
     d3.selectAll('input[name="lan"]').on("change", function() {
-        //TODO bug with tool tip - there is a tip bug on view 2 and 3 that last until u move to diffrent view
-        onLanguageChange();
+        onLanguageChange(qTipView2Text[checkLanguage()]);
         transitionPartyVotingPercentPerCluster(partyName);
     });
 
+    changeToolQuestionMarkTipText(qTipView2Text[checkLanguage()]); // need to set QTip to info about this view
     showPercent  = checkShowPercent();
     var precentView = showPercent ? "precentView" : "absoluteView";
     var description = " - תוצאות עבור מפלגה";

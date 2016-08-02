@@ -4,6 +4,11 @@ var legendLabels = [
     ["right-", "left-", "red line" , "grey line"]
 ];
 
+var strQMarkTip;
+
+function changeToolQuestionMarkTipText(text) {
+    strQMarkTip = text;
+}
 
 function legend() {
 
@@ -55,17 +60,11 @@ function legend() {
             .attr("y", 0);
 
 
-        var data = [],
-            random = d3.random.normal(5),
-            random2 = d3.random.irwinHall(1)
-        for(var i = 0; i < 100; i++) data.push(random(i))
 
-
-        var strMesage = "gilad eini";
         var qMarkTip = d3.tip()
             .attr('class', 'd3-tip-qmark')
             .offset([100, 0])
-            .html(strMesage)
+            .html(function(){return strQMarkTip})
             .direction('w');
         parent_svg.call(qMarkTip);
 
@@ -81,30 +80,6 @@ function legend() {
             .on('mouseover', qMarkTip.show)
             .on('mouseout', qMarkTip.hide)
         ;
-
-
-
-
-
-        /*function changeToolTipText() {
-            if (language == 0) { // hebrew
-                str1 = "";
-                str2 = "\<strong\>" + text[0] + "\</strong\>";
-            } else if (language == 1) { //english
-                str1 = "\<strong\>" + text[1] + "\</strong\>";
-                str2 = "";
-            }
-        }*/
-
-
-
-
-
-
-
-
-
-
 
 
 
