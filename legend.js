@@ -16,6 +16,7 @@ function legend() {
         var rectWidth = 95;
         var rectHeight = 220;
 
+
         /*legend attributes and style*/
         var fontFamily = "Times New Roman";
 
@@ -32,6 +33,80 @@ function legend() {
             .style("stroke", rectBorderColor)
             .style("stroke-width", rectBorderWidth)
             .style("fill-opacity", rectOpacity);
+
+        var helpIconSize = 48;
+        var helpIconBorderWidth = 1;
+        var helpIconWidth = rectHeight/5;
+        var helpIconBorderColor = "#55c1fd";
+        var defs = parent_svg.append("defs");
+
+
+        defs
+            .append('svg:defs')
+            .append("svg:pattern")
+            .attr("id", "QMark")
+            .attr("width", helpIconSize)
+            .attr("height", helpIconSize)
+            .append("svg:image")
+            .attr("xlink:href", 'dependencies/images/QMark.gif')
+            .attr("width", helpIconSize)
+            .attr("height", helpIconSize)
+            .attr("x", 0)
+            .attr("y", 0);
+
+
+        var data = [],
+            random = d3.random.normal(5),
+            random2 = d3.random.irwinHall(1)
+        for(var i = 0; i < 100; i++) data.push(random(i))
+
+
+        var strMesage = "gilad eini";
+        var qMarkTip = d3.tip()
+            .attr('class', 'd3-tip-qmark')
+            .offset([100, 0])
+            .html(strMesage)
+            .direction('w');
+        parent_svg.call(qMarkTip);
+
+        parent_svg
+            .append("circle")
+            .attr("cx", (margin.left  + width - 100 - helpIconWidth +  17))
+            .attr("cy", (margin.top - 10 + 26))
+            .attr("r", 25)
+            .style("fill", "#fff")
+            .style("fill", "url(#QMark)")
+            .style("stroke-width", helpIconBorderWidth)
+            .style("stroke", helpIconBorderColor)
+            .on('mouseover', qMarkTip.show)
+            .on('mouseout', qMarkTip.hide)
+        ;
+
+
+
+
+
+        /*function changeToolTipText() {
+            if (language == 0) { // hebrew
+                str1 = "";
+                str2 = "\<strong\>" + text[0] + "\</strong\>";
+            } else if (language == 1) { //english
+                str1 = "\<strong\>" + text[1] + "\</strong\>";
+                str2 = "";
+            }
+        }*/
+
+
+
+
+
+
+
+
+
+
+
+
 
         var legend = parent_svg
             .append("g")
@@ -97,7 +172,7 @@ function legend() {
             .style("stroke", dashedLineAverageColor);
 
 
-        var defs = parent_svg.append("defs");
+
         var linearGradient = defs.append("linearGradient")
                     .attr("id", "linear-gradient");
 
