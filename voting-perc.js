@@ -50,7 +50,7 @@ function generateVotingPercentage() {
             .attr("y1", yScale(averageLine))
             .attr("x2", width)
             .attr("y2", yScale(averageLine))
-            .attr("style", 'stroke:grey;stroke-width:2;stroke-dasharray: 10;')
+            .attr("style", 'stroke:' + dashedLineAverageColor + ';stroke-width:2;stroke-dasharray: 10;')
         ;
 
         var text = [["(אחוזי הצבעה ארציים(לפי אשכולות" , "(מספר הצבעות ארצי(לפי אשכולות"],["Country voting precentage(by clusters)","Country number of votes(by clusters)"]];

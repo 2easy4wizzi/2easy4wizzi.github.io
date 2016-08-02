@@ -57,7 +57,7 @@ function transitionPartyVotingPercentPerCluster(partyName) {
             .attr("y1", yScale(lineVal))
             .attr("x2", width)
             .attr("y2", yScale(lineVal))
-            .attr("style", 'stroke:' + (showPercent ? 'red' : 'grey') + ';stroke-width:2;stroke-dasharray: 10;');
+            .attr("style", 'stroke:' + (showPercent ? dashedLineAhuzHasimaColor : dashedLineAverageColor) + ';stroke-width:2;stroke-dasharray: 10;');
 
         parent_svg.on("click", function (d,i) { // the "return button" - click on background
             generateVotingPercentage();

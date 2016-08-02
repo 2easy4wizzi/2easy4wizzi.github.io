@@ -93,7 +93,7 @@ function transitionPartyVotingPerc(inputClusterNumber) {
             .attr("y1", yScale(ahuzHahasima)) // ahuz hahasima
             .attr("x2", width)
             .attr("y2", yScale(ahuzHahasima)) // ahuz hahasima
-            .attr("style", 'stroke:red;stroke-width:2;stroke-dasharray: 10;')
+            .attr("style", 'stroke:' + dashedLineAhuzHasimaColor + ';stroke-width:2;stroke-dasharray: 10;')
         ;
 
         var bars = svg.selectAll(".bar").data(sumsVotesArray);

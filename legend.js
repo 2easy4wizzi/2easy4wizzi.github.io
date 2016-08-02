@@ -1,7 +1,7 @@
 var legendExist = false;
 var legendLabels = [
-    ["ימין-", "שמאל-"],
-    ["right-", "left-"]
+    ["ימין-", "שמאל-" ,  "קו אדום" , "קו אפור"],
+    ["right-", "left-", "red line" , "grey line"]
 ];
 
 
@@ -14,7 +14,7 @@ function legend() {
         var rectBorderWidth = 2;
         var rectOpacity = 0.0001;
         var rectWidth = 95;
-        var rectHeight = 160;
+        var rectHeight = 220;
 
         /*legend attributes and style*/
         var fontFamily = "Times New Roman";
@@ -42,74 +42,93 @@ function legend() {
             .attr("height", legendHeight)
             .style("fill", "url(#linear-gradient)");
 
+
+
         var legendGroupTag = parent_svg.select("#legend");
 
-        legendGroupTag.append('text')
+        legendGroupTag.append('text') //right
             .attr('x', -27)
             .attr('y', 12)
-            .attr('id', 'legendText1')
+            .attr('id', 'legendText0')
             .style("font-family", fontFamily)
             .text(legendLabels[language][0]);
 
-        legendGroupTag.append('text')
+        legendGroupTag.append('text') //left
             .attr('x', -37)
             .attr('y', legendHeight - 3)
-            .attr('id', 'legendText2')
+            .attr('id', 'legendText1')
             .style("font-family", fontFamily)
             .text(legendLabels[language][1]);
-        /*if () {
-                 } else {
 
-                 }*/
-        var defs =
 
-                parent_svg.append("defs");
-        var
-                linearGradient = defs.append("linearGradient")
-                    .
-                    attr("id", "linear-gradient")
+        var dashedLineOneY = legendHeight + 23 - 5;
+        var dashedLinesX1 = 0;
+        var dashedLinesX2 = legendWidth + 5;
 
-                ;
+        legendGroupTag.append('text') //dashed line 1 text
+            .attr('x', -37)
+            .attr('y', dashedLineOneY + 3)
+            .attr('id', 'legendText2')
+            .style("font-family", fontFamily)
+            .text(legendLabels[language][2]);
+
+        legendGroupTag.append("line")//dashed line 1
+            .attr("x1", dashedLinesX1)
+            .attr("x2", dashedLinesX2)
+            .attr("y1", dashedLineOneY)
+            .attr("y2", dashedLineOneY)
+            .style("stroke-dasharray","5,5")//dashed array for line
+            .style("stroke", dashedLineAhuzHasimaColor);
+
+        var dashedLineTwoY = legendHeight + 23;
+        legendGroupTag.append('text') //dashed line 2 text
+            .attr('x', -37)
+            .attr('y', legendHeight + 42)
+            .attr('id', 'legendText3')
+            .style("font-family", fontFamily)
+            .text(legendLabels[language][3]);
+
+        legendGroupTag.append("line")//dashed line 2
+            .attr("x1", dashedLinesX1)
+            .attr("x2", dashedLinesX2)
+            .attr("y1", dashedLineOneY + 20)
+            .attr("y2", dashedLineOneY + 20)
+            .style("stroke-dasharray","5,5")//dashed array for line
+            .style("stroke", dashedLineAverageColor);
+
+
+        var defs = parent_svg.append("defs");
+        var linearGradient = defs.append("linearGradient")
+                    .attr("id", "linear-gradient");
+
         linearGradient
-                .attr("x1"
-                    , "0%")
+                .attr("x1", "0%")
                 .attr("y1", "0%")
                 .attr("x2", "0%")
                 .attr("y2", "100%");
-        linearGradient.selectAll
-            ("stop")
-                .
-                data([
+        linearGradient.selectAll("stop")
+                .data([
                     colorIntrepulate(1),
                     colorIntrepulate(0.75),
                     colorIntrepulate(0.50),
-                    colorIntrepulate
-                    (0.25),
-                    colorIntrepulate(0)
-            ])
+                    colorIntrepulate(0.25),
+                    colorIntrepulate(0)])
             .enter().append("stop")
-            .attr("offset", function (d, i) {
-                return i / 4
+            .attr("offset", function (d, i) {return i / 4;})
+            .attr("stop-color", function (d) { return d; });
 
-                    ;
-            })
-            .attr
-            ("stop-color", function (d) {
-                return d;
-            });
-
-        legendExist = true
-        ;
+        legendExist = true;
     } else {
-        //var rightText = $("#legendText1")[0];
-        $("#legendText1")[0].innerHTML = legendLabels[language][0];
+        $("#legendText0")[0].innerHTML = legendLabels[language][0];
         if(language == 0){//hebrew
-            $("#legendText1").attr('x','-27');
-            //$('element').attr('some attribute','some attributes value')
+            $("#legendText0").attr('x','-27');
+
         }else if(language == 1){ //english
-            $("#legendText1").attr('x','-40');
+            $("#legendText0").attr('x','-40');
         }
-        $("#legendText2")[0].innerHTML = legendLabels[language][1];
+        $("#legendText1")[0].innerHTML = legendLabels[language][1];
+        $("#legendText2")[0].innerHTML = legendLabels[language][2];
+        $("#legendText3")[0].innerHTML = legendLabels[language][3];
     }
 }
 

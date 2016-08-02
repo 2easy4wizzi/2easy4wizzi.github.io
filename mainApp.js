@@ -1,17 +1,13 @@
-
-
-var lan = checkLanguage();
-
-
 var language = 0; // 0 is Hebrew , 1 is English
 
-if (language) { //hebrew already been set by default
-    setHTMLtext(language);
-}
+setHTMLtext(language);
 
 const TRANSITION_TIME = 300;
 
 var colorIntrepulate = d3.interpolateGnBu;
+
+var dashedLineAverageColor = "grey";
+var dashedLineAhuzHasimaColor = "red";
 
 var margin = {top: 35, right: 20, bottom: 30, left: 45},
     width = 960 - margin.left - margin.right,
@@ -107,7 +103,11 @@ function checkShowPercent() {
 }
 
 function checkLanguage() {
-    return d3.select('input[name="lan"]:checked').property("value");
+    var languageButton = d3.select('input[name="lan"]:checked').property("value");
+    if(languageButton == "hebrew") return 0;
+    else if(languageButton == "english") return 1;
+    else return -1;
+    return ;
 }
 
 function changeAxis(domainMax) {
@@ -125,9 +125,9 @@ function changeAxis(domainMax) {
 }
 
 function onLanguageChange() {
-    var languageClicked = checkLanguage();
-    console.log("language changed to " + languageClicked);
-    (languageClicked == "hebrew") ? language = 0 : language = 1;
+    language = checkLanguage();
+    console.log("language changed to " + language ? "english" : "hebrew");
+
 
     setHTMLtext(language);
     generateCityPopulationTableData();

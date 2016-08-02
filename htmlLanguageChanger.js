@@ -9,15 +9,18 @@ function setHTMLtext(languageNumber) {
     console.log("setHTMLtext to " + languages[languageNumber]);
 
     var direction = "rtl"; // default
+    var textAlign = "right"; // default
     if (languageNumber == 0) { //hebrew
         direction = "rtl";
+        textAlign = "right";
     }else if (languageNumber == 1){ //english
         direction = "ltr";
+        textAlign = "left";
     }
 
     var headlineText = [
         "האם בישראל יש קשר בין המצב הכלכלי להצבעה בקלפי?",
-        "Is there a relation in Israel between socio-aconomic state to what people vote?"
+        "Is there a relation in Israel between socio-aconomic state to voting?"
     ];
     var headline = document.getElementById("headline");
     headline.innerHTML = headlineText[languageNumber];
@@ -47,8 +50,80 @@ function setHTMLtext(languageNumber) {
 
     var filterText = [ "הכנס שם עיר או מספר קלאסטר" , "enter city name or cluster number"];
     var filter = document.getElementById("filter");
+    filter.value = "";
     filter.placeholder =filterText[languageNumber];
     filter.style.direction = direction;
+
+
+    var info_para = document.getElementById("info_para");
+    info_para.style.direction = direction;
+    info_para.style.textAlign = textAlign;
+
+    var info_para_header_text = [ "כותרת" , "Headline"];
+    var info_para_header = document.getElementById("info_para_header");
+    info_para_header.innerHTML = info_para_header_text[language];
+    info_para_header.style.textAlign = "center";
+
+    var info_para_body_text = [
+        "זה הפרויקט שלנו בלה בלה בלה\<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>" +
+        "עוד טקסט \<br\>"
+
+        ,
+
+        "this is our project bla bla bla.\<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "text and more text \<br\>" +
+        "another line of bla bli blu"
+    ];
+    var info_para_body = document.getElementById("info_para_body");
+    info_para_body.innerHTML = info_para_body_text[language];
 
 }
 
