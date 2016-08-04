@@ -1,16 +1,11 @@
-qTipView1Text =  [
-    "זה מידע על הויו הראשון !!!!!!! שלנו.\<br\> בלה בלה." ,
-    "this is information on our 11111 view\<br\>tralala"
-];
-
 function transitionPartyVotingPerc(inputClusterNumber) {
 
     d3.selectAll('input[name="lan"]').on("change", function() {
-        onLanguageChange(qTipView1Text[checkLanguage()]);
+        onLanguageChange(qTipViewText[checkLanguage()].view2);
         transitionPartyVotingPerc(inputClusterNumber);
     });
 
-    changeToolQuestionMarkTipText(qTipView1Text[checkLanguage()]); // need to set QTip to info about this view
+    changeToolQuestionMarkTipText(qTipViewText[checkLanguage()].view2); // need to set QTip to info about this view
     showPercent = checkShowPercent();
     var precentView = showPercent ? "precentView" : "absoluteView";
     var description = (inputClusterNumber ) ? " - תוצאות עבור אשכול בודד" : " - תוצאות כלליות של בחירות 2015 לפי מפלגות";
@@ -74,7 +69,7 @@ function transitionPartyVotingPerc(inputClusterNumber) {
         var suffixH = showPercent  ? "(אחוזים" : "(מספר הצבעות";
         var titleTextHebrew = prefixH + " " + suffixH;
 
-        var prefixE = inputClusterNumber  ? "cluster " + inputClusterNumber : "final election results";
+        var prefixE = inputClusterNumber  ? "Cluster " + inputClusterNumber : "Nationwide election results";
         var suffixE = showPercent  ? "(percentage)" : "(number of votes)";
         var titleTextEnglish = prefixE + " " + suffixE;
 
@@ -121,7 +116,7 @@ function transitionPartyVotingPerc(inputClusterNumber) {
             .on('mouseover', tip.show)
             .on('mouseout', tip.hide)
             .on("click", function (d,i) {
-                transitionPartyVotingPercentPerCluster(d.values.party_field_name);
+                transitionPartyVotingPercentPerCluster(d.values.party_field_name, inputClusterNumber);
                 d3.event.stopPropagation();
             })
         ;
@@ -132,7 +127,7 @@ function transitionPartyVotingPerc(inputClusterNumber) {
             .attr("width", xScale.rangeBand())
             .attr("y", function(d) { return yScale(d.values.voting); })
             .attr("height", function(d) { return height - yScale(d.values.voting); })
-            .style("fill", function (d) {return colorIntrepulate(d.values.right_dist)})
+            .style("fill", function (d) {return colorIntrepulateFunc(d.values.right_dist)})
             .style("fill-opacity", 1)
             ;
     });

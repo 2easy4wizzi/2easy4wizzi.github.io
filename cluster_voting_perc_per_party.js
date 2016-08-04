@@ -1,19 +1,11 @@
-
-qTipView2Text =  [
-    "זה מידע על הויו השני שלנו.\<br\> בלה בלה." ,
-    "this is information on our second view\<br\>tralala"
-];
-
-
-
-function transitionPartyVotingPercentPerCluster(partyName) {
+function transitionPartyVotingPercentPerCluster(partyName, previousViewCluster) {
 
     d3.selectAll('input[name="lan"]').on("change", function() {
-        onLanguageChange(qTipView2Text[checkLanguage()]);
-        transitionPartyVotingPercentPerCluster(partyName);
+        onLanguageChange(qTipViewText[checkLanguage()].view3);
+        transitionPartyVotingPercentPerCluster(partyName, previousViewCluster);
     });
 
-    changeToolQuestionMarkTipText(qTipView2Text[checkLanguage()]); // need to set QTip to info about this view
+    changeToolQuestionMarkTipText(qTipViewText[checkLanguage()].view3); // need to set QTip to info about this view
     showPercent  = checkShowPercent();
     var precentView = showPercent ? "precentView" : "absoluteView";
     var description = " - תוצאות עבור מפלגה";
@@ -22,7 +14,7 @@ function transitionPartyVotingPercentPerCluster(partyName) {
 
 
     d3.selectAll('input[name="mode"]')
-        .on("change", function() {transitionPartyVotingPercentPerCluster(partyName) });
+        .on("change", function() {console.log(partyName +" " + previousViewCluster);transitionPartyVotingPercentPerCluster(partyName, previousViewCluster) });
 
     d3.json("data-set-elections/electionAndEconomicData.json", function(error, data) {
         header_data = data.splice(0,3);
@@ -68,7 +60,7 @@ function transitionPartyVotingPercentPerCluster(partyName) {
             .attr("style", 'stroke:' + (showPercent ? dashedLineAhuzHasimaColor : dashedLineAverageColor) + ';stroke-width:2;stroke-dasharray: 10;');
 
         parent_svg.on("click", function (d,i) { // the "return button" - click on background
-            generateVotingPercentage();
+            transitionPartyVotingPerc(previousViewCluster);
         });
 
         var bars = svg.selectAll(".bar").data(votingDataByCluster);
@@ -115,7 +107,7 @@ function transitionPartyVotingPercentPerCluster(partyName) {
             .attr("width", xScale.rangeBand())
             .attr("y", function(d) { return yScale(d.values.voting); })
             .attr("height", function(d) { return height - yScale(d.values.voting); })
-            .style("fill", function (d) {return colorIntrepulate(d.values.rightAttribute)})
+            .style("fill", function (d) {return colorIntrepulateFunc(d.values.rightAttribute)})
 
     });
 }

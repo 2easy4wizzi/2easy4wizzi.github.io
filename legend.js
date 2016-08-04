@@ -11,40 +11,42 @@ function changeToolQuestionMarkTipText(text) {
 }
 
 function legend() {
+    if (!legendExist) { /* rect(surrounding legend) attributes and style */
 
-
-    if (!legendExist) { /*rect(surrounding legend) attributes and style */
-        var rectTransfrom = "translate(" + (margin.left + width - 100 ) + "," + (margin.top - 10) + ")";
-        var rectBorderColor = "rgb(87, 114, 234)";
-        var rectBorderWidth = 2;
-        var rectOpacity = 0.0001;
-        var rectWidth = 95;
         var rectHeight = 220;
-
 
         /*legend attributes and style*/
         var fontFamily = "Times New Roman";
 
+        var legendGroup = parent_svg
+            .append("g")
+            .attr("transform", "translate(" + (margin.left + width + 10) + "," + (50 + margin.top) + ")");
+        legendGroup
+            .append("rect")
+            .style("width", 95)
+            .style("height", 220)
+            .style("stroke", "black")
+            .style("stroke-width", 1)
+            .style("fill-opacity", 0.0001)
+        ;
+
         var legendWidth = 20;
         var legendHeight = 140;
-        var legendTransfrom = "translate(" + (margin.left + width - 40) + "," + (margin.top) + ")";
 
-        var rectAboveLegend = parent_svg
+        var legend = legendGroup
             .append("g")
+            .attr("id", "legend")
+            .attr("transform", "translate(" + (60) + "," + (15) + ")")
             .append("rect")
-            .attr("transform", rectTransfrom)
-            .style("width", rectWidth)
-            .style("height", rectHeight)
-            .style("stroke", rectBorderColor)
-            .style("stroke-width", rectBorderWidth)
-            .style("fill-opacity", rectOpacity);
+            .attr("width", legendWidth)
+            .attr("height", legendHeight)
+            .style("fill", "url(#linear-gradient)");
 
         var helpIconSize = 48;
         var helpIconBorderWidth = 1;
         var helpIconWidth = rectHeight/5;
         var helpIconBorderColor = "#55c1fd";
         var defs = parent_svg.append("defs");
-
 
         defs
             .append('svg:defs')
@@ -59,18 +61,17 @@ function legend() {
             .attr("x", 0)
             .attr("y", 0);
 
-
-
         var qMarkTip = d3.tip()
             .attr('class', 'd3-tip-qmark')
-            .offset([100, 0])
+            .offset([0, 0])
             .html(function(){return strQMarkTip})
             .direction('w');
+
         parent_svg.call(qMarkTip);
 
         parent_svg
             .append("circle")
-            .attr("cx", (margin.left  + width - 100 - helpIconWidth +  17))
+            .attr("cx", (margin.left  + width + helpIconWidth))
             .attr("cy", (margin.top - 10 + 26))
             .attr("r", 25)
             .style("fill", "#fff")
@@ -80,19 +81,6 @@ function legend() {
             .on('mouseover', qMarkTip.show)
             .on('mouseout', qMarkTip.hide)
         ;
-
-
-
-        var legend = parent_svg
-            .append("g")
-            .attr("id", "legend")
-            .attr("transform", legendTransfrom)
-            .append("rect")
-            .attr("width", legendWidth)
-            .attr("height", legendHeight)
-            .style("fill", "url(#linear-gradient)");
-
-
 
         var legendGroupTag = parent_svg.select("#legend");
 
@@ -146,8 +134,6 @@ function legend() {
             .style("stroke-dasharray","5,5")//dashed array for line
             .style("stroke", dashedLineAverageColor);
 
-
-
         var linearGradient = defs.append("linearGradient")
                     .attr("id", "linear-gradient");
 
@@ -158,11 +144,11 @@ function legend() {
                 .attr("y2", "100%");
         linearGradient.selectAll("stop")
                 .data([
-                    colorIntrepulate(1),
-                    colorIntrepulate(0.75),
-                    colorIntrepulate(0.50),
-                    colorIntrepulate(0.25),
-                    colorIntrepulate(0)])
+                    colorIntrepulateFunc(1),
+                    colorIntrepulateFunc(0.75),
+                    colorIntrepulateFunc(0.50),
+                    colorIntrepulateFunc(0.25),
+                    colorIntrepulateFunc(0)])
             .enter().append("stop")
             .attr("offset", function (d, i) {return i / 4;})
             .attr("stop-color", function (d) { return d; });

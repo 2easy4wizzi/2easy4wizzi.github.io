@@ -1,18 +1,11 @@
-qTipView3Text =  [
-    "זה מידע על הויו השלישי !!!!!!! שלנו.\<br\> בלה בלה." ,
-    "this is information on our 33 view\<br\>tralala"
-];
-
-
-
 function generateVotingPercentage() {
 
     d3.selectAll('input[name="lan"]').on("change", function() {
-        onLanguageChange(qTipView3Text[checkLanguage()]);
+        onLanguageChange(qTipViewText[checkLanguage()].view1);
         generateVotingPercentage();
     });
 
-    changeToolQuestionMarkTipText(qTipView3Text[checkLanguage()]); // need to set QTip to info about this view
+    changeToolQuestionMarkTipText(qTipViewText[checkLanguage()].view1); // need to set QTip to info about this view
     showPercent = checkShowPercent();
 
     var precentView = showPercent ? "precentView" : "absoluteView";
@@ -61,7 +54,8 @@ function generateVotingPercentage() {
             .attr("style", 'stroke:' + dashedLineAverageColor + ';stroke-width:2;stroke-dasharray: 10;')
         ;
 
-        var text = [["(אחוזי הצבעה ארציים(לפי אשכולות" , "(מספר הצבעות ארצי(לפי אשכולות"],["Country voting precentage(by clusters)","Country number of votes(by clusters)"]];
+        var text = [["(אחוזי הצבעה ארציים(לפי אשכולות" , "(מספר הצבעות ארצי(לפי אשכולות"]
+            ,["Nationwide voting precentage(by clusters)","Nationwide number of votes(by clusters)"]];
         var miniTitle = showPercent ? text[language][0] : text[language][1];
 
         title.transition()
@@ -101,7 +95,7 @@ function generateVotingPercentage() {
             .attr("width", xScale.rangeBand())
             .attr("y", function(d) { return yScale(d.values.voting); })
             .attr("height", function(d) { return height - yScale(d.values.voting); })
-            .style("fill", function (d) {return colorIntrepulate(d.values.rightAttribute)})
+            .style("fill", function (d) {return colorIntrepulateFunc(d.values.rightAttribute)})
         ;
 
         d3.selectAll(".tick")

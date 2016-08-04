@@ -2,17 +2,35 @@ var language = 0; // 0 is Hebrew , 1 is English
 
 setHTMLtext(language);
 
-const TRANSITION_TIME = 300;
+const TRANSITION_TIME = 500;
 
-var colorIntrepulate = d3.interpolateGnBu;
+var colorIntrepulateFunc = d3.interpolateGnBu;
 
-var dashedLineAverageColor = "grey";
-var dashedLineAhuzHasimaColor = "red";
+const dashedLineAverageColor = "grey";
+const dashedLineAhuzHasimaColor = "red";
 
-
+const qTipViewText = [
+    {
+        view1: "<p style='direction: rtl'>" +
+            "לחיצה על עמודה: התפלגות ההצבעה עבור אותו קלאסטר\<br\>לחיצה על הרקע: מעבר לתוצאות בחירות ארציות" +
+            "</p>",
+        view2: "<p style='direction: rtl'>" +
+            "לחיצה על עמודה: התפלגות ההצבעה עבור אותה מפלגה\<br\>לחיצה על הרקע: חזרה" +
+            "</p>",
+        view3: "<p style='direction: rtl'>" +
+            "לחיצה על עמודה: התפלגות ההצבעה עבור אותו קלאסטר\<br\>לחיצה על הרקע: חזרה" +
+            "</p>"
+    },
+    {
+        view1: "Click on bar: Election results for selected cluster\<br\>Click on background: Nationwide election results",
+        view2: "Click on bar: Distribution of votes for selected party\<br\>Click on background: Back",
+        view3: "Click on bar: Election results for selected cluster\<br\>Click on background: Back"
+    }
+];
 
 var margin = {top: 35, right: 20, bottom: 30, left: 45},
-    width = 960 - margin.left - margin.right,
+    legendWidth = 100,
+    width = 960 - margin.left - margin.right - legendWidth,
     height = 500 - margin.top - margin.bottom;
 
 var xScale = d3.scale.ordinal()
@@ -32,7 +50,7 @@ var yAxis = d3.svg.axis()
     .tickFormat(d3.format("s"));
 
 var parent_svg = d3.select("#vis").append("svg")
-    .attr("width", width + margin.left + margin.right)
+    .attr("width", width + legendWidth + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom);
 
 var title = parent_svg.append("text")
@@ -46,9 +64,6 @@ var title = parent_svg.append("text")
 var svg = parent_svg
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-
-
 
 var text = [" :הצבעה", "voting: "];
 var str1;
@@ -113,7 +128,6 @@ function checkLanguage() {
     if(languageButton == "hebrew") return 0;
     else if(languageButton == "english") return 1;
     else return -1;
-    return ;
 }
 
 function changeAxis(domainMax) {
@@ -130,11 +144,11 @@ function changeAxis(domainMax) {
     svg.select('#y-axis-text').text(showPercent ? text[language][0] : text[language][1]);
 }
 
-function onLanguageChange(text) {
+function onLanguageChange(toolText) {
     language = checkLanguage();
     setHTMLtext(language);
     generateCityPopulationTableData();
     changeToolTipText();
-    changeToolQuestionMarkTipText(text);
+    changeToolQuestionMarkTipText(toolText);
     legend();
 }
