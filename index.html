@@ -20,13 +20,19 @@
         <script src="htmlLanguageChanger.js"></script>
     </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <form>
-                <label class="radio-inline language-button"><input type="radio" name="lan" value="hebrew" checked>עברית</label>
-                <label class="radio-inline language-button"><input type="radio" name="lan" value="english">English</label>
-            </form>
+    <div class="container-full">
+        <div class="jumbotron text-center">
+            <div class="row">
+                <form>
+                    <label class="radio-inline language-button"><input type="radio" name="lan" value="hebrew" checked>עברית</label>
+                    <label class="radio-inline language-button"><input type="radio" name="lan" value="english">English</label>
+                </form>
+            </div>
+            <h1>דפוסי הצבעה ביחס למצב סוציו-אקונומי</h1>
+            <p class="lead">ויזואליזציית הקשר בין אופן ההצבעה של יישובים בישראל למצב הסוציו-אקונומי שלהם</p>
         </div>
+    </div>
+    <div class="container">
         <div class="row">
             <h1 id="headline" align="center"></h1>
         </div>
@@ -49,9 +55,11 @@
                     <input id="filter" placeholder="" >
                 </form>
                 <div class="populationTable">
-                    <table id="myTable"></table>
+                    <table class="table-striped" id="myTable"></table>
                 </div>
             </div>
+        </div>
+        <div class="row">
             <div id="info_para">
                 <h1 id="info_para_header"></h1>
                 <h4 id="info_para_body"></h4>

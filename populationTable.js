@@ -276,22 +276,14 @@ function generateCityPopulationTableData(){
             }
         }
 
-
-
         var direction = "rtl"; // default
-        var float = "right";
-        var myWitdh = "266px";
         if (language == 0) { //hebrew
             direction = "rtl";
-            float = "right";
-            myWitdh = "266px";
-        }else if (language == 1){ //english
+        } else if (language == 1){ //english
             direction = "ltr";
-            float = "left";
-            myWitdh = "290px";
         }
-        var tableAndFilter = document.getElementsByClassName('tableAndFilter')[0];
-        tableAndFilter.style.float = float;
+        var tableAndFilter = document.getElementsByClassName('tableAndFilter')[0]
+        var myWitdh = "960px";
         tableAndFilter.style.width = myWitdh;
 
         table.style.direction = direction;

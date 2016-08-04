@@ -19,7 +19,7 @@ function setHTMLtext(languageNumber) {
     }
 
     var headlineText = [
-        "האם בישראל יש קשר בין המצב הכלכלי להצבעה בקלפי?",
+        "ויזואליזציית הצבעות בבחירות 2015 לעומת המצב הסוציו-אקונומי של יישובים בישראל",
         "Is there a relation in Israel between socio-aconomic state to voting?"
     ];
     var headline = document.getElementById("headline");
@@ -28,8 +28,15 @@ function setHTMLtext(languageNumber) {
 
 
     var hebrewParaText = [
-        ["* לפניכם נתוני ההצבעה של יישובים ממוינים לפי מצב סוציו-אקונומי","* הנתונים מבחירות 2015"],
-        [ "* You can see the data from the elections of cities sorted by socio-aconomic state","* The data is from 2015 elections at Israel" ]
+        [
+            "בויזואליזציה הבאה רצינו להראות את הקשר בין אופן ההצבעה של יישובים בישראל למצב הסוציו-אקונומי שלהם.",
+            "היישובים מחולקים ל10 קבוצות ע\"פ המצב האקנומי שלהם מ1-10, ניתן לראות איזה יישובים באיזה קבוצה בטבלת היישובים המצורפת.<br>" +
+            "הוויזואליזציה משלבת כמה תצוגות, ניתן לראות מה אפשר לעשות בכל שלב ע\"י ריחוף הלחצן מעל סימן השאלה בגרף."
+        ],
+        [
+            "* You can see the data from the elections of cities sorted by socio-aconomic state",
+            "* The data is from 2015 elections at Israel"
+        ]
     ];
     var hebrewPara = document.getElementsByClassName("hebrew_pargh");
     hebrewPara[0].innerHTML = hebrewParaText[languageNumber][0];

@@ -51,7 +51,9 @@ var yAxis = d3.svg.axis()
 
 var parent_svg = d3.select("#vis").append("svg")
     .attr("width", width + legendWidth + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom);
+    .attr("height", height + margin.top + margin.bottom)
+    // .style("background-color", "#f2ccff")
+    ;
 
 var title = parent_svg.append("text")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
