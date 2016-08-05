@@ -1,7 +1,7 @@
 var legendExist = false;
 var legendLabels = [
-    ["ימין-", "שמאל-" ,  "קו אדום" , "קו אפור"],
-    ["right-", "left-", "red line" , "grey line"]
+    ["ימין-", "שמאל-" ,  "ממוצע" , [ "אחוז","חסימה"]],
+    ["right", "left", "average" , ["votes", "threshold"]]
 ];
 
 var strQMarkTip;
@@ -9,6 +9,13 @@ var strQMarkTip;
 function changeToolQuestionMarkTipText(text) {
     strQMarkTip = text;
 }
+
+var englishTextAlighnX = -54;
+var hebrewRightX = -27;
+var hebrewLefttX = -37;
+var hebrewAVGX = -37;
+var hebrewAhuzX = -32;
+var hebrewHasimaX = -37;
 
 function legend() {
     if (!legendExist) { /* rect(surrounding legend) attributes and style */
@@ -85,14 +92,14 @@ function legend() {
         var legendGroupTag = parent_svg.select("#legend");
 
         legendGroupTag.append('text') //right
-            .attr('x', -27)
+            .attr('x', hebrewRightX)
             .attr('y', 12)
             .attr('id', 'legendText0')
             .style("font-family", fontFamily)
             .text(legendLabels[language][0]);
 
         legendGroupTag.append('text') //left
-            .attr('x', -37)
+            .attr('x', hebrewLefttX)
             .attr('y', legendHeight - 3)
             .attr('id', 'legendText1')
             .style("font-family", fontFamily)
@@ -104,7 +111,7 @@ function legend() {
         var dashedLinesX2 = legendWidth + 5;
 
         legendGroupTag.append('text') //dashed line 1 text
-            .attr('x', -37)
+            .attr('x', hebrewAVGX)
             .attr('y', dashedLineOneY + 3)
             .attr('id', 'legendText2')
             .style("font-family", fontFamily)
@@ -116,15 +123,23 @@ function legend() {
             .attr("y1", dashedLineOneY)
             .attr("y2", dashedLineOneY)
             .style("stroke-dasharray","5,5")//dashed array for line
-            .style("stroke", dashedLineAhuzHasimaColor);
+            .style("stroke", dashedLineAverageColor);
 
         var dashedLineTwoY = legendHeight + 23;
         legendGroupTag.append('text') //dashed line 2 text
-            .attr('x', -37)
+            .attr('x', hebrewAhuzX)
             .attr('y', legendHeight + 42)
             .attr('id', 'legendText3')
             .style("font-family", fontFamily)
-            .text(legendLabels[language][3]);
+            .text(legendLabels[language][3][0]);
+        var dashedLineTwoY = legendHeight + 23;
+
+        legendGroupTag.append('text') //dashed line 2 text - word number 2
+            .attr('x', hebrewHasimaX)
+            .attr('y', legendHeight + 54)
+            .attr('id', 'legendText3word2')
+            .style("font-family", fontFamily)
+            .text(legendLabels[language][3][1]);
 
         legendGroupTag.append("line")//dashed line 2
             .attr("x1", dashedLinesX1)
@@ -132,7 +147,7 @@ function legend() {
             .attr("y1", dashedLineOneY + 20)
             .attr("y2", dashedLineOneY + 20)
             .style("stroke-dasharray","5,5")//dashed array for line
-            .style("stroke", dashedLineAverageColor);
+            .style("stroke", dashedLineAhuzHasimaColor);
 
         var linearGradient = defs.append("linearGradient")
                     .attr("id", "linear-gradient");
@@ -155,16 +170,32 @@ function legend() {
 
         legendExist = true;
     } else {
-        $("#legendText0")[0].innerHTML = legendLabels[language][0];
+        var rightText = $("#legendText0")[0];
+        var leftText = $("#legendText1")[0];
+        var averageText = $("#legendText2")[0];
+        var ahuzText = $("#legendText3")[0];
+        var hasimaText = $("#legendText3word2")[0];
+
+        rightText.innerHTML = legendLabels[language][0];
+        leftText.innerHTML = legendLabels[language][1];
+        averageText.innerHTML = legendLabels[language][2];
+        ahuzText.innerHTML = legendLabels[language][3][0];
+        hasimaText.innerHTML = legendLabels[language][3][1];
+
         if(language == 0){//hebrew
-            $("#legendText0").attr('x','-27');
+            rightText.setAttribute('x',hebrewRightX);
+            leftText.setAttribute('x',hebrewLefttX);
+            averageText.setAttribute("x",hebrewAVGX);
+            ahuzText.setAttribute("x",hebrewAhuzX);
+            hasimaText.setAttribute("x",hebrewHasimaX);
 
         }else if(language == 1){ //english
-            $("#legendText0").attr('x','-40');
+            rightText.setAttribute('x',englishTextAlighnX);
+            leftText.setAttribute('x',englishTextAlighnX);
+            averageText.setAttribute("x",englishTextAlighnX);
+            ahuzText.setAttribute("x",englishTextAlighnX);
+            hasimaText.setAttribute("x",englishTextAlighnX);
         }
-        $("#legendText1")[0].innerHTML = legendLabels[language][1];
-        $("#legendText2")[0].innerHTML = legendLabels[language][2];
-        $("#legendText3")[0].innerHTML = legendLabels[language][3];
     }
 }
 

@@ -18,16 +18,23 @@ function setHTMLtext(languageNumber) {
         textAlign = "left";
     }
 
-    var headlineText = [
+    /*var headlineText = [
         "ויזואליזציית הצבעות בבחירות 2015 לעומת המצב הסוציו-אקונומי של יישובים בישראל",
         "Is there a relation in Israel between socio-aconomic state to voting?"
     ];
     var headline = document.getElementById("headline");
     headline.innerHTML = headlineText[languageNumber];
+    headline.style.direction = direction;*/
+var headlineText = [
+        "דפוסי הצבעה ביחס למצב סוציו-אקונומי",
+        "Voting patterns in relation to socio-economic state"
+    ];
+    var headline = document.getElementById("html_title");
+    headline.innerHTML = headlineText[languageNumber];
     headline.style.direction = direction;
 
 
-    var hebrewParaText = [
+    /*var hebrewParaText = [
         [
             "בויזואליזציה הבאה רצינו להראות את הקשר בין אופן ההצבעה של יישובים בישראל למצב הסוציו-אקונומי שלהם.",
             "היישובים מחולקים ל10 קבוצות ע\"פ המצב האקנומי שלהם מ1-10, ניתן לראות איזה יישובים באיזה קבוצה בטבלת היישובים המצורפת.<br>" +
@@ -42,7 +49,16 @@ function setHTMLtext(languageNumber) {
     hebrewPara[0].innerHTML = hebrewParaText[languageNumber][0];
     hebrewPara[0].style.direction = direction;
     hebrewPara[1].innerHTML = hebrewParaText[languageNumber][1];
-    hebrewPara[1].style.direction = direction;
+    hebrewPara[1].style.direction = direction;*/
+
+    var classLeadText = [
+            "ויזואליזציית הקשר בין אופן ההצבעה של יישובים בישראל למצב הסוציו-אקונומי שלהם",
+            "Visualization of the connection between voting and socio-economic  state in Israel"
+    ];
+    var classLead = document.getElementsByClassName("lead");
+    classLead[0].innerHTML = classLeadText[languageNumber];
+    classLead[0].style.direction = direction;
+
 
 
     var radioButtonsText = [
