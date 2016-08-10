@@ -18,14 +18,8 @@ function setHTMLtext(languageNumber) {
         textAlign = "left";
     }
 
-    /*var headlineText = [
-        "ויזואליזציית הצבעות בבחירות 2015 לעומת המצב הסוציו-אקונומי של יישובים בישראל",
-        "Is there a relation in Israel between socio-aconomic state to voting?"
-    ];
-    var headline = document.getElementById("headline");
-    headline.innerHTML = headlineText[languageNumber];
-    headline.style.direction = direction;*/
-var headlineText = [
+    /*first headline*/
+    var headlineText = [
         "דפוסי הצבעה ביחס למצב סוציו-אקונומי",
         "Voting patterns in relation to socio-economic state"
     ];
@@ -33,7 +27,7 @@ var headlineText = [
     headline.innerHTML = headlineText[languageNumber];
     headline.style.direction = direction;
 
-
+    /*second headline*/
     var classLeadText = [
             "ויזואליזציית הקשר בין אופן ההצבעה של יישובים בישראל למצב הסוציו-אקונומי שלהם",
             "Visualization of the connection between voting and socio-economic  state in Israel"
@@ -42,6 +36,7 @@ var headlineText = [
     classLead[0].innerHTML = classLeadText[languageNumber];
     classLead[0].style.direction = direction;
 
+    /*creators names*/
     var creators_text = [
         "יוצרים: גלעד עיני וודים חכם",
         "Creators: Gilad Eini & Vadim khakham"
@@ -55,7 +50,7 @@ var headlineText = [
         creators.style.textAlign = "right";
     }
 
-
+    /*radio buttons of precent vs total number*/
     var radioButtonsText = [
         ["סך הצבעות","אחוזי הצבעה"],
         [ "total votes","percentage"]
@@ -66,72 +61,58 @@ var headlineText = [
     radioButtons[1].innerHTML =radioButtonsText[languageNumber][1];
     radioButtons[1].style.direction = direction;
 
+    /*table filter*/
     var filterText = [ "הכנס שם עיר או מספר אשכול" , "enter city name or cluster number"];
     var filter = document.getElementById("filter");
     filter.value = "";
     filter.placeholder =filterText[languageNumber];
     filter.style.direction = direction;
 
-/*
-    var info_para = document.getElementById("info_para");
-    info_para.style.direction = direction;
-    info_para.style.textAlign = textAlign;*/
 
+    /*Resources paragraph*/
+    var resources_para = document.getElementById("resourcesPara");
+    resources_para.style.direction = direction;
+    resources_para.style.textAlign = textAlign;
+
+    /*header*/
     var resources_text = [ "מקורות" , "Resources"];
     var resources_header = document.getElementById("resourcesHeader");
     resources_header.innerHTML = resources_text[language];
-    resources_header.style.direction = direction;
     resources_header.style.textDecoration = "underline";
 
-
-
-
+    /*line1*/
     var resourcesLine1_text = [ "הנתונים המופיעים בויזואליזציה הם " ,
                                 "The Data that appears in the visualization is from the "];
     var resourcesLine1 = document.getElementById("resourcesLine1");
     resourcesLine1.innerHTML = resourcesLine1_text[language];
-    resourcesLine1.style.direction = direction;
 
-    var link1_text = [ "מבחירות 2015" , "election of 2015 in Israel" ];
+    var link1_text = [ "מבחירות 2015." , "election of 2015 in Israel." ];
     var link1 = document.getElementById("link1");
     link1.innerHTML = link1_text[language];
-    link1.style.direction = direction;
 
-
-
-
-
+    /*line2*/
     var resourcesLine2_text = [ "אפיון יישובים " , "characterization of settlements "];
     var resourcesLine2 = document.getElementById("resourcesLine2");
     resourcesLine2.innerHTML = resourcesLine2_text[language];
-    resourcesLine2.style.direction = direction;
 
-    /*var link2_text = [ "בישראל מ2008." , "in Israel from 2008." ];
+    var link2_text = [ "בישראל מ2008." , "in Israel from 2008." ];
     var link2 = document.getElementById("link2");
     link2.innerHTML = link2_text[language];
-    link2.href = "http://cbs.gov.il/publications13/1530/pdf/tab01_01.pdf";
-    link2.style.direction = direction;*/
 
-
-
+    /*line3*/
     var resourcesLine3_text = [ "מדד הימין שמאל (הצבע) בויזואליזציה מתייחס לימין-שמאל כלכלי של מפלגות." ,
                                 "The Right-Left measurement relate to Economic Right-Left of the parties in Isreal."];
     var resourcesLine3 = document.getElementById("resourcesLine3");
     resourcesLine3.innerHTML = resourcesLine3_text[language];
-    resourcesLine3.style.direction = direction;
 
-    var resourcesLine4_text = [ "את נתוני המדד הסקנו " ,
-                                "The Data for the Economic Right-Left we got from the "];
+    /*line4*/
+    var resourcesLine4_text = [ "את נתוני המדד הסקנו " , "The Data for the Economic Right-Left we got from the "];
     var resourcesLine4 = document.getElementById("resourcesLine4");
     resourcesLine4.innerHTML = resourcesLine4_text[language];
-    resourcesLine4.style.direction = direction;
 
-    /*var link4_text = [ "מהכתבה הבאה מאתר כלכליסט." , "next article from Calcalist(Hebrew)" ];
+    var link4_text = [ "מהכתבה הבאה מאתר כלכליסט." , "next article from Calcalist(Hebrew)" ];
     var link4 = document.getElementById("link4");
     link4.innerHTML = link4_text[language];
-    link4.href =  "http://www.calcalist.co.il/local/articles/0,7340,L-3652455,00.html"
-    link4.style.direction = direction;*/
-
 }
 
 var languagePartiesHeadersDictionary = [[]];
