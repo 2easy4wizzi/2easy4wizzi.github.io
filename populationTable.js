@@ -243,7 +243,7 @@ function generateCityPopulationTableData(){
 
         header_data = data.splice(0,3);
         tableHeaders = [
-            [ "<b>מספר</b>" , "<b>עיר</b>" , "<b>אוכלוסיה</b>" ,"<b>קלאסטר</b>" ],
+            [ "<b>מספר</b>" , "<b>עיר</b>" , "<b>אוכלוסיה</b>" ,"<b>אשכול</b>" ],
             [ "<b>Num</b>" , "<b>City</b>" , "<b>Population</b>" ,"<b>Cluster</b>"]
         ];
 

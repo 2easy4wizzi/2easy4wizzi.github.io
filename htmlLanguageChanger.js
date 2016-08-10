@@ -34,23 +34,6 @@ var headlineText = [
     headline.style.direction = direction;
 
 
-    /*var hebrewParaText = [
-        [
-            "בויזואליזציה הבאה רצינו להראות את הקשר בין אופן ההצבעה של יישובים בישראל למצב הסוציו-אקונומי שלהם.",
-            "היישובים מחולקים ל10 קבוצות ע\"פ המצב האקנומי שלהם מ1-10, ניתן לראות איזה יישובים באיזה קבוצה בטבלת היישובים המצורפת.<br>" +
-            "הוויזואליזציה משלבת כמה תצוגות, ניתן לראות מה אפשר לעשות בכל שלב ע\"י ריחוף הלחצן מעל סימן השאלה בגרף."
-        ],
-        [
-            "* You can see the data from the elections of cities sorted by socio-aconomic state",
-            "* The data is from 2015 elections at Israel"
-        ]
-    ];
-    var hebrewPara = document.getElementsByClassName("hebrew_pargh");
-    hebrewPara[0].innerHTML = hebrewParaText[languageNumber][0];
-    hebrewPara[0].style.direction = direction;
-    hebrewPara[1].innerHTML = hebrewParaText[languageNumber][1];
-    hebrewPara[1].style.direction = direction;*/
-
     var classLeadText = [
             "ויזואליזציית הקשר בין אופן ההצבעה של יישובים בישראל למצב הסוציו-אקונומי שלהם",
             "Visualization of the connection between voting and socio-economic  state in Israel"
@@ -59,6 +42,18 @@ var headlineText = [
     classLead[0].innerHTML = classLeadText[languageNumber];
     classLead[0].style.direction = direction;
 
+    var creators_text = [
+        "יוצרים: גלעד עיני וודים חכם",
+        "Creators: Gilad Eini & Vadim khakham"
+    ];
+    var creators = document.getElementById("creators");
+    creators.innerHTML = creators_text[languageNumber];
+
+    if(language==0){
+        creators.style.textAlign = "left";
+    }else if(language==1) {
+        creators.style.textAlign = "right";
+    }
 
 
     var radioButtonsText = [
@@ -71,82 +66,72 @@ var headlineText = [
     radioButtons[1].innerHTML =radioButtonsText[languageNumber][1];
     radioButtons[1].style.direction = direction;
 
-    var filterText = [ "הכנס שם עיר או מספר קלאסטר" , "enter city name or cluster number"];
+    var filterText = [ "הכנס שם עיר או מספר אשכול" , "enter city name or cluster number"];
     var filter = document.getElementById("filter");
     filter.value = "";
     filter.placeholder =filterText[languageNumber];
     filter.style.direction = direction;
 
-
+/*
     var info_para = document.getElementById("info_para");
     info_para.style.direction = direction;
-    info_para.style.textAlign = textAlign;
+    info_para.style.textAlign = textAlign;*/
 
-    var info_para_header_text = [ "כותרת" , "Headline"];
-    var info_para_header = document.getElementById("info_para_header");
-    info_para_header.innerHTML = info_para_header_text[language];
-    info_para_header.style.textAlign = "center";
+    var resources_text = [ "מקורות" , "Resources"];
+    var resources_header = document.getElementById("resourcesHeader");
+    resources_header.innerHTML = resources_text[language];
+    resources_header.style.direction = direction;
+    resources_header.style.textDecoration = "underline";
 
-    var info_para_body_text = [
-        "זה הפרויקט שלנו בלה בלה בלה\<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>" +
-        "עוד טקסט \<br\>"
 
-        ,
 
-        "this is our project bla bla bla.\<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "text and more text \<br\>" +
-        "another line of bla bli blu"
-    ];
-    var info_para_body = document.getElementById("info_para_body");
-    info_para_body.innerHTML = info_para_body_text[language];
+
+    var resourcesLine1_text = [ "הנתונים המופיעים בויזואליזציה הם " ,
+                                "The Data that appears in the visualization is from the "];
+    var resourcesLine1 = document.getElementById("resourcesLine1");
+    resourcesLine1.innerHTML = resourcesLine1_text[language];
+    resourcesLine1.style.direction = direction;
+
+    /*var link1_text = [ "מבחירות 2015" , "election of 2015 in Israel" ];
+    var link1 = document.getElementById("link1");
+    link1.innerHTML = link1_text[language];
+    link1.href = "http://votes20.gov.il/";
+    link1.style.direction = direction;*/
+
+
+
+
+
+    var resourcesLine2_text = [ "אפיון יישובים " , "characterization of settlements "];
+    var resourcesLine2 = document.getElementById("resourcesLine2");
+    resourcesLine2.innerHTML = resourcesLine2_text[language];
+    resourcesLine2.style.direction = direction;
+
+    /*var link2_text = [ "בישראל מ2008." , "in Israel from 2008." ];
+    var link2 = document.getElementById("link2");
+    link2.innerHTML = link2_text[language];
+    link2.href = "http://cbs.gov.il/publications13/1530/pdf/tab01_01.pdf";
+    link2.style.direction = direction;*/
+
+
+
+    var resourcesLine3_text = [ "מדד הימין שמאל (הצבע) בויזואליזציה מתייחס לימין-שמאל כלכלי של מפלגות." ,
+                                "The Right-Left measurement relate to Economic Right-Left of the parties in Isreal."];
+    var resourcesLine3 = document.getElementById("resourcesLine3");
+    resourcesLine3.innerHTML = resourcesLine3_text[language];
+    resourcesLine3.style.direction = direction;
+
+    var resourcesLine4_text = [ "את נתוני המדד הסקנו " ,
+                                "The Data for the Economic Right-Left we got from the "];
+    var resourcesLine4 = document.getElementById("resourcesLine4");
+    resourcesLine4.innerHTML = resourcesLine4_text[language];
+    resourcesLine4.style.direction = direction;
+
+    /*var link4_text = [ "מהכתבה הבאה מאתר כלכליסט." , "next article from Calcalist(Hebrew)" ];
+    var link4 = document.getElementById("link4");
+    link4.innerHTML = link4_text[language];
+    link4.href =  "http://www.calcalist.co.il/local/articles/0,7340,L-3652455,00.html"
+    link4.style.direction = direction;*/
 
 }
 
