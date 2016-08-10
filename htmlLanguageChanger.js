@@ -91,7 +91,7 @@ function setHTMLtext(languageNumber) {
     link1.innerHTML = link1_text[language];
 
     /*line2*/
-    var resourcesLine2_text = [ "אפיון יישובים " , "characterization of settlements "];
+    var resourcesLine2_text = [ "אפיון יישובים " , "Characterization of settlements "];
     var resourcesLine2 = document.getElementById("resourcesLine2");
     resourcesLine2.innerHTML = resourcesLine2_text[language];
 

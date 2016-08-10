@@ -1,0 +1,6 @@
+spelling
+bug checks
+code clean up - console.log , comments ...
+links check - also in pdf
+email check. maybe we missed something
+convert Word to pdf again if needed and delete WORD
