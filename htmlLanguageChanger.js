@@ -92,11 +92,10 @@ var headlineText = [
     resourcesLine1.innerHTML = resourcesLine1_text[language];
     resourcesLine1.style.direction = direction;
 
-    /*var link1_text = [ "מבחירות 2015" , "election of 2015 in Israel" ];
+    var link1_text = [ "מבחירות 2015" , "election of 2015 in Israel" ];
     var link1 = document.getElementById("link1");
     link1.innerHTML = link1_text[language];
-    link1.href = "http://votes20.gov.il/";
-    link1.style.direction = direction;*/
+    link1.style.direction = direction;
 
 
 
