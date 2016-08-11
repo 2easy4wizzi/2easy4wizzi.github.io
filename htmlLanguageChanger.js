@@ -113,6 +113,17 @@ function setHTMLtext(languageNumber) {
     var link4_text = [ "מהכתבה הבאה מאתר כלכליסט." , "next article from Calcalist(Hebrew)" ];
     var link4 = document.getElementById("link4");
     link4.innerHTML = link4_text[language];
+
+    /*line5*/
+    var resourcesLine5_text = [ "אני צריך הסבר נוסף על " , "I need additional help on the "];
+    var resourcesLine5 = document.getElementById("resourcesLine5");
+    resourcesLine5.innerHTML = resourcesLine5_text[language];
+
+    var link5_text = [ "התצוגות." , "views." ];
+    var link5_href = [ "report/views/viewsHebrew.pdf" , "report/views/viewsEnglish.pdf" ];
+    var link5 = document.getElementById("link5");
+    link5.innerHTML = link5_text[language];
+    link5.href = link5_href[language];
 }
 
 var languagePartiesHeadersDictionary = [[]];
