@@ -10,8 +10,7 @@ function generateVotingPercentage() {
 
     var precentView = showPercent ? "precentView" : "absoluteView";
     var description = "תוצאות כלליות של בחירות 2015 לפי אשכולות";
-    console.log("view 3");
-    console.log(precentView + ": generateVotingPercentage - " + description );
+    // console.log(precentView + ": generateVotingPercentage - " + description );
 
     d3.selectAll('input[name="mode"]')
         .on("change", function() { generateVotingPercentage() });

@@ -9,12 +9,12 @@ function transitionPartyVotingPercentPerCluster(partyName, previousViewCluster) 
     showPercent  = checkShowPercent();
     var precentView = showPercent ? "precentView" : "absoluteView";
     var description = " - תוצאות עבור מפלגה";
-    console.log("view 2");
-    console.log(precentView + ": transitionPartyVotingPercentPerCluster, cluster:" + partyName + description);
+    // console.log("view 2");
+    // console.log(precentView + ": transitionPartyVotingPercentPerCluster, cluster:" + partyName + description);
 
 
     d3.selectAll('input[name="mode"]')
-        .on("change", function() {console.log(partyName +" " + previousViewCluster);transitionPartyVotingPercentPerCluster(partyName, previousViewCluster) });
+        .on("change", function() { transitionPartyVotingPercentPerCluster(partyName, previousViewCluster) });
 
     d3.json("data-set-elections/electionAndEconomicData.json", function(error, data) {
         header_data = data.splice(0,3);

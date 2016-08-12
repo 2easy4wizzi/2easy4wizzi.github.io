@@ -6,7 +6,7 @@ var languages = ["Hebrew" , "English"];
 
 function setHTMLtext(languageNumber) {
 
-    console.log("setHTMLtext to " + languages[languageNumber]);
+    // console.log("setHTMLtext to " + languages[languageNumber]);
 
     var direction = "rtl"; // default
     var textAlign = "right"; // default
@@ -39,16 +39,11 @@ function setHTMLtext(languageNumber) {
     /*creators names*/
     var creators_text = [
         "יוצרים: גלעד עיני וודים חכם",
-        "Creators: Gilad Eini & Vadim khakham"
+        "Creators: Gilad Eini & Vadim Khakham"
     ];
     var creators = document.getElementById("creators");
     creators.innerHTML = creators_text[languageNumber];
-
-    if(language==0){
-        creators.style.textAlign = "left";
-    }else if(language==1) {
-        creators.style.textAlign = "right";
-    }
+    creators.style.textAlign = "center";
 
     /*radio buttons of precent vs total number*/
     var radioButtonsText = [
@@ -115,7 +110,7 @@ function setHTMLtext(languageNumber) {
     link4.innerHTML = link4_text[language];
 
     /*line5*/
-    var resourcesLine5_text = [ "אני צריך הסבר נוסף על " , "I need additional help on the "];
+    var resourcesLine5_text = [ "הסבר נוסף על " , "Additional help on the "];
     var resourcesLine5 = document.getElementById("resourcesLine5");
     resourcesLine5.innerHTML = resourcesLine5_text[language];
 

@@ -1,6 +1,5 @@
 spelling
 bug checks
-code clean up - console.log , comments ...
 links check - also in pdf
 email check. maybe we missed something
 

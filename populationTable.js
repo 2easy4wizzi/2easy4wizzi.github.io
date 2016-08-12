@@ -235,7 +235,7 @@ languageNameMapping["תל שבע"] = ["תל שבע","Tel Sheva"];
 
 
 function generateCityPopulationTableData(){
-    console.log("generateCityPopulationTableData" + " - יצירת טבלת ערים");
+    // console.log("generateCityPopulationTableData" + " - יצירת טבלת ערים");
     d3.json("data-set-elections/electionAndEconomicData.json", function(error, data) {
         if (error) throw error;
 

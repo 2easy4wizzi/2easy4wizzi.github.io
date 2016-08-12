@@ -9,8 +9,8 @@ function transitionPartyVotingPerc(inputClusterNumber) {
     showPercent = checkShowPercent();
     var precentView = showPercent ? "precentView" : "absoluteView";
     var description = (inputClusterNumber ) ? " - תוצאות עבור אשכול בודד" : " - תוצאות כלליות של בחירות 2015 לפי מפלגות";
-    console.log("view 1");
-    console.log(precentView + ": transitionPartyVotingPerc, cluster:" + inputClusterNumber + description);
+    // console.log("view 1");
+    // console.log(precentView + ": transitionPartyVotingPerc, cluster:" + inputClusterNumber + description);
     d3.selectAll('input[name="mode"]')
         .on("change", function() { transitionPartyVotingPerc(inputClusterNumber) });
 

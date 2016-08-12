@@ -67,7 +67,7 @@ var svg = parent_svg
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-var text = [" :הצבעה", "voting: "];
+var text = [" :הצבעה", "Voting: "];
 var str1;
 var str2;
 
